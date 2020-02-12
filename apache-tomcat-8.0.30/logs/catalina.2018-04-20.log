@@ -1,0 +1,992 @@
+20-Apr-2018 00:01:11.259 INFO [http-nio-8080-exec-101] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Thu Apr 19 23:59:35 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:01:11.819 INFO [http-nio-8080-exec-101] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:01:11.867 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:01:15.720 INFO [http-nio-8080-exec-100] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:01:16.087 INFO [http-nio-8080-exec-100] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:01:16 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:01:16.202 INFO [http-nio-8080-exec-100] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:01:16.762 INFO [http-nio-8080-exec-100] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1041 ms
+20-Apr-2018 00:01:16.785 INFO [http-nio-8080-exec-100] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:01:16.797 INFO [http-nio-8080-exec-100] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:01:16 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:01:16.803 INFO [http-nio-8080-exec-100] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:01:16.868 SEVERE [http-nio-8080-exec-100] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 40 in XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1231)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4997)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5289)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3230)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(XMLSchemaValidator.java:3193)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3153)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3055)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2134)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:853)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1783)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2970)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 64 more
+
+20-Apr-2018 00:01:16.929 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 5,062 ms
+20-Apr-2018 00:01:16.994 INFO [http-nio-8080-exec-107] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:01:17.290 INFO [http-nio-8080-exec-85] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:01:17.291 INFO [http-nio-8080-exec-85] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:01:17 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:01:17.291 INFO [http-nio-8080-exec-85] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:01:17.300 SEVERE [http-nio-8080-exec-85] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 40 in XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1231)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:817)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3230)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(XMLSchemaValidator.java:3193)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3153)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3055)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2134)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:853)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1783)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2970)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 36 more
+
+20-Apr-2018 00:02:41.857 INFO [http-nio-8080-exec-106] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:01:16 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:02:42.395 INFO [http-nio-8080-exec-106] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:02:42.413 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:02:44.973 INFO [http-nio-8080-exec-85] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:02:45.242 INFO [http-nio-8080-exec-85] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:02:45 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:02:45.418 INFO [http-nio-8080-exec-85] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:02:45.814 INFO [http-nio-8080-exec-85] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 840 ms
+20-Apr-2018 00:02:45.855 INFO [http-nio-8080-exec-85] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:02:45.871 INFO [http-nio-8080-exec-85] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:02:45 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:02:45.872 INFO [http-nio-8080-exec-85] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:02:45.931 SEVERE [http-nio-8080-exec-85] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 40 in XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1231)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4997)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5289)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3230)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(XMLSchemaValidator.java:3193)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3153)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3055)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2134)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:853)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1783)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2970)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 64 more
+
+20-Apr-2018 00:02:45.938 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,525 ms
+20-Apr-2018 00:02:45.958 INFO [http-nio-8080-exec-103] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:02:46.264 INFO [http-nio-8080-exec-109] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:02:46.265 INFO [http-nio-8080-exec-109] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:02:46 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:02:46.266 INFO [http-nio-8080-exec-109] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:02:46.273 SEVERE [http-nio-8080-exec-109] org.springframework.web.servlet.FrameworkServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 40 in XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1231)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:817)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 40; columnNumber: 9; cvc-complex-type.2.3: l'elemento "beans" non deve avere [children] di tipo carattere perché il tipo di contenuto è di soli elementi.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3230)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(XMLSchemaValidator.java:3193)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3153)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3055)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2134)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:853)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1783)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2970)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 36 more
+
+20-Apr-2018 00:09:11.085 INFO [http-nio-8080-exec-115] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:02:45 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:09:11.633 INFO [http-nio-8080-exec-115] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:09:11.658 INFO [http-nio-8080-exec-120] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:09:14.689 INFO [http-nio-8080-exec-120] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:09:14.889 INFO [http-nio-8080-exec-120] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:09:14 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:09:14.990 INFO [http-nio-8080-exec-120] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:09:15.637 INFO [http-nio-8080-exec-120] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 948 ms
+20-Apr-2018 00:09:15.654 INFO [http-nio-8080-exec-120] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:09:15.667 INFO [http-nio-8080-exec-120] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:09:15 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:09:15.669 INFO [http-nio-8080-exec-120] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:09:16.190 INFO [http-nio-8080-exec-120] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:09:16.369 INFO [http-nio-8080-exec-120] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 715 ms
+20-Apr-2018 00:09:16.387 INFO [http-nio-8080-exec-120] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 4,729 ms
+20-Apr-2018 00:09:16.403 INFO [http-nio-8080-exec-122] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:10:36.199 INFO [http-nio-8080-exec-125] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:09:15 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:10:36.203 INFO [http-nio-8080-exec-125] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:09:14 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:10:36.715 INFO [http-nio-8080-exec-125] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:10:36.735 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:10:39.578 INFO [http-nio-8080-exec-124] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:10:39.771 INFO [http-nio-8080-exec-124] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:10:39 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:10:39.880 INFO [http-nio-8080-exec-124] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:10:40.304 INFO [http-nio-8080-exec-124] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 726 ms
+20-Apr-2018 00:10:40.317 INFO [http-nio-8080-exec-124] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:10:40.329 INFO [http-nio-8080-exec-124] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:10:40 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:10:40.332 INFO [http-nio-8080-exec-124] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:10:40.514 INFO [http-nio-8080-exec-124] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:10:40.621 INFO [http-nio-8080-exec-124] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 302 ms
+20-Apr-2018 00:10:40.632 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,897 ms
+20-Apr-2018 00:10:40.644 INFO [http-nio-8080-exec-123] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:30:05.763 INFO [http-nio-8080-exec-137] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:10:40 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:30:05.779 INFO [http-nio-8080-exec-137] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:10:39 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:30:06.334 INFO [http-nio-8080-exec-137] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:30:06.356 INFO [http-nio-8080-exec-131] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:30:09.976 INFO [http-nio-8080-exec-131] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:30:10.229 INFO [http-nio-8080-exec-131] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:30:10 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:30:10.310 INFO [http-nio-8080-exec-131] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:30:10.727 INFO [http-nio-8080-exec-131] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 751 ms
+20-Apr-2018 00:30:10.741 INFO [http-nio-8080-exec-131] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:30:10.747 INFO [http-nio-8080-exec-131] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:30:10 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:30:10.748 INFO [http-nio-8080-exec-131] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:30:10.941 INFO [http-nio-8080-exec-131] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:30:11.092 INFO [http-nio-8080-exec-131] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 351 ms
+20-Apr-2018 00:30:11.098 INFO [http-nio-8080-exec-131] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 4,742 ms
+20-Apr-2018 00:30:11.123 INFO [http-nio-8080-exec-134] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:30:50.286 INFO [http-nio-8080-exec-141] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:30:10 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:30:50.294 INFO [http-nio-8080-exec-141] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:30:10 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:30:50.810 INFO [http-nio-8080-exec-141] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:30:50.832 INFO [http-nio-8080-exec-140] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:30:52.755 INFO [http-nio-8080-exec-140] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:30:52.922 INFO [http-nio-8080-exec-140] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:30:52 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:30:53.005 INFO [http-nio-8080-exec-140] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:30:53.389 INFO [http-nio-8080-exec-140] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 634 ms
+20-Apr-2018 00:30:53.401 INFO [http-nio-8080-exec-140] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:30:53.410 INFO [http-nio-8080-exec-140] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:30:53 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:30:53.412 INFO [http-nio-8080-exec-140] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:30:54.200 INFO [http-nio-8080-exec-140] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:30:54.341 INFO [http-nio-8080-exec-140] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 940 ms
+20-Apr-2018 00:30:54.346 INFO [http-nio-8080-exec-140] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,513 ms
+20-Apr-2018 00:30:54.361 INFO [http-nio-8080-exec-134] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:34:45.418 INFO [http-nio-8080-exec-148] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:30:53 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:34:45.438 INFO [http-nio-8080-exec-148] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:30:52 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:34:45.994 INFO [http-nio-8080-exec-148] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:34:46.039 INFO [http-nio-8080-exec-149] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:34:48.698 INFO [http-nio-8080-exec-149] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:34:48.929 INFO [http-nio-8080-exec-149] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:34:48 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:34:49.055 INFO [http-nio-8080-exec-149] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:34:49.515 INFO [http-nio-8080-exec-149] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 816 ms
+20-Apr-2018 00:34:49.530 INFO [http-nio-8080-exec-149] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:34:49.535 INFO [http-nio-8080-exec-149] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:34:49 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:34:49.536 INFO [http-nio-8080-exec-149] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:34:49.699 INFO [http-nio-8080-exec-149] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:34:49.821 INFO [http-nio-8080-exec-149] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 290 ms
+20-Apr-2018 00:34:49.840 INFO [http-nio-8080-exec-149] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,801 ms
+20-Apr-2018 00:34:49.849 INFO [http-nio-8080-exec-146] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:38:20.645 INFO [http-nio-8080-exec-157] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:34:49 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:38:20.659 INFO [http-nio-8080-exec-157] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:34:48 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:38:21.181 INFO [http-nio-8080-exec-157] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:38:21.208 INFO [http-nio-8080-exec-162] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:38:24.319 INFO [http-nio-8080-exec-162] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:38:24.498 INFO [http-nio-8080-exec-162] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:38:24 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:38:24.615 INFO [http-nio-8080-exec-162] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:38:25.067 INFO [http-nio-8080-exec-162] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 747 ms
+20-Apr-2018 00:38:25.083 INFO [http-nio-8080-exec-162] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:38:25.087 INFO [http-nio-8080-exec-162] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:38:25 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:38:25.089 INFO [http-nio-8080-exec-162] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:38:25.342 INFO [http-nio-8080-exec-162] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:38:25.449 INFO [http-nio-8080-exec-162] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 365 ms
+20-Apr-2018 00:38:25.456 INFO [http-nio-8080-exec-162] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 4,248 ms
+20-Apr-2018 00:38:25.468 INFO [http-nio-8080-exec-158] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:39:20.142 INFO [http-nio-8080-exec-166] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:38:25 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:39:20.147 INFO [http-nio-8080-exec-166] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:38:24 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:39:20.668 INFO [http-nio-8080-exec-166] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:39:20.695 INFO [http-nio-8080-exec-158] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:39:23.272 INFO [http-nio-8080-exec-158] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:39:23.436 INFO [http-nio-8080-exec-158] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:39:23 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:39:23.508 INFO [http-nio-8080-exec-158] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:39:23.805 INFO [http-nio-8080-exec-158] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 532 ms
+20-Apr-2018 00:39:23.815 INFO [http-nio-8080-exec-158] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:39:23.821 INFO [http-nio-8080-exec-158] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:39:23 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:39:23.822 INFO [http-nio-8080-exec-158] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:39:24.018 INFO [http-nio-8080-exec-158] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:39:24.163 INFO [http-nio-8080-exec-158] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 348 ms
+20-Apr-2018 00:39:24.169 INFO [http-nio-8080-exec-158] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,475 ms
+20-Apr-2018 00:39:24.189 INFO [http-nio-8080-exec-167] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:40:42.958 INFO [http-nio-8080-exec-163] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:39:23 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:40:42.968 INFO [http-nio-8080-exec-163] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:39:23 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:40:44.998 INFO [http-nio-8080-exec-174] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:40:45.200 INFO [http-nio-8080-exec-174] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:40:45 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:40:45.282 INFO [http-nio-8080-exec-174] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:40:45.574 INFO [http-nio-8080-exec-174] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 575 ms
+20-Apr-2018 00:40:45.619 INFO [http-nio-8080-exec-174] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:40:45.626 INFO [http-nio-8080-exec-174] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:40:45 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:40:45.626 INFO [http-nio-8080-exec-174] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:40:45.847 INFO [http-nio-8080-exec-174] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:40:46.002 INFO [http-nio-8080-exec-174] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 382 ms
+20-Apr-2018 00:40:53.283 INFO [http-nio-8080-exec-172] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:40:45 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:40:53.290 INFO [http-nio-8080-exec-172] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:40:45 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:40:53.805 INFO [http-nio-8080-exec-172] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:40:53.835 INFO [http-nio-8080-exec-178] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:40:56.078 INFO [http-nio-8080-exec-178] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:40:56.268 INFO [http-nio-8080-exec-178] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:40:56 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:40:56.355 INFO [http-nio-8080-exec-178] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:40:56.759 INFO [http-nio-8080-exec-178] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 681 ms
+20-Apr-2018 00:40:56.767 INFO [http-nio-8080-exec-178] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:40:56.779 INFO [http-nio-8080-exec-178] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:40:56 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:40:56.780 INFO [http-nio-8080-exec-178] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:40:56.934 INFO [http-nio-8080-exec-178] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:40:57.024 INFO [http-nio-8080-exec-178] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 256 ms
+20-Apr-2018 00:40:57.038 INFO [http-nio-8080-exec-178] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,202 ms
+20-Apr-2018 00:40:57.052 INFO [http-nio-8080-exec-180] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:41:25.452 INFO [http-nio-8080-exec-177] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:40:56 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:41:25.464 INFO [http-nio-8080-exec-177] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:40:56 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:41:25.990 INFO [http-nio-8080-exec-177] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:41:26.017 INFO [http-nio-8080-exec-180] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:41:28.053 INFO [http-nio-8080-exec-180] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:41:28.239 INFO [http-nio-8080-exec-180] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:41:28 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:41:28.320 INFO [http-nio-8080-exec-180] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:41:28.672 INFO [http-nio-8080-exec-180] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 619 ms
+20-Apr-2018 00:41:28.687 INFO [http-nio-8080-exec-180] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:41:28.691 INFO [http-nio-8080-exec-180] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:41:28 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:41:28.692 INFO [http-nio-8080-exec-180] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:41:28.836 INFO [http-nio-8080-exec-180] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:41:28.924 INFO [http-nio-8080-exec-180] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 236 ms
+20-Apr-2018 00:41:28.931 INFO [http-nio-8080-exec-180] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 2,912 ms
+20-Apr-2018 00:41:28.946 INFO [http-nio-8080-exec-183] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:42:37.776 INFO [http-nio-8080-exec-187] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:41:28 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:42:37.785 INFO [http-nio-8080-exec-187] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:41:28 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:42:38.300 INFO [http-nio-8080-exec-187] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:42:38.319 INFO [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:42:40.039 INFO [http-nio-8080-exec-190] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:42:40.240 INFO [http-nio-8080-exec-190] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:42:40 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:42:40.312 INFO [http-nio-8080-exec-190] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:42:47.167 INFO [http-nio-8080-exec-190] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 7128 ms
+20-Apr-2018 00:42:47.178 INFO [http-nio-8080-exec-190] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:42:47.182 INFO [http-nio-8080-exec-190] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:42:47 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:42:47.183 INFO [http-nio-8080-exec-190] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:42:47.341 INFO [http-nio-8080-exec-190] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:42:47.443 INFO [http-nio-8080-exec-190] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 265 ms
+20-Apr-2018 00:42:47.449 INFO [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 9,130 ms
+20-Apr-2018 00:42:47.471 INFO [http-nio-8080-exec-191] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 00:44:48.568 INFO [http-nio-8080-exec-199] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:42:47 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:44:48.573 INFO [http-nio-8080-exec-199] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:42:40 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:44:51.711 INFO [http-nio-8080-exec-196] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:44:51.990 INFO [http-nio-8080-exec-196] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:44:51 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:44:52.123 INFO [http-nio-8080-exec-196] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:44:52.572 INFO [http-nio-8080-exec-196] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 860 ms
+20-Apr-2018 00:44:52.600 INFO [http-nio-8080-exec-196] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:44:52.606 INFO [http-nio-8080-exec-196] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:44:52 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:44:52.606 INFO [http-nio-8080-exec-196] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:44:52.775 INFO [http-nio-8080-exec-196] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:44:53.011 INFO [http-nio-8080-exec-196] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 411 ms
+20-Apr-2018 00:44:55.457 INFO [http-nio-8080-exec-173] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:44:52 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:44:55.464 INFO [http-nio-8080-exec-173] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:44:51 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:44:55.984 INFO [http-nio-8080-exec-173] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:44:56.495 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 00:44:56.497 INFO [http-nio-8080-exec-198] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 00:44:58.372 INFO [http-nio-8080-exec-198] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 00:44:58.575 INFO [http-nio-8080-exec-198] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 00:44:58 CEST 2018]; root of context hierarchy
+20-Apr-2018 00:44:58.711 INFO [http-nio-8080-exec-198] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 00:44:59.174 INFO [http-nio-8080-exec-198] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 802 ms
+20-Apr-2018 00:44:59.186 INFO [http-nio-8080-exec-198] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 00:44:59.190 INFO [http-nio-8080-exec-198] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:44:59 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 00:44:59.191 INFO [http-nio-8080-exec-198] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 00:44:59.370 INFO [http-nio-8080-exec-198] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 00:44:59.530 INFO [http-nio-8080-exec-198] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 342 ms
+20-Apr-2018 00:44:59.554 INFO [http-nio-8080-exec-198] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,056 ms
+20-Apr-2018 00:44:59.571 INFO [http-nio-8080-exec-200] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 01:56:14.446 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Apr-2018 01:56:14.479 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 01:56:14.574 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 01:56:14.628 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Apr-2018 01:56:14.830 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 00:44:59 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 01:56:14.905 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 00:44:58 CEST 2018]; root of context hierarchy
+20-Apr-2018 01:56:15.333 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 01:56:15.347 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 01:56:15.401 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 01:56:15.402 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:08:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.30
+20-Apr-2018 14:08:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 1 2015 22:30:46 UTC
+20-Apr-2018 14:08:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.30.0
+20-Apr-2018 14:08:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Apr-2018 14:08:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.6
+20-Apr-2018 14:08:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Apr-2018 14:08:18.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+20-Apr-2018 14:08:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+20-Apr-2018 14:08:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Apr-2018 14:08:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:08:18.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:08:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/logging.properties
+20-Apr-2018 14:08:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Apr-2018 14:08:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|iMac-di-Paolo-6.station
+20-Apr-2018 14:08:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/endorsed
+20-Apr-2018 14:08:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:08:18.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:08:18.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/temp
+20-Apr-2018 14:08:18.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/ptom/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+20-Apr-2018 14:08:19.325 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:08:19.511 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Apr-2018 14:08:19.532 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:08:19.538 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Apr-2018 14:08:19.538 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2350 ms
+20-Apr-2018 14:08:19.605 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Apr-2018 14:08:19.606 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.30
+20-Apr-2018 14:08:19.625 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 14:08:25.563 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:08:25.780 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 14:08:26.183 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 14:08:26 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:08:26.376 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 14:08:27.285 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1504 ms
+20-Apr-2018 14:08:27.384 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 14:08:27.412 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:08:27 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:08:27.418 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 14:08:27.832 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 14:08:28.216 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 830 ms
+20-Apr-2018 14:08:28.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 8,604 ms
+20-Apr-2018 14:08:28.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs
+20-Apr-2018 14:08:28.309 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:08:28.320 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs has finished in 87 ms
+20-Apr-2018 14:08:28.321 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples
+20-Apr-2018 14:08:28.891 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:08:29.038 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples has finished in 717 ms
+20-Apr-2018 14:08:29.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager
+20-Apr-2018 14:08:29.292 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:08:29.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager has finished in 259 ms
+20-Apr-2018 14:08:29.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager
+20-Apr-2018 14:08:29.436 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:08:29.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager has finished in 168 ms
+20-Apr-2018 14:08:29.475 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:08:29.490 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:08:29.491 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9952 ms
+20-Apr-2018 14:10:32.661 INFO [http-nio-8080-exec-7] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:08:27 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:10:32.715 INFO [http-nio-8080-exec-7] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 14:08:26 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:10:33.284 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 14:10:33.344 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 14:10:37.744 INFO [http-nio-8080-exec-3] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 14:10:37.988 INFO [http-nio-8080-exec-3] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 14:10:37 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:10:38.143 INFO [http-nio-8080-exec-3] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 14:10:38.796 INFO [http-nio-8080-exec-3] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1051 ms
+20-Apr-2018 14:10:38.810 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 14:10:38.821 INFO [http-nio-8080-exec-3] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:10:38 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:10:38.823 INFO [http-nio-8080-exec-3] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 14:10:39.244 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 14:10:39.555 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 733 ms
+20-Apr-2018 14:10:39.615 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 6,261 ms
+20-Apr-2018 14:10:39.680 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 14:21:33.509 WARNING [http-nio-8080-exec-17] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 14:24:26.082 INFO [http-nio-8080-exec-19] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:10:38 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:24:26.107 INFO [http-nio-8080-exec-19] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 14:10:37 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:24:30.539 INFO [http-nio-8080-exec-13] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 14:24:30.727 INFO [http-nio-8080-exec-13] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 14:24:30 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:24:30.855 INFO [http-nio-8080-exec-13] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 14:24:31.408 INFO [http-nio-8080-exec-13] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 868 ms
+20-Apr-2018 14:24:31.453 INFO [http-nio-8080-exec-13] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 14:24:31.458 INFO [http-nio-8080-exec-13] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:24:31 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:24:31.459 INFO [http-nio-8080-exec-13] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 14:24:31.639 INFO [http-nio-8080-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 14:24:31.984 INFO [http-nio-8080-exec-13] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 530 ms
+20-Apr-2018 14:24:43.649 WARNING [http-nio-8080-exec-11] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 14:33:17.575 INFO [http-nio-8080-exec-23] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:24:31 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:33:17.591 INFO [http-nio-8080-exec-23] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 14:24:30 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:33:21.163 INFO [http-nio-8080-exec-26] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 14:33:21.436 INFO [http-nio-8080-exec-26] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 14:33:21 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:33:21.551 INFO [http-nio-8080-exec-26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 14:33:21.767 INFO [http-nio-8080-exec-26] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 602 ms
+20-Apr-2018 14:33:21.810 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 14:33:21.820 INFO [http-nio-8080-exec-26] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:33:21 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:33:21.823 INFO [http-nio-8080-exec-26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 14:33:22.436 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 14:33:22.436 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 14:33:22.497 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 14:33:22.758 INFO [http-nio-8080-exec-26] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 947 ms
+20-Apr-2018 14:33:28.355 WARNING [http-nio-8080-exec-25] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 14:35:43.353 WARNING [http-nio-8080-exec-35] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 14:50:51.318 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+20-Apr-2018 14:50:51.320 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+20-Apr-2018 14:50:51.838 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+20-Apr-2018 14:50:51.838 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+20-Apr-2018 14:50:51.838 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+20-Apr-2018 14:50:52.343 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+20-Apr-2018 14:50:52.343 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+20-Apr-2018 14:50:52.344 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+20-Apr-2018 14:50:52.405 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+20-Apr-2018 14:50:52.405 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+20-Apr-2018 14:50:52.405 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+20-Apr-2018 14:50:52.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+20-Apr-2018 14:50:52.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebSpringSkel]
+20-Apr-2018 14:50:52.464 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebSpringSkel] has started
+20-Apr-2018 14:50:52.466 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:33:21 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:50:52.472 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 14:33:21 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:50:54.321 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 14:50:54.427 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 14:50:54 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:50:54.471 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 14:50:54.548 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 226 ms
+20-Apr-2018 14:50:54.566 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 14:50:54.570 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:50:54 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:50:54.571 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 14:50:54.783 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 14:50:54.783 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 14:50:54.827 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 14:50:54.976 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 410 ms
+20-Apr-2018 14:50:54.988 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebSpringSkel] is completed
+20-Apr-2018 14:51:09.379 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Apr-2018 14:51:09.380 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:51:09.434 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:51:09.490 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Apr-2018 14:51:09.537 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:50:54 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:51:09.543 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 14:50:54 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:51:09.552 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:51:09.600 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:51:09.602 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:51:09.605 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:51:14.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.30
+20-Apr-2018 14:51:14.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 1 2015 22:30:46 UTC
+20-Apr-2018 14:51:14.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.30.0
+20-Apr-2018 14:51:14.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Apr-2018 14:51:14.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.6
+20-Apr-2018 14:51:14.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Apr-2018 14:51:14.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+20-Apr-2018 14:51:14.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+20-Apr-2018 14:51:14.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Apr-2018 14:51:14.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:51:14.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:51:14.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/logging.properties
+20-Apr-2018 14:51:14.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Apr-2018 14:51:14.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|iMac-di-Paolo-6.station
+20-Apr-2018 14:51:14.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/endorsed
+20-Apr-2018 14:51:14.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:51:14.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 14:51:14.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/temp
+20-Apr-2018 14:51:14.826 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/ptom/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+20-Apr-2018 14:51:15.520 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:51:15.600 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Apr-2018 14:51:15.609 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:51:15.617 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Apr-2018 14:51:15.619 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2243 ms
+20-Apr-2018 14:51:15.702 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Apr-2018 14:51:15.703 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.30
+20-Apr-2018 14:51:15.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 14:51:20.089 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:51:20.283 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 14:51:20.627 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 14:51:20 CEST 2018]; root of context hierarchy
+20-Apr-2018 14:51:20.788 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 14:51:21.395 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1111 ms
+20-Apr-2018 14:51:21.501 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+20-Apr-2018 14:51:21.607 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 14:51:21.614 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:51:21 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 14:51:21.616 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 14:51:22.489 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 14:51:22.490 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 14:51:22.637 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 14:51:23.337 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1729 ms
+20-Apr-2018 14:51:23.369 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 7,649 ms
+20-Apr-2018 14:51:23.370 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs
+20-Apr-2018 14:51:23.520 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:51:23.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs has finished in 153 ms
+20-Apr-2018 14:51:23.524 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples
+20-Apr-2018 14:51:24.059 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:51:24.160 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples has finished in 637 ms
+20-Apr-2018 14:51:24.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager
+20-Apr-2018 14:51:24.351 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:51:24.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager has finished in 198 ms
+20-Apr-2018 14:51:24.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager
+20-Apr-2018 14:51:24.419 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 14:51:24.422 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager has finished in 64 ms
+20-Apr-2018 14:51:24.427 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 14:51:24.435 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 14:51:24.435 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8815 ms
+20-Apr-2018 15:38:45.475 INFO [http-nio-8080-exec-6] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 14:51:21 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:38:45.481 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebSpringSkel]
+20-Apr-2018 15:38:45.481 INFO [http-nio-8080-exec-6] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 14:51:20 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:38:48.532 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 15:38:48.711 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 15:38:48 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:38:48.825 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 15:38:48.972 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 440 ms
+20-Apr-2018 15:38:49.014 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 15:38:49.022 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:38:49 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:38:49.023 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 15:38:49.406 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 15:38:49.407 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 15:38:49.506 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 15:38:49.706 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 692 ms
+20-Apr-2018 15:38:49.728 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 15:38:49.948 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:38:58.566 WARNING [http-nio-8080-exec-13] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:40:37.821 WARNING [http-nio-8080-exec-16] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:40:42.412 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:41:37.394 INFO [http-nio-8080-exec-11] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:38:49 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:41:37.416 INFO [http-nio-8080-exec-11] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 15:38:48 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:41:39.872 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebSpringSkel]
+20-Apr-2018 15:41:40.318 INFO [http-nio-8080-exec-19] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 15:41:40.505 INFO [http-nio-8080-exec-19] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 15:41:40 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:41:40.585 INFO [http-nio-8080-exec-19] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 15:41:40.698 INFO [http-nio-8080-exec-19] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 379 ms
+20-Apr-2018 15:41:40.733 INFO [http-nio-8080-exec-19] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 15:41:40.739 INFO [http-nio-8080-exec-19] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:41:40 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:41:40.741 INFO [http-nio-8080-exec-19] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 15:41:41.136 INFO [http-nio-8080-exec-19] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 15:41:41.137 INFO [http-nio-8080-exec-19] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 15:41:41.216 INFO [http-nio-8080-exec-19] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 15:41:41.411 INFO [http-nio-8080-exec-19] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 677 ms
+20-Apr-2018 15:41:41.424 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 15:41:41.621 WARNING [http-nio-8080-exec-17] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:42:18.900 WARNING [http-nio-8080-exec-16] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:42:28.704 WARNING [http-nio-8080-exec-12] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:42:35.313 WARNING [http-nio-8080-exec-18] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:44:11.480 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebSpringSkel]
+20-Apr-2018 15:44:11.483 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebSpringSkel] has started
+20-Apr-2018 15:44:11.489 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:41:40 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:44:11.507 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 15:41:40 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:44:14.651 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/WebSpringSkel]
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3831)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1381)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1354)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1552)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:285)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1141)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> * in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3160)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3135)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1372)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1176)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 12 more
+
+20-Apr-2018 15:44:14.656 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebSpringSkel] is completed
+20-Apr-2018 15:45:04.684 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebSpringSkel]
+20-Apr-2018 15:45:06.530 INFO [http-nio-8080-exec-36] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 15:45:06.803 INFO [http-nio-8080-exec-36] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 15:45:06 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:45:06.933 INFO [http-nio-8080-exec-36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 15:45:07.179 INFO [http-nio-8080-exec-36] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 647 ms
+20-Apr-2018 15:45:07.268 INFO [http-nio-8080-exec-36] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 15:45:07.277 INFO [http-nio-8080-exec-36] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:45:07 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:45:07.279 INFO [http-nio-8080-exec-36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 15:45:07.679 INFO [http-nio-8080-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 15:45:07.679 INFO [http-nio-8080-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 15:45:07.741 INFO [http-nio-8080-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 15:45:07.934 INFO [http-nio-8080-exec-36] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 664 ms
+20-Apr-2018 15:45:07.956 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 15:45:22.845 WARNING [http-nio-8080-exec-24] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:47:08.002 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+20-Apr-2018 15:47:08.004 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+20-Apr-2018 15:47:08.469 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+20-Apr-2018 15:47:08.470 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+20-Apr-2018 15:47:08.470 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+20-Apr-2018 15:47:08.516 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+20-Apr-2018 15:47:08.516 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+20-Apr-2018 15:47:08.516 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+20-Apr-2018 15:47:08.560 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+20-Apr-2018 15:47:08.561 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebSpringSkel]
+20-Apr-2018 15:47:08.562 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebSpringSkel] has started
+20-Apr-2018 15:47:08.562 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:45:07 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:47:08.566 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 15:45:06 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:47:09.787 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 15:47:09.870 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 15:47:09 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:47:09.904 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 15:47:09.952 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 165 ms
+20-Apr-2018 15:47:09.966 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 15:47:09.970 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:47:09 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:47:09.970 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 15:47:10.146 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 15:47:10.146 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 15:47:10.178 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 15:47:10.318 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 352 ms
+20-Apr-2018 15:47:10.340 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebSpringSkel] is completed
+20-Apr-2018 15:47:10.341 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+20-Apr-2018 15:47:10.341 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+20-Apr-2018 15:47:10.387 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+20-Apr-2018 15:47:15.874 WARNING [http-nio-8080-exec-43] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 15:55:22.384 INFO [http-nio-8080-exec-48] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:47:09 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:55:22.397 INFO [http-nio-8080-exec-48] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 15:47:09 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:55:24.817 INFO [http-nio-8080-exec-50] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 15:55:25.007 INFO [http-nio-8080-exec-50] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 15:55:25 CEST 2018]; root of context hierarchy
+20-Apr-2018 15:55:25.088 INFO [http-nio-8080-exec-50] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 15:55:25.213 INFO [http-nio-8080-exec-50] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 396 ms
+20-Apr-2018 15:55:25.264 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 15:55:25.270 INFO [http-nio-8080-exec-50] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:55:25 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 15:55:25.273 INFO [http-nio-8080-exec-50] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 15:55:25.725 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 15:55:25.726 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 15:55:25.887 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 15:55:26.159 INFO [http-nio-8080-exec-50] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 894 ms
+20-Apr-2018 15:56:03.445 WARNING [http-nio-8080-exec-47] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 16:40:38.727 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Apr-2018 16:40:38.736 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 16:40:38.794 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 16:40:38.848 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Apr-2018 16:40:38.883 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 15:55:25 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 16:40:38.894 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 15:55:25 CEST 2018]; root of context hierarchy
+20-Apr-2018 16:40:38.929 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 16:40:38.963 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 16:40:38.966 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 16:40:38.968 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 16:40:43.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.30
+20-Apr-2018 16:40:43.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 1 2015 22:30:46 UTC
+20-Apr-2018 16:40:43.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.30.0
+20-Apr-2018 16:40:43.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Apr-2018 16:40:43.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.6
+20-Apr-2018 16:40:43.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Apr-2018 16:40:43.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+20-Apr-2018 16:40:43.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+20-Apr-2018 16:40:43.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Apr-2018 16:40:43.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 16:40:43.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 16:40:43.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/logging.properties
+20-Apr-2018 16:40:43.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Apr-2018 16:40:43.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|iMac-di-Paolo-6.station
+20-Apr-2018 16:40:43.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n
+20-Apr-2018 16:40:43.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/endorsed
+20-Apr-2018 16:40:43.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 16:40:43.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+20-Apr-2018 16:40:43.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/temp
+20-Apr-2018 16:40:43.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/ptom/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+20-Apr-2018 16:40:44.170 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 16:40:44.240 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Apr-2018 16:40:44.248 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 16:40:44.251 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Apr-2018 16:40:44.252 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1599 ms
+20-Apr-2018 16:40:44.322 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Apr-2018 16:40:44.322 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.30
+20-Apr-2018 16:40:44.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 16:40:47.437 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 16:40:47.604 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 16:40:47.813 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 16:40:47 CEST 2018]; root of context hierarchy
+20-Apr-2018 16:40:47.874 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 16:40:48.159 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 555 ms
+20-Apr-2018 16:40:48.285 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 16:40:48.289 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 16:40:48 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 16:40:48.290 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 16:40:48.876 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 16:40:48.876 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 16:40:49.025 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 16:40:49.524 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1239 ms
+20-Apr-2018 16:40:49.549 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 5,211 ms
+20-Apr-2018 16:40:49.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs
+20-Apr-2018 16:40:49.654 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 16:40:49.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs has finished in 107 ms
+20-Apr-2018 16:40:49.658 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples
+20-Apr-2018 16:40:50.008 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 16:40:50.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples has finished in 466 ms
+20-Apr-2018 16:40:50.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager
+20-Apr-2018 16:40:50.216 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 16:40:50.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager has finished in 106 ms
+20-Apr-2018 16:40:50.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager
+20-Apr-2018 16:40:50.302 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Apr-2018 16:40:50.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager has finished in 76 ms
+20-Apr-2018 16:40:50.312 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Apr-2018 16:40:50.320 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Apr-2018 16:40:50.320 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6068 ms
+20-Apr-2018 16:40:53.974 INFO [http-nio-8080-exec-9] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 16:40:48 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 16:40:53.977 INFO [http-nio-8080-exec-9] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 16:40:47 CEST 2018]; root of context hierarchy
+20-Apr-2018 16:40:54.486 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 16:40:54.996 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 16:40:57.548 INFO [http-nio-8080-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 16:40:57.796 INFO [http-nio-8080-exec-11] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 16:40:57 CEST 2018]; root of context hierarchy
+20-Apr-2018 16:40:57.896 INFO [http-nio-8080-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 16:40:58.031 INFO [http-nio-8080-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 482 ms
+20-Apr-2018 16:40:58.104 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 16:40:58.109 INFO [http-nio-8080-exec-11] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 16:40:58 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 16:40:58.111 INFO [http-nio-8080-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 16:40:58.755 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 16:40:58.755 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 16:40:58.838 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 16:40:58.990 INFO [http-nio-8080-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 886 ms
+20-Apr-2018 16:40:59.005 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 4,008 ms
+20-Apr-2018 16:40:59.041 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 16:41:06.513 WARNING [http-nio-8080-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 16:42:00.694 INFO [http-nio-8080-exec-13] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 16:40:58 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 16:42:00.714 INFO [http-nio-8080-exec-13] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 16:40:57 CEST 2018]; root of context hierarchy
+20-Apr-2018 16:42:01.233 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 16:42:01.268 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 16:42:03.382 INFO [http-nio-8080-exec-3] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 16:42:03.621 INFO [http-nio-8080-exec-3] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 16:42:03 CEST 2018]; root of context hierarchy
+20-Apr-2018 16:42:03.737 INFO [http-nio-8080-exec-3] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 16:42:03.820 INFO [http-nio-8080-exec-3] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 438 ms
+20-Apr-2018 16:42:03.852 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 16:42:03.859 INFO [http-nio-8080-exec-3] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 16:42:03 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 16:42:03.863 INFO [http-nio-8080-exec-3] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 16:42:04.435 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 16:42:04.438 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 16:42:04.511 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 16:42:04.801 INFO [http-nio-8080-exec-3] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 949 ms
+20-Apr-2018 16:42:04.806 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 3,537 ms
+20-Apr-2018 16:42:04.847 INFO [http-nio-8080-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 16:43:35.145 WARNING [http-nio-8080-exec-18] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 16:44:40.291 WARNING [http-nio-8080-exec-21] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 20:17:03.394 INFO [http-nio-8080-exec-24] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 16:42:03 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 20:17:03.401 INFO [http-nio-8080-exec-24] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Fri Apr 20 16:42:03 CEST 2018]; root of context hierarchy
+20-Apr-2018 20:17:03.942 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebSpringSkel]
+20-Apr-2018 20:17:03.992 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml
+20-Apr-2018 20:17:06.812 INFO [http-nio-8080-exec-22] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+20-Apr-2018 20:17:07.126 INFO [http-nio-8080-exec-22] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Fri Apr 20 20:17:07 CEST 2018]; root of context hierarchy
+20-Apr-2018 20:17:07.205 INFO [http-nio-8080-exec-22] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+20-Apr-2018 20:17:07.344 INFO [http-nio-8080-exec-22] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 531 ms
+20-Apr-2018 20:17:07.385 INFO [http-nio-8080-exec-22] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+20-Apr-2018 20:17:07.392 INFO [http-nio-8080-exec-22] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Apr 20 20:17:07 CEST 2018]; parent: Root WebApplicationContext
+20-Apr-2018 20:17:07.393 INFO [http-nio-8080-exec-22] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+20-Apr-2018 20:17:07.782 INFO [http-nio-8080-exec-22] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap] onto handler 'controllerMultiMap'
+20-Apr-2018 20:17:07.782 INFO [http-nio-8080-exec-22] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/controllermultimap/*] onto handler 'controllerMultiMap'
+20-Apr-2018 20:17:07.857 INFO [http-nio-8080-exec-22] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+20-Apr-2018 20:17:08.099 INFO [http-nio-8080-exec-22] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 713 ms
+20-Apr-2018 20:17:08.107 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/WebSpringSkel.xml has finished in 4,114 ms
+20-Apr-2018 20:17:08.160 INFO [http-nio-8080-exec-18] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]] after start() had already been called. The second call will be ignored.
+20-Apr-2018 20:17:11.698 WARNING [http-nio-8080-exec-26] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 20:46:42.590 WARNING [http-nio-8080-exec-28] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'
+20-Apr-2018 20:47:06.747 WARNING [http-nio-8080-exec-33] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/WebSpringSkel/NOMESERVIZIO.htm] in DispatcherServlet with name 'dispatcher'

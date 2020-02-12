@@ -1,0 +1,5 @@
+11-Jan-2016 00:19:13.257 INFO [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2016 00:19:13.277 INFO [http-nio-8080-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2016 00:19:13.307 INFO [http-nio-8080-exec-87] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PR_WEBAPP03'
+11-Jan-2016 01:24:41.292 INFO [http-nio-8080-exec-99] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+11-Jan-2016 01:24:41.312 INFO [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/PR_WEBAPP03'

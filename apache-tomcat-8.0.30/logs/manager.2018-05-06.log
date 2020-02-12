@@ -1,0 +1,18 @@
+06-May-2018 21:48:00.540 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+06-May-2018 21:48:00.547 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+06-May-2018 21:48:00.547 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+06-May-2018 21:48:00.547 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SetCharacterEncoding'
+06-May-2018 21:48:00.548 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'HTTPMonitorFilter'
+06-May-2018 21:48:00.548 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CSRF'
+06-May-2018 21:48:00.549 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+06-May-2018 21:48:02.454 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+06-May-2018 21:48:02.454 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+06-May-2018 21:48:02.528 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-May-2018 21:48:02.684 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-May-2018 21:48:02.784 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5139382327189882829.xml'
+06-May-2018 21:48:07.025 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebApplication2'
+06-May-2018 21:49:31.472 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-May-2018 21:49:49.336 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-May-2018 21:49:56.496 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-May-2018 21:50:03.719 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+06-May-2018 21:50:03.777 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'

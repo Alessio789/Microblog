@@ -1,0 +1,194 @@
+20-Apr-2018 00:01:11.170 INFO [http-nio-8080-exec-104] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:01:11.189 INFO [http-nio-8080-exec-103] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:01:11.236 INFO [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:01:11.864 INFO [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3014187419631635210.xml'
+20-Apr-2018 00:01:16.993 INFO [http-nio-8080-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:02:41.779 INFO [http-nio-8080-exec-108] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:02:41.796 INFO [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:02:41.850 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:02:42.412 INFO [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context8459982305388497044.xml'
+20-Apr-2018 00:02:45.958 INFO [http-nio-8080-exec-103] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:09:10.984 INFO [http-nio-8080-exec-113] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:09:11.002 INFO [http-nio-8080-exec-114] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:09:11.067 INFO [http-nio-8080-exec-115] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:09:11.656 INFO [http-nio-8080-exec-120] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4222797524557604325.xml'
+20-Apr-2018 00:09:16.403 INFO [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:10:36.131 INFO [http-nio-8080-exec-123] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:10:36.142 INFO [http-nio-8080-exec-124] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:10:36.191 INFO [http-nio-8080-exec-125] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:10:36.732 INFO [http-nio-8080-exec-124] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context8622740289594727181.xml'
+20-Apr-2018 00:10:40.644 INFO [http-nio-8080-exec-123] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:30:05.656 INFO [http-nio-8080-exec-136] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:30:05.673 INFO [http-nio-8080-exec-135] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:30:05.754 INFO [http-nio-8080-exec-137] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:30:06.352 INFO [http-nio-8080-exec-131] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context781797666921273355.xml'
+20-Apr-2018 00:30:11.123 INFO [http-nio-8080-exec-134] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:30:50.225 INFO [http-nio-8080-exec-140] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:30:50.244 INFO [http-nio-8080-exec-144] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:30:50.281 INFO [http-nio-8080-exec-141] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:30:50.831 INFO [http-nio-8080-exec-140] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4213521216083592690.xml'
+20-Apr-2018 00:30:54.361 INFO [http-nio-8080-exec-134] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:34:45.347 INFO [http-nio-8080-exec-145] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:34:45.360 INFO [http-nio-8080-exec-154] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:34:45.408 INFO [http-nio-8080-exec-148] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:34:46.036 INFO [http-nio-8080-exec-149] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2200759625978502117.xml'
+20-Apr-2018 00:34:49.849 INFO [http-nio-8080-exec-146] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:38:20.568 INFO [http-nio-8080-exec-155] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:38:20.576 INFO [http-nio-8080-exec-156] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:38:20.638 INFO [http-nio-8080-exec-157] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:38:21.205 INFO [http-nio-8080-exec-162] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context8318606936179495009.xml'
+20-Apr-2018 00:38:25.468 INFO [http-nio-8080-exec-158] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:39:20.066 INFO [http-nio-8080-exec-169] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:39:20.082 INFO [http-nio-8080-exec-165] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:39:20.135 INFO [http-nio-8080-exec-166] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:39:20.693 INFO [http-nio-8080-exec-158] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2318191809152668612.xml'
+20-Apr-2018 00:39:24.189 INFO [http-nio-8080-exec-167] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:40:42.913 INFO [http-nio-8080-exec-176] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:40:42.953 INFO [http-nio-8080-exec-163] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 00:40:43.002 INFO [http-nio-8080-exec-174] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:40:53.221 INFO [http-nio-8080-exec-171] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:40:53.231 INFO [http-nio-8080-exec-179] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:40:53.272 INFO [http-nio-8080-exec-172] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:40:53.833 INFO [http-nio-8080-exec-178] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5121683292399642565.xml'
+20-Apr-2018 00:40:57.052 INFO [http-nio-8080-exec-180] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:41:25.381 INFO [http-nio-8080-exec-184] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:41:25.397 INFO [http-nio-8080-exec-171] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:41:25.443 INFO [http-nio-8080-exec-177] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:41:26.015 INFO [http-nio-8080-exec-180] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6938354835068085486.xml'
+20-Apr-2018 00:41:28.946 INFO [http-nio-8080-exec-183] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:42:37.727 INFO [http-nio-8080-exec-185] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:42:37.733 INFO [http-nio-8080-exec-186] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:42:37.769 INFO [http-nio-8080-exec-187] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:42:38.317 INFO [http-nio-8080-exec-190] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context9064772625890442138.xml'
+20-Apr-2018 00:42:47.470 INFO [http-nio-8080-exec-191] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:44:48.546 INFO [http-nio-8080-exec-198] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:44:48.563 INFO [http-nio-8080-exec-199] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 00:44:48.612 INFO [http-nio-8080-exec-196] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 00:44:55.401 INFO [http-nio-8080-exec-194] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:44:55.413 INFO [http-nio-8080-exec-202] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 00:44:55.454 INFO [http-nio-8080-exec-173] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 00:44:56.020 INFO [http-nio-8080-exec-198] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3096973532733266086.xml'
+20-Apr-2018 00:44:59.571 INFO [http-nio-8080-exec-200] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 14:08:30.562 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+20-Apr-2018 14:08:30.563 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+20-Apr-2018 14:08:30.663 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:08:30.959 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:09:35.338 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:09:35.391 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:10:32.493 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:10:32.570 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:10:32.648 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 14:10:33.342 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3038118718640452331.xml'
+20-Apr-2018 14:10:39.679 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 14:21:25.073 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:21:25.180 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:24:25.897 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:24:25.946 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:24:26.066 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 14:24:26.204 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 14:33:17.428 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:33:17.486 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:33:17.568 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 14:33:17.668 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 14:35:32.419 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:35:32.482 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 14:50:52.404 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+20-Apr-2018 14:51:24.421 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+20-Apr-2018 15:38:45.029 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+20-Apr-2018 15:38:45.030 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+20-Apr-2018 15:38:45.191 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:38:45.322 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:38:45.471 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 15:38:45.572 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 15:38:58.395 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:38:58.423 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:41:37.289 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:41:37.334 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:41:37.387 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 15:41:37.492 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 15:44:12.081 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:44:12.129 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:44:12.222 INFO [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 15:44:14.722 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 15:44:16.308 SEVERE [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log FAIL - Application at context path /WebSpringSkel could not be started
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpringSkel]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1293)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:366)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:393)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> * in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3160)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3135)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1372)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1176)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 31 more
+
+20-Apr-2018 15:45:02.866 INFO [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:45:02.902 INFO [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:45:02.957 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 15:45:03.038 INFO [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 15:47:08.559 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+20-Apr-2018 15:47:11.970 INFO [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+20-Apr-2018 15:47:11.971 INFO [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+20-Apr-2018 15:47:11.991 INFO [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:47:12.035 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:48:53.219 INFO [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:48:53.274 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:55:22.230 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:55:22.313 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 15:55:22.376 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpringSkel'
+20-Apr-2018 15:55:22.485 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 16:40:50.305 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+20-Apr-2018 16:40:53.662 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+20-Apr-2018 16:40:53.663 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+20-Apr-2018 16:40:53.762 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 16:40:53.883 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 16:40:53.967 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 16:40:54.994 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2325751445896220771.xml'
+20-Apr-2018 16:40:59.041 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 16:42:00.607 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 16:42:00.641 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 16:42:00.689 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 16:42:01.266 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context9067038901798911264.xml'
+20-Apr-2018 16:42:04.847 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 20:17:03.283 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 20:17:03.328 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 20:17:03.384 INFO [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+20-Apr-2018 20:17:03.990 INFO [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6077789595676637482.xml'
+20-Apr-2018 20:17:08.160 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpringSkel'
+20-Apr-2018 21:10:40.255 INFO [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Apr-2018 21:10:40.311 INFO [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'

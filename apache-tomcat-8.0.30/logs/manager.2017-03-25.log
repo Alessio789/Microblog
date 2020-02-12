@@ -1,0 +1,4 @@
+25-Mar-2017 01:01:34.712 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+25-Mar-2017 01:01:37.842 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/skel-servlet_1'
+25-Mar-2017 01:01:43.242 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context9180717270290589439.xml'
+25-Mar-2017 01:01:51.192 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/skel-servlet_1'

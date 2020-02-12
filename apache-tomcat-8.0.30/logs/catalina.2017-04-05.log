@@ -1,0 +1,235 @@
+05-Apr-2017 02:06:55.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.30
+05-Apr-2017 02:06:55.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 1 2015 22:30:46 UTC
+05-Apr-2017 02:06:55.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.30.0
+05-Apr-2017 02:06:55.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Apr-2017 02:06:55.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.3
+05-Apr-2017 02:06:55.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Apr-2017 02:06:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+05-Apr-2017 02:06:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+05-Apr-2017 02:06:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2017 02:06:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:06:55.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/logging.properties
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|iMac-di-Paolo-6.station
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/endorsed
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:06:55.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/temp
+05-Apr-2017 02:06:55.669 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Applications/NetBeans/NetBeans 8.0.2.app/Contents/Resources/NetBeans/webcommon/bin::/Users/ptom/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Apr-2017 02:06:56.704 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:06:56.877 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Apr-2017 02:06:56.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:06:56.886 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Apr-2017 02:06:56.887 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3300 ms
+05-Apr-2017 02:06:57.036 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Apr-2017 02:06:57.036 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.30
+05-Apr-2017 02:06:57.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1.xml
+05-Apr-2017 02:06:57.340 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:06:58.191 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:06:58.391 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+05-Apr-2017 02:06:58.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1.xml has finished in 1,429 ms
+05-Apr-2017 02:06:58.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs
+05-Apr-2017 02:06:58.688 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:06:58.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs has finished in 112 ms
+05-Apr-2017 02:06:58.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples
+05-Apr-2017 02:06:59.216 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:06:59.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples has finished in 594 ms
+05-Apr-2017 02:06:59.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager
+05-Apr-2017 02:06:59.353 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:06:59.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager has finished in 73 ms
+05-Apr-2017 02:06:59.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager
+05-Apr-2017 02:06:59.431 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:06:59.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager has finished in 76 ms
+05-Apr-2017 02:06:59.441 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:06:59.462 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:06:59.463 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2575 ms
+05-Apr-2017 02:07:02.070 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:07:02.133 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:07:02.674 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:07:02.681 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 611 ms
+05-Apr-2017 02:07:02.710 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:07:36.377 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:07:43.847 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:07:43.863 WARNING [http-nio-8080-exec-12] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:07:44.058 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:07:44.064 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 217 ms
+05-Apr-2017 02:07:44.096 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:08:22.570 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Apr-2017 02:08:22.571 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:08:22.629 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:08:22.685 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Apr-2017 02:08:22.728 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:08:22.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:08:22.888 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:08:22.890 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:08:27.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.30
+05-Apr-2017 02:08:27.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 1 2015 22:30:46 UTC
+05-Apr-2017 02:08:27.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.30.0
+05-Apr-2017 02:08:27.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Apr-2017 02:08:27.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.3
+05-Apr-2017 02:08:27.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Apr-2017 02:08:27.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre
+05-Apr-2017 02:08:27.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+05-Apr-2017 02:08:27.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Apr-2017 02:08:27.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:08:27.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:08:27.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/logging.properties
+05-Apr-2017 02:08:27.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Apr-2017 02:08:27.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|iMac-di-Paolo-6.station
+05-Apr-2017 02:08:27.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=11550,server=y,suspend=n
+05-Apr-2017 02:08:27.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/endorsed
+05-Apr-2017 02:08:27.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:08:27.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30
+05-Apr-2017 02:08:27.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/temp
+05-Apr-2017 02:08:27.467 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Applications/NetBeans/NetBeans 8.0.2.app/Contents/Resources/NetBeans/webcommon/bin::/Users/ptom/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Apr-2017 02:08:27.662 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:08:27.706 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Apr-2017 02:08:27.710 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:08:27.712 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Apr-2017 02:08:27.712 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 779 ms
+05-Apr-2017 02:08:27.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Apr-2017 02:08:27.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.30
+05-Apr-2017 02:08:27.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1.xml
+05-Apr-2017 02:08:27.853 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:08:28.253 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:28.334 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1.xml has finished in 552 ms
+05-Apr-2017 02:08:28.334 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:08:28.337 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:08:28.722 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:28.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 425 ms
+05-Apr-2017 02:08:28.760 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs
+05-Apr-2017 02:08:28.824 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:28.826 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/docs has finished in 66 ms
+05-Apr-2017 02:08:28.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples
+05-Apr-2017 02:08:29.197 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:29.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/examples has finished in 443 ms
+05-Apr-2017 02:08:29.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager
+05-Apr-2017 02:08:29.355 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:29.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/host-manager has finished in 88 ms
+05-Apr-2017 02:08:29.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager
+05-Apr-2017 02:08:29.439 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:29.442 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/webapps/manager has finished in 83 ms
+05-Apr-2017 02:08:29.445 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Apr-2017 02:08:29.451 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Apr-2017 02:08:29.452 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1739 ms
+05-Apr-2017 02:08:42.565 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:08:42.620 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:08:42.642 WARNING [http-nio-8080-exec-6] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:08:42.988 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:08:42.992 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 372 ms
+05-Apr-2017 02:08:43.029 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:09:58.103 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:09:58.168 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:09:58.187 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:09:58.612 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:09:58.623 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 455 ms
+05-Apr-2017 02:09:58.664 INFO [http-nio-8080-exec-17] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:11:19.972 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:11:20.013 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:11:20.021 WARNING [http-nio-8080-exec-28] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:11:20.367 INFO [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:11:20.372 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 360 ms
+05-Apr-2017 02:11:20.418 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:12:21.513 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:12:21.568 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:12:21.583 WARNING [http-nio-8080-exec-28] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:12:21.936 INFO [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:12:21.941 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 372 ms
+05-Apr-2017 02:12:21.979 INFO [http-nio-8080-exec-30] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:16:24.431 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:16:24.487 INFO [http-nio-8080-exec-35] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:16:24.535 WARNING [http-nio-8080-exec-35] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:16:25.547 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:16:25.557 INFO [http-nio-8080-exec-35] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 1,071 ms
+05-Apr-2017 02:16:25.654 INFO [http-nio-8080-exec-42] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:28:35.273 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:28:35.413 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:28:35.455 WARNING [http-nio-8080-exec-54] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:28:35.964 INFO [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:28:35.979 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 566 ms
+05-Apr-2017 02:28:36.017 INFO [http-nio-8080-exec-50] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:30:12.227 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:30:12.330 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:30:12.389 WARNING [http-nio-8080-exec-57] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:30:12.961 INFO [http-nio-8080-exec-57] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:30:12.965 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 635 ms
+05-Apr-2017 02:30:13.006 INFO [http-nio-8080-exec-60] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:32:14.107 INFO [http-nio-8080-exec-69] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:32:14.183 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:32:14.189 WARNING [http-nio-8080-exec-74] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:32:14.577 INFO [http-nio-8080-exec-74] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:32:14.589 INFO [http-nio-8080-exec-74] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 405 ms
+05-Apr-2017 02:32:14.618 INFO [http-nio-8080-exec-71] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:34:15.297 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:34:15.506 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:34:15.572 WARNING [http-nio-8080-exec-82] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:34:16.774 INFO [http-nio-8080-exec-82] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:34:16.781 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 1,275 ms
+05-Apr-2017 02:34:16.885 INFO [http-nio-8080-exec-74] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:38:17.203 INFO [http-nio-8080-exec-89] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:38:17.281 INFO [http-nio-8080-exec-83] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:38:17.314 WARNING [http-nio-8080-exec-83] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:38:17.721 INFO [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:38:17.727 INFO [http-nio-8080-exec-83] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 446 ms
+05-Apr-2017 02:38:17.764 INFO [http-nio-8080-exec-90] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.
+05-Apr-2017 02:39:25.918 SEVERE [http-nio-8080-exec-88] freemarker.log._JDK14LoggerFactory$JDK14Logger.error Error executing FreeMarker template
+ FreeMarker template error:
+The following has evaluated to null or missing:
+==> messagge  [in template "prova.html.ftl" at line 13, column 27]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${messagge}  [in template "prova.html.ftl" at line 13, column 25]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at Servlet.ServletAppDispacher.rendering(ServletAppDispacher.java:151)
+	at Servlet.ServletAppDispacher.processRequest(ServletAppDispacher.java:57)
+	at Servlet.ServletAppDispacher.doGet(ServletAppDispacher.java:242)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:393)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+05-Apr-2017 02:42:19.536 INFO [http-nio-8080-exec-100] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1_freeM]
+05-Apr-2017 02:42:19.624 INFO [http-nio-8080-exec-94] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml
+05-Apr-2017 02:42:19.636 WARNING [http-nio-8080-exec-94] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+05-Apr-2017 02:42:20.203 INFO [http-nio-8080-exec-94] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Apr-2017 02:42:20.212 INFO [http-nio-8080-exec-94] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1_freeM.xml has finished in 587 ms
+05-Apr-2017 02:42:20.248 INFO [http-nio-8080-exec-99] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1_freeM]] after start() had already been called. The second call will be ignored.

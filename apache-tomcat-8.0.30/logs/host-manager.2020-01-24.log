@@ -1,0 +1,6 @@
+24-Jan-2020 13:11:11.299 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+24-Jan-2020 13:11:11.299 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+24-Jan-2020 13:11:11.299 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+24-Jan-2020 13:11:11.299 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'SetCharacterEncoding'
+24-Jan-2020 13:11:11.299 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'CSRF'
+24-Jan-2020 13:11:11.314 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048

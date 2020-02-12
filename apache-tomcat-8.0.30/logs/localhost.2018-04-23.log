@@ -1,0 +1,41 @@
+23-Apr-2018 16:43:54.667 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2018 16:43:54.668 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.springframework.web.context.ContextLoaderListener'
+23-Apr-2018 16:43:54.707 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+23-Apr-2018 16:43:54.788 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2018 16:43:55.956 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+23-Apr-2018 16:43:55.957 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+23-Apr-2018 16:43:55.961 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'HTTPMonitorFilter'
+23-Apr-2018 16:43:55.970 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+23-Apr-2018 16:43:55.998 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+23-Apr-2018 16:44:01.977 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Apr-2018 16:44:01.978 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'org.springframework.web.context.ContextLoaderListener'
+23-Apr-2018 16:44:02.053 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+23-Apr-2018 16:44:02.090 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Apr-2018 16:44:03.127 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+23-Apr-2018 16:44:03.127 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+23-Apr-2018 16:44:03.128 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'HTTPMonitorFilter'
+23-Apr-2018 16:44:03.139 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+23-Apr-2018 16:44:03.273 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+23-Apr-2018 16:44:04.835 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+23-Apr-2018 16:44:04.836 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+23-Apr-2018 16:44:04.836 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+23-Apr-2018 16:44:04.836 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'HTTPMonitorFilter'
+23-Apr-2018 16:44:04.838 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+23-Apr-2018 16:44:05.667 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.ContextListener'
+23-Apr-2018 16:44:05.669 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.SessionListener'
+23-Apr-2018 16:44:05.670 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'websocket.drawboard.DrawboardContextListener'
+23-Apr-2018 16:44:05.671 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+23-Apr-2018 16:44:05.672 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Apr-2018 16:44:05.672 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Apr-2018 16:44:05.674 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+23-Apr-2018 16:44:05.674 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Set Character Encoding'
+23-Apr-2018 16:44:05.681 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Compression Filter'
+23-Apr-2018 16:44:05.685 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Request Dumper Filter'
+23-Apr-2018 16:44:05.688 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+23-Apr-2018 16:44:05.688 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'HTTPMonitorFilter'
+23-Apr-2018 16:44:05.690 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Timing Filter'
+23-Apr-2018 16:44:05.692 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+23-Apr-2018 16:44:10.405 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+23-Apr-2018 16:44:10.440 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+23-Apr-2018 16:44:10.441 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+23-Apr-2018 16:44:10.441 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=636

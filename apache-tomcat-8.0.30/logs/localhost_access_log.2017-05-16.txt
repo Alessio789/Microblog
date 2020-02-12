@@ -1,0 +1,14 @@
+127.0.0.1 - - [16/May/2017:18:06:07 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:07 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:07 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:07 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:08 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:08 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:08 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2017:18:06:08 +0200] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [16/May/2017:18:06:16 +0200] "GET /manager/text/list HTTP/1.1" 200 421
+127.0.0.1 - admin [16/May/2017:18:06:16 +0200] "GET /manager/text/list HTTP/1.1" 200 421
+0:0:0:0:0:0:0:1 - - [16/May/2017:18:06:21 +0200] "GET /WebAppSpring HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/May/2017:18:06:21 +0200] "GET /WebAppSpring/ HTTP/1.1" 200 516
+0:0:0:0:0:0:0:1 - - [16/May/2017:18:06:22 +0200] "GET /favicon.ico HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [16/May/2017:18:06:35 +0200] "GET /WebAppSpring/login HTTP/1.1" 404 1030

@@ -1,0 +1,6 @@
+25-Mar-2017 01:01:39.759 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1]
+25-Mar-2017 01:01:41.235 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/skel-servlet_1]
+25-Mar-2017 01:01:43.244 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1.xml
+25-Mar-2017 01:01:43.833 WARNING [http-nio-8080-exec-14] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+25-Mar-2017 01:01:50.122 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/ptom/NetBeansProjects/apache-tomcat-8.0.30/conf/Catalina/localhost/skel-servlet_1.xml has finished in 6,878 ms
+25-Mar-2017 01:01:51.192 INFO [http-nio-8080-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/skel-servlet_1]] after start() had already been called. The second call will be ignored.

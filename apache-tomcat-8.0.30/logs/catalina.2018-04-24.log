@@ -1,0 +1,12 @@
+24-Apr-2018 00:21:44.087 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2018 00:21:44.176 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2018 00:21:44.236 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Apr-2018 00:21:44.292 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+24-Apr-2018 00:21:44.351 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 23 16:44:03 CEST 2018]; parent: Root WebApplicationContext
+24-Apr-2018 00:21:44.391 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Apr 23 16:44:02 CEST 2018]; root of context hierarchy
+24-Apr-2018 00:21:44.636 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Apr 23 16:43:56 CEST 2018]; parent: Root WebApplicationContext
+24-Apr-2018 00:21:44.686 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Apr 23 16:43:55 CEST 2018]; root of context hierarchy
+24-Apr-2018 00:21:44.796 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2018 00:21:44.910 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Apr-2018 00:21:44.953 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2018 00:21:44.956 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,518 @@
+18-Apr-2018 00:09:08.958 INFO [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:09:09.005 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpringSkel'
+18-Apr-2018 00:10:46.956 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:10:46.965 INFO [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:18:59.242 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:18:59.352 INFO [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:18:59.412 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:19:01.387 INFO [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:19:01.394 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:19:01.394 SEVERE [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/WebSpring05]
+ java.lang.IllegalStateException: Context with name [/WebSpring05] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3813)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Apr-2018 00:19:30.865 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:19:30.893 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:19:31.005 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:19:31.567 INFO [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7675936365668551144.xml'
+18-Apr-2018 00:19:37.689 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:19:37.721 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:19:37.730 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:21:03.665 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:21:03.682 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpringSkel'
+18-Apr-2018 00:21:07.346 INFO [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:21:07.356 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:26:43.457 INFO [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:26:43.476 INFO [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:28:53.727 INFO [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:28:53.759 INFO [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:29:38.808 INFO [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:29:38.818 INFO [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:29:38.882 INFO [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:30:53.361 INFO [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:30:53.394 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:36:55.767 INFO [http-nio-8080-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:36:55.779 INFO [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:36:55.819 INFO [http-nio-8080-exec-79] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 00:37:54.620 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+18-Apr-2018 00:37:54.620 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+18-Apr-2018 00:37:54.644 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:37:54.673 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:37:54.730 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:37:55.804 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4673174211194346691.xml'
+18-Apr-2018 00:37:58.739 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:38:38.775 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:38:38.786 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:38:38.828 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:38:39.393 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7772910863177414898.xml'
+18-Apr-2018 00:38:42.480 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:39:54.672 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:39:54.696 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:39:54.762 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:39:55.327 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7603569509181232061.xml'
+18-Apr-2018 00:39:58.067 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:44:20.117 INFO [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:44:20.135 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:44:20.185 INFO [http-nio-8080-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:44:20.782 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4907108572733200907.xml'
+18-Apr-2018 00:44:25.631 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:45:05.505 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:45:05.519 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:45:05.563 INFO [http-nio-8080-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:45:06.119 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2352658115611815356.xml'
+18-Apr-2018 00:45:09.464 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:46:49.239 INFO [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:46:49.262 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:46:49.340 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:46:49.921 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7822430644630469499.xml'
+18-Apr-2018 00:46:53.643 INFO [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:51:01.556 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:51:01.566 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:51:01.611 INFO [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:51:02.245 INFO [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context551569640978051321.xml'
+18-Apr-2018 00:51:07.768 INFO [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:52:05.049 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:52:05.069 INFO [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:52:05.148 INFO [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:52:05.706 INFO [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3158644069791975965.xml'
+18-Apr-2018 00:52:09.296 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:53:45.223 INFO [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:53:45.256 INFO [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:53:45.292 INFO [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:53:45.937 INFO [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context1585029879569445358.xml'
+18-Apr-2018 00:53:49.808 INFO [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 00:59:45.498 INFO [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:59:45.521 INFO [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 00:59:45.584 INFO [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 00:59:46.206 INFO [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context1915401662164221256.xml'
+18-Apr-2018 00:59:50.540 INFO [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:00:55.073 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:00:55.080 INFO [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:00:55.113 INFO [http-nio-8080-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:00:55.677 INFO [http-nio-8080-exec-87] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6612337991539228879.xml'
+18-Apr-2018 01:00:59.903 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:01:43.176 INFO [http-nio-8080-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:01:43.201 INFO [http-nio-8080-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:01:43.251 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:01:43.836 INFO [http-nio-8080-exec-91] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6172962707921754747.xml'
+18-Apr-2018 01:01:47.687 INFO [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:06:23.599 INFO [http-nio-8080-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:06:23.616 INFO [http-nio-8080-exec-95] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:06:23.666 INFO [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:06:24.324 INFO [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context621977768925249374.xml'
+18-Apr-2018 01:06:28.485 INFO [http-nio-8080-exec-102] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:09:04.731 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:09:04.740 INFO [http-nio-8080-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:09:04.781 INFO [http-nio-8080-exec-108] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:09:05.401 INFO [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3876087804517075827.xml'
+18-Apr-2018 01:09:10.622 INFO [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:14:00.895 INFO [http-nio-8080-exec-120] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:14:00.919 INFO [http-nio-8080-exec-121] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WebSpring05'
+18-Apr-2018 01:14:01.004 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:14:03.471 INFO [http-nio-8080-exec-118] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:14:03.501 INFO [http-nio-8080-exec-120] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:14:04.012 SEVERE [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log FAIL - Application at context path /WebSpring05 could not be started
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebSpring05]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1293)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:366)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> * in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3160)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3135)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1372)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1176)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 28 more
+
+18-Apr-2018 01:14:04.062 INFO [http-nio-8080-exec-117] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:14:07.868 INFO [http-nio-8080-exec-124] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7022311709272371663.xml'
+18-Apr-2018 01:17:05.935 INFO [http-nio-8080-exec-127] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:17:05.953 INFO [http-nio-8080-exec-128] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:17:06.033 INFO [http-nio-8080-exec-129] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:17:06.591 INFO [http-nio-8080-exec-130] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5164640676175733863.xml'
+18-Apr-2018 01:17:09.229 INFO [http-nio-8080-exec-115] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:19:05.874 INFO [http-nio-8080-exec-134] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:19:05.886 INFO [http-nio-8080-exec-135] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:19:05.940 INFO [http-nio-8080-exec-136] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:19:06.498 INFO [http-nio-8080-exec-118] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context148813249269624627.xml'
+18-Apr-2018 01:19:11.019 INFO [http-nio-8080-exec-128] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:20:43.274 INFO [http-nio-8080-exec-140] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:20:43.292 INFO [http-nio-8080-exec-141] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:20:43.368 INFO [http-nio-8080-exec-145] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:20:43.969 INFO [http-nio-8080-exec-127] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4213407761874544135.xml'
+18-Apr-2018 01:20:47.972 INFO [http-nio-8080-exec-140] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:22:24.761 INFO [http-nio-8080-exec-155] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:22:24.773 INFO [http-nio-8080-exec-156] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:27:28.574 INFO [http-nio-8080-exec-157] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:27:28.582 INFO [http-nio-8080-exec-155] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:02.450 INFO [http-nio-8080-exec-149] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 01:28:03.177 INFO [http-nio-8080-exec-152] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:03.185 INFO [http-nio-8080-exec-151] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:06.919 INFO [http-nio-8080-exec-154] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebAppSpring'
+18-Apr-2018 01:28:07.572 INFO [http-nio-8080-exec-156] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:07.576 INFO [http-nio-8080-exec-152] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:10.526 INFO [http-nio-8080-exec-153] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring02'
+18-Apr-2018 01:28:11.045 INFO [http-nio-8080-exec-158] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:11.057 INFO [http-nio-8080-exec-159] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:15.380 INFO [http-nio-8080-exec-152] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:28:15.948 INFO [http-nio-8080-exec-156] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:15.956 INFO [http-nio-8080-exec-151] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:19.497 INFO [http-nio-8080-exec-158] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpringSkel'
+18-Apr-2018 01:28:20.112 INFO [http-nio-8080-exec-161] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:20.120 INFO [http-nio-8080-exec-155] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:35.122 INFO [http-nio-8080-exec-160] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/skel-servlet_1'
+18-Apr-2018 01:28:35.645 INFO [http-nio-8080-exec-163] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:35.653 INFO [http-nio-8080-exec-148] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:38.773 INFO [http-nio-8080-exec-157] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/skel-servlet_1_freeM'
+18-Apr-2018 01:28:39.303 INFO [http-nio-8080-exec-161] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:28:39.313 INFO [http-nio-8080-exec-155] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:30:21.516 INFO [http-nio-8080-exec-148] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:30:21.525 INFO [http-nio-8080-exec-168] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:30:21.555 INFO [http-nio-8080-exec-167] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2203452321472376846.xml'
+18-Apr-2018 01:30:25.748 INFO [http-nio-8080-exec-159] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:31:31.720 INFO [http-nio-8080-exec-173] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:31:31.731 INFO [http-nio-8080-exec-161] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:31:31.766 INFO [http-nio-8080-exec-168] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:31:32.337 INFO [http-nio-8080-exec-167] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5533082484354186278.xml'
+18-Apr-2018 01:31:37.786 INFO [http-nio-8080-exec-170] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:32:01.449 INFO [http-nio-8080-exec-170] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:32:01.464 INFO [http-nio-8080-exec-176] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:32:34.303 INFO [http-nio-8080-exec-180] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:32:34.316 INFO [http-nio-8080-exec-171] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:42:11.471 INFO [http-nio-8080-exec-183] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:42:11.485 INFO [http-nio-8080-exec-184] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:42:11.499 INFO [http-nio-8080-exec-178] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:42:12.115 INFO [http-nio-8080-exec-179] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2420413153343689678.xml'
+18-Apr-2018 01:42:17.559 INFO [http-nio-8080-exec-181] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:42:33.119 INFO [http-nio-8080-exec-181] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:44:22.156 INFO [http-nio-8080-exec-189] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:44:41.176 INFO [http-nio-8080-exec-189] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:45:34.866 INFO [http-nio-8080-exec-189] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:46:22.965 INFO [http-nio-8080-exec-185] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:46:22.975 INFO [http-nio-8080-exec-190] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:46:23.029 INFO [http-nio-8080-exec-187] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:46:23.636 INFO [http-nio-8080-exec-188] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context8789565082101083863.xml'
+18-Apr-2018 01:46:27.089 INFO [http-nio-8080-exec-189] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:47:29.245 INFO [http-nio-8080-exec-199] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:47:50.014 INFO [http-nio-8080-exec-199] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:48:03.712 INFO [http-nio-8080-exec-199] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:48:17.833 INFO [http-nio-8080-exec-204] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:48:17.851 INFO [http-nio-8080-exec-202] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:49:27.805 INFO [http-nio-8080-exec-197] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:49:27.818 INFO [http-nio-8080-exec-198] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:49:27.900 INFO [http-nio-8080-exec-201] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 01:51:36.736 INFO [http-nio-8080-exec-210] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:51:36.746 INFO [http-nio-8080-exec-211] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:52:20.654 INFO [http-nio-8080-exec-207] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:52:20.674 INFO [http-nio-8080-exec-208] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:52:20.755 INFO [http-nio-8080-exec-209] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 01:53:01.582 INFO [http-nio-8080-exec-206] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:53:01.594 INFO [http-nio-8080-exec-208] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 01:53:10.843 INFO [http-nio-8080-exec-218] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:53:10.861 INFO [http-nio-8080-exec-206] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:53:10.897 INFO [http-nio-8080-exec-219] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:53:11.448 INFO [http-nio-8080-exec-218] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context8680460082352416393.xml'
+18-Apr-2018 01:53:13.924 INFO [http-nio-8080-exec-202] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 01:53:15.237 INFO [http-nio-8080-exec-221] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:53:15.283 INFO [http-nio-8080-exec-202] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:55:12.890 INFO [http-nio-8080-exec-202] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:55:12.897 INFO [http-nio-8080-exec-205] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:55:12.926 INFO [http-nio-8080-exec-220] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WebSpring05'
+18-Apr-2018 01:55:39.648 INFO [http-nio-8080-exec-230] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:55:39.662 INFO [http-nio-8080-exec-226] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 01:55:39.705 INFO [http-nio-8080-exec-205] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WebSpring05'
+18-Apr-2018 01:55:40.264 INFO [http-nio-8080-exec-227] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6500991758810834427.xml'
+18-Apr-2018 01:55:43.428 INFO [http-nio-8080-exec-229] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WebSpring05'
+18-Apr-2018 05:54:04.423 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+18-Apr-2018 05:54:04.424 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+18-Apr-2018 05:54:04.438 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 05:54:04.460 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 05:54:04.691 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3090169046704454916.xml'
+18-Apr-2018 05:54:10.445 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 05:55:44.410 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+18-Apr-2018 05:55:44.411 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+18-Apr-2018 05:55:44.439 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 05:55:44.463 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 05:55:44.518 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 05:55:45.101 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5976936908469432346.xml'
+18-Apr-2018 05:55:49.492 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:04:44.095 INFO [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:04:44.123 INFO [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:04:44.189 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:04:44.817 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context1922538734138970810.xml'
+18-Apr-2018 06:04:50.895 INFO [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:08:23.986 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:08:31.362 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:08:31.400 INFO [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:08:31.469 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:08:32.073 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4480278321501456565.xml'
+18-Apr-2018 06:08:37.805 INFO [http-nio-8080-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:13:15.873 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:13:15.885 INFO [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:13:15.934 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:13:16.575 INFO [http-nio-8080-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3136708626866027354.xml'
+18-Apr-2018 06:13:24.542 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:15:30.846 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:15:40.350 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:15:40.373 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:15:40.437 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:15:41.109 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3639667573902706882.xml'
+18-Apr-2018 06:15:48.840 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:20:58.916 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:20:58.954 INFO [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WSpring'
+18-Apr-2018 06:21:24.443 INFO [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:21:24.455 INFO [80] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:21:24.513 INFO [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:21:25.118 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6456739628876507415.xml'
+18-Apr-2018 06:21:32.228 INFO [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:21:54.255 INFO [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:21:54.266 INFO [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:23:50.375 INFO [http-nio-8080-exec-72] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:24:34.860 INFO [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:24:34.869 INFO [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:24:34.913 INFO [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:24:35.524 INFO [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5640247242896191356.xml'
+18-Apr-2018 06:24:42.928 INFO [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:35:11.752 INFO [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:35:11.777 INFO [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:35:11.835 INFO [http-nio-8080-exec-79] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:35:12.474 INFO [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5884597273784102518.xml'
+18-Apr-2018 06:35:20.207 INFO [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:36:47.291 INFO [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:36:47.324 INFO [http-nio-8080-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:36:47.428 INFO [http-nio-8080-exec-87] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:36:48.051 INFO [http-nio-8080-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6314118247354801860.xml'
+18-Apr-2018 06:37:15.440 INFO [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:44:58.682 INFO [http-nio-8080-exec-95] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:44:58.700 INFO [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:44:58.755 INFO [http-nio-8080-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:44:59.362 INFO [http-nio-8080-exec-98] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7627297628420929577.xml'
+18-Apr-2018 06:45:03.448 INFO [http-nio-8080-exec-95] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:46:44.262 INFO [http-nio-8080-exec-110] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:46:44.271 INFO [http-nio-8080-exec-111] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WSpring'
+18-Apr-2018 06:46:44.438 INFO [http-nio-8080-exec-110] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:47:05.155 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:47:05.162 INFO [http-nio-8080-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:47:05.200 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:47:05.819 INFO [http-nio-8080-exec-101] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5673338659426780709.xml'
+18-Apr-2018 06:47:09.534 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:49:43.967 INFO [http-nio-8080-exec-118] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:49:43.982 INFO [http-nio-8080-exec-119] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:49:44.026 INFO [http-nio-8080-exec-120] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:49:44.598 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7000239280062340777.xml'
+18-Apr-2018 06:49:49.091 INFO [http-nio-8080-exec-119] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:54:43.256 INFO [http-nio-8080-exec-133] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:54:43.305 INFO [http-nio-8080-exec-134] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WSpring'
+18-Apr-2018 06:54:43.387 INFO [http-nio-8080-exec-127] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:55:11.145 INFO [http-nio-8080-exec-137] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:55:11.155 INFO [http-nio-8080-exec-140] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:55:11.219 INFO [http-nio-8080-exec-132] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:55:11.789 INFO [http-nio-8080-exec-130] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3203577976680707386.xml'
+18-Apr-2018 06:55:15.574 INFO [http-nio-8080-exec-128] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:58:13.846 INFO [http-nio-8080-exec-143] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:58:13.855 INFO [http-nio-8080-exec-144] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:58:13.900 INFO [http-nio-8080-exec-145] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:58:14.470 INFO [http-nio-8080-exec-149] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2337141579071870404.xml'
+18-Apr-2018 06:58:18.439 INFO [http-nio-8080-exec-142] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 06:59:14.586 INFO [http-nio-8080-exec-151] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:59:14.595 INFO [http-nio-8080-exec-152] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 06:59:14.641 INFO [http-nio-8080-exec-142] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 06:59:15.214 INFO [http-nio-8080-exec-147] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context5255918816806874351.xml'
+18-Apr-2018 06:59:19.146 INFO [http-nio-8080-exec-148] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:00:58.915 INFO [http-nio-8080-exec-160] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:00:58.934 INFO [http-nio-8080-exec-161] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/WSpring'
+18-Apr-2018 07:00:58.982 INFO [http-nio-8080-exec-163] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:01:05.220 INFO [http-nio-8080-exec-159] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:01:05.230 INFO [http-nio-8080-exec-162] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:01:05.525 INFO [http-nio-8080-exec-157] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:01:06.082 INFO [http-nio-8080-exec-165] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context9212514215186808484.xml'
+18-Apr-2018 07:01:10.704 INFO [http-nio-8080-exec-154] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:03:34.849 INFO [http-nio-8080-exec-166] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:03:34.864 INFO [http-nio-8080-exec-167] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:03:34.942 INFO [http-nio-8080-exec-168] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:03:35.529 INFO [http-nio-8080-exec-169] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7010823978312852461.xml'
+18-Apr-2018 07:03:40.746 INFO [http-nio-8080-exec-171] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:05:31.438 INFO [http-nio-8080-exec-175] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:05:31.454 INFO [http-nio-8080-exec-176] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:05:31.496 INFO [http-nio-8080-exec-177] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:05:32.064 INFO [http-nio-8080-exec-167] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context1500284184850667826.xml'
+18-Apr-2018 07:05:36.220 INFO [http-nio-8080-exec-181] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:07:29.749 INFO [http-nio-8080-exec-182] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:07:29.756 INFO [http-nio-8080-exec-183] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:07:29.795 INFO [http-nio-8080-exec-184] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:07:30.349 INFO [http-nio-8080-exec-176] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context8348721942807630725.xml'
+18-Apr-2018 07:07:34.992 INFO [http-nio-8080-exec-182] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:09:32.901 INFO [http-nio-8080-exec-190] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:09:32.910 INFO [http-nio-8080-exec-191] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:09:32.945 INFO [http-nio-8080-exec-192] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:09:33.517 INFO [http-nio-8080-exec-196] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context658981067643094217.xml'
+18-Apr-2018 07:09:37.236 INFO [http-nio-8080-exec-185] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:10:42.503 INFO [http-nio-8080-exec-198] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:10:42.521 INFO [http-nio-8080-exec-199] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:10:42.697 INFO [http-nio-8080-exec-200] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:10:43.249 INFO [http-nio-8080-exec-203] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context3650655255791616711.xml'
+18-Apr-2018 07:10:47.899 INFO [http-nio-8080-exec-201] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 07:12:02.644 INFO [http-nio-8080-exec-206] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:12:02.670 INFO [http-nio-8080-exec-207] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 07:12:02.724 INFO [http-nio-8080-exec-208] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 07:12:03.288 INFO [http-nio-8080-exec-205] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6972148910642310416.xml'
+18-Apr-2018 07:12:07.989 INFO [http-nio-8080-exec-209] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 13:19:12.341 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+18-Apr-2018 13:19:12.341 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+18-Apr-2018 13:19:12.360 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 13:19:12.368 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 13:19:12.416 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 13:19:13.018 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4669299011174357426.xml'
+18-Apr-2018 13:19:17.105 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 15:43:39.827 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:43:39.862 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 15:43:55.560 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:43:55.575 INFO [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:43:55.608 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context2165443550636119889.xml'
+18-Apr-2018 15:43:59.732 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 15:45:06.067 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:45:06.094 INFO [http-nio-8080-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:45:06.156 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 15:45:06.764 INFO [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6584779558057981789.xml'
+18-Apr-2018 15:45:10.427 INFO [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 15:51:53.453 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:51:53.459 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:51:53.506 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 15:51:54.106 INFO [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6182994068632696252.xml'
+18-Apr-2018 15:51:58.200 INFO [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 15:55:45.188 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:55:45.202 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:55:45.255 INFO [http-nio-8080-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 15:55:45.842 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6362590242303424398.xml'
+18-Apr-2018 15:55:49.738 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 15:56:43.825 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:56:43.844 INFO [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:56:43.891 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 15:56:44.462 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context400451822168159279.xml'
+18-Apr-2018 15:56:47.745 INFO [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 15:58:21.876 INFO [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:58:21.898 INFO [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 15:58:21.939 INFO [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 15:58:22.494 INFO [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context6549242030899221299.xml'
+18-Apr-2018 15:58:25.658 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 16:05:45.622 INFO [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:05:45.759 INFO [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:05:45.788 INFO [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WSpring'
+18-Apr-2018 16:05:47.925 INFO [http-nio-8080-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:05:47.932 INFO [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WSpring'
+18-Apr-2018 16:05:47.933 SEVERE [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/WSpring]
+ java.lang.IllegalStateException: Context with name [/WSpring] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3813)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+18-Apr-2018 16:06:05.347 INFO [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:06:05.391 INFO [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 16:08:46.973 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:08:46.989 INFO [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:08:47.014 INFO [http-nio-8080-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context1916829946654599594.xml'
+18-Apr-2018 16:08:56.604 INFO [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 16:08:56.636 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:08:56.653 INFO [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/WSpring'
+18-Apr-2018 16:09:42.729 INFO [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:09:42.752 INFO [http-nio-8080-exec-79] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:09:42.820 INFO [http-nio-8080-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 16:09:43.376 INFO [http-nio-8080-exec-78] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context7820481821484895297.xml'
+18-Apr-2018 16:33:12.960 INFO [http-nio-8080-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:33:12.977 INFO [http-nio-8080-exec-90] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:33:13.021 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 16:33:13.663 INFO [http-nio-8080-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context4786403568815303965.xml'
+18-Apr-2018 16:33:18.434 INFO [http-nio-8080-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/WSpring'
+18-Apr-2018 16:33:46.264 INFO [http-nio-8080-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 16:33:46.279 INFO [http-nio-8080-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 17:03:24.475 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+18-Apr-2018 17:03:24.476 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+18-Apr-2018 17:03:24.496 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 17:03:24.508 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Apr-2018 17:03:24.566 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/WSpring'
+18-Apr-2018 17:03:25.174 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/var/folders/1c/g851qhds387cf7z065l4vwgc0000gp/T/context525654582119960608.xml'

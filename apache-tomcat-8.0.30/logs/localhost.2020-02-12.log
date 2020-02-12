@@ -1,0 +1,1508 @@
+12-Feb-2020 17:06:43.744 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:06:43.746 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:06:43.746 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:06:43.753 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 17:06:45.677 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:06:45.686 FINE [localhost-startStop-1] org.apache.catalina.session.StandardSession.doReadObject readObject() loading session 2901F41D77A65E09E22AEAE6DB7B9978
+12-Feb-2020 17:06:45.686 FINE [localhost-startStop-1] org.apache.catalina.session.StandardSession.doReadObject   loading attribute 'username' with value 'UtenteProva'
+12-Feb-2020 17:06:45.686 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:06:45.686 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:06:45.687 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 17:06:46.188 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:06:46.188 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:06:46.188 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:06:46.188 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 17:06:47.640 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.ContextListener'
+12-Feb-2020 17:06:47.641 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.SessionListener'
+12-Feb-2020 17:06:47.641 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'websocket.drawboard.DrawboardContextListener'
+12-Feb-2020 17:06:47.642 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:06:47.642 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Feb-2020 17:06:47.642 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Feb-2020 17:06:47.642 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:06:47.643 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Set Character Encoding'
+12-Feb-2020 17:06:47.644 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Compression Filter'
+12-Feb-2020 17:06:47.645 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Request Dumper Filter'
+12-Feb-2020 17:06:47.646 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:06:47.646 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Timing Filter'
+12-Feb-2020 17:06:47.647 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 17:08:23.695 FINE [http-nio-8081-exec-10] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 17:08:23.695 FINE [http-nio-8081-exec-10] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:08:25.690 FINE [http-nio-8081-exec-9] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:08:25.691 FINE [http-nio-8081-exec-9] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:08:25.691 FINE [http-nio-8081-exec-9] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:08:25.691 INFO [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 17:08:27.557 FINE [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 17:08:27.557 FINE [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:08:29.092 FINE [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:08:29.092 FINE [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:08:29.092 FINE [http-nio-8081-exec-3] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:08:29.093 INFO [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 17:24:49.771 FINE [http-nio-8081-exec-21] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 17:24:49.771 FINE [http-nio-8081-exec-21] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:24:51.379 FINE [http-nio-8081-exec-21] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 17:24:51.379 FINE [http-nio-8081-exec-21] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 17:24:51.379 FINE [http-nio-8081-exec-21] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 17:24:51.380 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:02:29.423 FINE [http-nio-8081-exec-24] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:02:29.423 FINE [http-nio-8081-exec-24] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:02:31.246 FINE [http-nio-8081-exec-28] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:02:31.246 FINE [http-nio-8081-exec-28] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:02:31.246 FINE [http-nio-8081-exec-28] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:02:31.246 INFO [http-nio-8081-exec-28] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:02:31.745 INFO [http-nio-8081-exec-31] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:02:31.757 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:02:31.760 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:02:31.760 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1874
+12-Feb-2020 18:02:31.792 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:02:31.793 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+12-Feb-2020 18:02:31.793 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2202
+12-Feb-2020 18:02:31.992 INFO [http-nio-8081-exec-27] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:02:31.992 INFO [http-nio-8081-exec-27] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=50472
+12-Feb-2020 18:02:31.992 INFO [http-nio-8081-exec-25] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:02:31.993 INFO [http-nio-8081-exec-25] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=56372
+12-Feb-2020 18:02:33.142 INFO [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:02:33.143 INFO [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:02:33.143 INFO [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2134
+12-Feb-2020 18:02:38.322 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:02:38.322 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:02:38.322 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1874
+12-Feb-2020 18:03:16.878 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:04:38.472 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:04:41.253 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:04:41.253 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:04:41.253 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2134
+12-Feb-2020 18:05:18.478 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:05:20.062 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:05:20.063 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:05:20.063 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2164
+12-Feb-2020 18:05:44.201 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:05:46.320 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:07:21.539 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:07:22.856 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:07:51.737 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:07:53.754 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:07:53.754 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:07:53.754 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2178
+12-Feb-2020 18:07:56.183 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:07:57.425 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:07:59.979 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:08:02.188 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:08:02.188 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:08:02.188 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1899
+12-Feb-2020 18:11:24.866 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:11:26.436 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:12:12.461 FINE [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:12:12.461 FINE [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:12:19.790 FINE [http-nio-8081-exec-38] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:12:19.790 FINE [http-nio-8081-exec-38] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:12:19.790 FINE [http-nio-8081-exec-38] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:12:19.791 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:12:19.929 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:12:24.565 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:12:24.566 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:12:24.566 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2178
+12-Feb-2020 18:12:29.509 FINE [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:14:10.773 FINE [http-nio-8081-exec-39] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:14:10.773 FINE [http-nio-8081-exec-39] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:14:10.773 FINE [http-nio-8081-exec-39] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:14:12.417 FINE [http-nio-8081-exec-39] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:14:12.417 FINE [http-nio-8081-exec-39] org.apache.catalina.session.StandardSession.doReadObject readObject() loading session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:14:12.418 FINE [http-nio-8081-exec-39] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:14:12.418 FINE [http-nio-8081-exec-39] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:14:12.418 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:14:19.144 FINE [http-nio-8081-exec-48] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:14:19.144 FINE [http-nio-8081-exec-48] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:14:19.145 FINE [http-nio-8081-exec-48] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:14:20.857 FINE [http-nio-8081-exec-48] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:14:20.858 FINE [http-nio-8081-exec-48] org.apache.catalina.session.StandardSession.doReadObject readObject() loading session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:14:20.858 FINE [http-nio-8081-exec-48] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:14:20.858 FINE [http-nio-8081-exec-48] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:14:20.858 INFO [http-nio-8081-exec-48] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:14:20.885 FINE [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:14:20.885 FINE [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:14:20.886 FINE [http-nio-8081-exec-50] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:14:22.445 FINE [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:14:22.446 FINE [http-nio-8081-exec-50] org.apache.catalina.session.StandardSession.doReadObject readObject() loading session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:14:22.446 FINE [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:14:22.446 FINE [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:14:22.447 INFO [http-nio-8081-exec-50] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:15:29.637 FINE [http-nio-8081-exec-49] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:15:29.637 FINE [http-nio-8081-exec-49] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:15:29.638 FINE [http-nio-8081-exec-49] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 2F93CE8BBDE28FDAF69E841231954030
+12-Feb-2020 18:15:35.637 FINE [http-nio-8081-exec-60] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:15:35.638 FINE [http-nio-8081-exec-60] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:15:35.638 FINE [http-nio-8081-exec-60] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:15:35.638 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:15:35.747 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:15:40.123 SEVERE [http-nio-8081-exec-58] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [FindPostServlet] in context with path [/Microblog] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Problem compiling [SELECT p FROM Post p ORDER BY dataOra]. 
+[30, 37] The identification variable 'dataOra' is not defined in the FROM clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1625)
+	at DAO.PostDao.findAll(PostDao.java:153)
+	at servlet.FindPostServlet.doPost(FindPostServlet.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Problem compiling [SELECT p FROM Post p ORDER BY dataOra]. 
+[30, 37] The identification variable 'dataOra' is not defined in the FROM clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:347)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+12-Feb-2020 18:16:00.011 FINE [http-nio-8081-exec-65] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:16:00.011 FINE [http-nio-8081-exec-65] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:16:01.768 FINE [http-nio-8081-exec-65] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:16:01.769 FINE [http-nio-8081-exec-65] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:16:01.769 FINE [http-nio-8081-exec-65] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:16:01.769 INFO [http-nio-8081-exec-65] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:16:01.906 INFO [http-nio-8081-exec-61] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:16:05.655 FINE [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:17:46.354 FINE [http-nio-8081-exec-69] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:17:46.355 FINE [http-nio-8081-exec-69] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:17:46.355 FINE [http-nio-8081-exec-69] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 72D2A418FB17256F8F21A9CDC812ADD5
+12-Feb-2020 18:17:51.117 FINE [http-nio-8081-exec-72] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:17:51.117 FINE [http-nio-8081-exec-72] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:17:51.117 FINE [http-nio-8081-exec-72] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:17:51.118 INFO [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:17:51.249 INFO [http-nio-8081-exec-62] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:18:01.595 FINE [http-nio-8081-exec-63] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:18:36.930 INFO [http-nio-8081-exec-73] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:19:34.538 FINE [http-nio-8081-exec-64] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:19:34.538 FINE [http-nio-8081-exec-64] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:19:34.538 FINE [http-nio-8081-exec-64] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 380B09EF661C4E0061C0186F9AFBF8D0
+12-Feb-2020 18:19:39.632 FINE [http-nio-8081-exec-81] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:19:39.632 FINE [http-nio-8081-exec-81] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:19:39.632 FINE [http-nio-8081-exec-81] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:19:39.633 INFO [http-nio-8081-exec-81] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:19:39.765 INFO [http-nio-8081-exec-77] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:19:40.765 INFO [http-nio-8081-exec-69] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:19:40.766 INFO [http-nio-8081-exec-69] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:19:40.766 INFO [http-nio-8081-exec-69] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2178
+12-Feb-2020 18:20:06.837 FINE [http-nio-8081-exec-75] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:20:38.110 FINE [http-nio-8081-exec-87] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:20:38.110 FINE [http-nio-8081-exec-87] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:20:38.111 FINE [http-nio-8081-exec-87] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 2410CC9DD3F4A69D9C8221F2B37C8F51
+12-Feb-2020 18:20:44.574 FINE [http-nio-8081-exec-90] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:20:44.574 FINE [http-nio-8081-exec-90] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:20:44.575 FINE [http-nio-8081-exec-90] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:20:44.575 INFO [http-nio-8081-exec-90] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:20:44.677 INFO [http-nio-8081-exec-83] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:20:49.940 INFO [http-nio-8081-exec-84] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:20:49.941 INFO [http-nio-8081-exec-84] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:20:49.941 INFO [http-nio-8081-exec-84] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2178
+12-Feb-2020 18:20:54.513 FINE [http-nio-8081-exec-80] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:21:02.741 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:02.741 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Set Character Encoding'
+12-Feb-2020 18:21:02.741 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Compression Filter'
+12-Feb-2020 18:21:02.741 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Request Dumper Filter'
+12-Feb-2020 18:21:02.741 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:02.741 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Timing Filter'
+12-Feb-2020 18:21:02.741 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Feb-2020 18:21:02.741 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+12-Feb-2020 18:21:02.754 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:02.754 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:02.756 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:02.756 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:02.762 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:02.762 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:02.762 FINE [localhost-startStop-2] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session F2B08E5F74BA1E966B631AFA7A5BD06A
+12-Feb-2020 18:21:02.776 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:02.776 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:02.777 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:21:46.055 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:21:46.057 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:21:46.057 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:46.063 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:21:47.921 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:21:47.930 FINE [localhost-startStop-1] org.apache.catalina.session.StandardSession.doReadObject readObject() loading session F2B08E5F74BA1E966B631AFA7A5BD06A
+12-Feb-2020 18:21:47.931 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:21:47.931 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:47.931 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:21:48.285 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:21:48.285 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:21:48.285 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:48.285 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:21:49.275 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.ContextListener'
+12-Feb-2020 18:21:49.275 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.SessionListener'
+12-Feb-2020 18:21:49.276 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'websocket.drawboard.DrawboardContextListener'
+12-Feb-2020 18:21:49.277 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:21:49.278 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Feb-2020 18:21:49.278 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Feb-2020 18:21:49.278 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:21:49.278 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Set Character Encoding'
+12-Feb-2020 18:21:49.280 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Compression Filter'
+12-Feb-2020 18:21:49.282 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Request Dumper Filter'
+12-Feb-2020 18:21:49.282 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:21:49.283 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Timing Filter'
+12-Feb-2020 18:21:49.283 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:22:05.117 INFO [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:22:23.434 FINE [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:22:34.480 FINE [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:23:33.303 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:23:42.635 FINE [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:23:49.395 FINE [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:24:05.171 INFO [http-nio-8081-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.hmtl' headers and data
+12-Feb-2020 18:24:05.171 FINE [http-nio-8081-exec-8] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:24:30.354 FINE [http-nio-8081-exec-6] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:24:30.354 FINE [http-nio-8081-exec-6] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:24:32.042 FINE [http-nio-8081-exec-6] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:24:32.043 FINE [http-nio-8081-exec-6] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:24:32.043 FINE [http-nio-8081-exec-6] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:24:32.043 INFO [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:26:30.880 FINE [http-nio-8081-exec-18] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:26:30.880 FINE [http-nio-8081-exec-18] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:26:37.181 FINE [http-nio-8081-exec-22] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:26:37.181 FINE [http-nio-8081-exec-22] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:26:37.181 FINE [http-nio-8081-exec-22] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:26:37.182 INFO [http-nio-8081-exec-22] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:26:37.320 INFO [http-nio-8081-exec-16] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:26:41.067 FINE [http-nio-8081-exec-20] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:26:43.431 INFO [http-nio-8081-exec-13] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorPost.html' headers and data
+12-Feb-2020 18:26:43.433 INFO [http-nio-8081-exec-13] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:26:43.434 INFO [http-nio-8081-exec-13] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1964
+12-Feb-2020 18:26:43.434 FINE [http-nio-8081-exec-13] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:26:53.351 FINE [http-nio-8081-exec-19] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:29:16.612 FINE [http-nio-8081-exec-24] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:29:16.612 FINE [http-nio-8081-exec-24] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:29:16.613 FINE [http-nio-8081-exec-24] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 534F1B353D17854E9BEC6642205ED303
+12-Feb-2020 18:29:21.632 FINE [http-nio-8081-exec-32] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:29:21.632 FINE [http-nio-8081-exec-32] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:29:21.632 FINE [http-nio-8081-exec-32] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:29:21.633 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:29:21.745 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:29:36.345 FINE [http-nio-8081-exec-30] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:29:39.989 FINE [http-nio-8081-exec-25] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:29:43.284 INFO [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/addPost.html' headers and data
+12-Feb-2020 18:29:43.285 INFO [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:29:43.285 INFO [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1972
+12-Feb-2020 18:29:43.285 FINE [http-nio-8081-exec-29] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:30:39.081 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/registration.html' headers and data
+12-Feb-2020 18:30:39.084 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:30:39.084 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2178
+12-Feb-2020 18:30:42.722 FINE [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:30:43.460 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/addPost.html' headers and data
+12-Feb-2020 18:30:43.460 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:30:43.461 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1972
+12-Feb-2020 18:30:43.461 FINE [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:31:11.225 FINE [http-nio-8081-exec-36] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:31:11.225 FINE [http-nio-8081-exec-36] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:31:11.226 FINE [http-nio-8081-exec-36] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 02E93BAAECBD68C0825F4F7357BCF43C
+12-Feb-2020 18:31:11.226 FINE [http-nio-8081-exec-36] org.apache.catalina.session.StandardSession.doWriteObject   storing attribute 'username' with value 'admin'
+12-Feb-2020 18:31:12.149 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.AddPostServlet]
+ java.lang.ClassNotFoundException: servlet.AddPostServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.151 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.AddCommentServlet]
+ java.lang.ClassNotFoundException: servlet.AddCommentServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.152 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.AccessServlet]
+ java.lang.ClassNotFoundException: servlet.AccessServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.154 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.SavePostServlet]
+ java.lang.ClassNotFoundException: servlet.SavePostServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.155 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.FindPostServlet]
+ java.lang.ClassNotFoundException: servlet.FindPostServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.157 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.SaveCommentServlet]
+ java.lang.ClassNotFoundException: servlet.SaveCommentServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.159 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.RegistrationServlet]
+ java.lang.ClassNotFoundException: servlet.RegistrationServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.160 FINE [http-nio-8081-exec-35] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.LogoutServlet]
+ java.lang.ClassNotFoundException: servlet.LogoutServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:12.175 FINE [http-nio-8081-exec-35] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:31:12.176 FINE [http-nio-8081-exec-35] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:31:12.176 FINE [http-nio-8081-exec-35] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:31:12.176 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:31:12.299 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:31:17.117 SEVERE [http-nio-8081-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [AccessServlet] in context with path [/Microblog] threw exception [Servlet execution threw an exception] with root cause
+ java.lang.ClassNotFoundException: javax.persistence.EntityNotFoundException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at servlet.AccessServlet.doPost(AccessServlet.java:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:36.647 SEVERE [http-nio-8081-exec-37] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [AccessServlet] in context with path [/Microblog] threw exception [Servlet execution threw an exception] with root cause
+ java.lang.ClassNotFoundException: javax.persistence.EntityNotFoundException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at servlet.AccessServlet.doPost(AccessServlet.java:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:31:41.304 FINE [http-nio-8081-exec-46] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:31:41.304 FINE [http-nio-8081-exec-46] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:31:42.950 FINE [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:31:42.951 FINE [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:31:42.951 FINE [http-nio-8081-exec-42] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:31:42.951 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:31:43.047 INFO [http-nio-8081-exec-41] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:31:50.016 FINE [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:31:51.963 FINE [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:31:52.514 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/addPost.html' headers and data
+12-Feb-2020 18:31:52.514 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:31:52.514 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1979
+12-Feb-2020 18:31:52.514 FINE [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:31:53.679 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/Microblog/index.html' headers and data
+12-Feb-2020 18:32:07.878 FINE [http-nio-8081-exec-49] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:32:07.878 FINE [http-nio-8081-exec-49] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:32:07.879 FINE [http-nio-8081-exec-49] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session E635CAFEA9A0D13E723F6EB1229E37FD
+12-Feb-2020 18:32:07.879 FINE [http-nio-8081-exec-49] org.apache.catalina.session.StandardSession.doWriteObject   storing attribute 'username' with value 'admin'
+12-Feb-2020 18:32:11.261 FINE [http-nio-8081-exec-41] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:32:11.262 FINE [http-nio-8081-exec-41] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:32:11.262 FINE [http-nio-8081-exec-41] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:32:11.262 INFO [http-nio-8081-exec-41] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:32:11.377 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:32:19.224 INFO [http-nio-8081-exec-47] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorLogin.html' headers and data
+12-Feb-2020 18:32:19.224 INFO [http-nio-8081-exec-47] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:32:19.224 INFO [http-nio-8081-exec-47] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2036
+12-Feb-2020 18:32:19.225 FINE [http-nio-8081-exec-47] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:32:55.143 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:32:55.148 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:32:55.148 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:32:55.148 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1874
+12-Feb-2020 18:32:55.168 INFO [http-nio-8081-exec-49] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:32:55.169 INFO [http-nio-8081-exec-49] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+12-Feb-2020 18:32:55.169 INFO [http-nio-8081-exec-49] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2295
+12-Feb-2020 18:32:55.516 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:32:55.517 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=56372
+12-Feb-2020 18:32:55.517 INFO [http-nio-8081-exec-50] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:32:55.517 INFO [http-nio-8081-exec-51] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:32:55.517 INFO [http-nio-8081-exec-50] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=50472
+12-Feb-2020 18:32:55.517 INFO [http-nio-8081-exec-51] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=50472
+12-Feb-2020 18:32:55.521 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:32:55.521 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:32:55.521 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=56372
+12-Feb-2020 18:32:55.521 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=56372
+12-Feb-2020 18:32:56.902 INFO [http-nio-8081-exec-56] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:32:56.902 INFO [http-nio-8081-exec-56] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:32:56.902 INFO [http-nio-8081-exec-56] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1964
+12-Feb-2020 18:32:59.591 INFO [http-nio-8081-exec-48] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:32:59.591 INFO [http-nio-8081-exec-48] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:32:59.591 INFO [http-nio-8081-exec-48] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1874
+12-Feb-2020 18:33:01.063 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:33:01.105 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:33:01.105 INFO [http-nio-8081-exec-49] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:33:01.105 INFO [60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:01.106 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:01.106 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:06.511 FINE [http-nio-8081-exec-51] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:33:06.519 INFO [http-nio-8081-exec-56] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:33:06.560 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:33:06.561 INFO [http-nio-8081-exec-49] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:06.561 INFO [http-nio-8081-exec-59] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:06.561 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:33:06.561 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:54.434 FINE [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:33:54.442 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:33:54.483 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:33:54.483 INFO [http-nio-8081-exec-61] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:54.483 INFO [http-nio-8081-exec-56] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:54.483 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:33:54.483 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:33:55.440 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/addPost.html' headers and data
+12-Feb-2020 18:33:55.440 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:33:55.440 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1969
+12-Feb-2020 18:33:55.440 FINE [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:33:59.135 INFO [http-nio-8081-exec-59] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:34:04.522 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:34:09.034 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorLogin.html' headers and data
+12-Feb-2020 18:34:09.034 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:34:09.034 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2036
+12-Feb-2020 18:34:09.034 FINE [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:34:30.671 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorLogin.html' headers and data
+12-Feb-2020 18:34:30.672 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:34:30.672 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2029
+12-Feb-2020 18:34:30.672 FINE [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:34:30.677 INFO [http-nio-8081-exec-56] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style.css' headers and data
+12-Feb-2020 18:34:37.781 FINE [http-nio-8081-exec-55] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:34:37.781 FINE [http-nio-8081-exec-55] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:34:37.782 FINE [http-nio-8081-exec-55] org.apache.catalina.session.StandardSession.doWriteObject writeObject() storing session 2895AB21D12CECE4C16233BFC0181655
+12-Feb-2020 18:34:37.782 FINE [http-nio-8081-exec-55] org.apache.catalina.session.StandardSession.doWriteObject   storing attribute 'username' with value 'admin'
+12-Feb-2020 18:34:38.529 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.AddPostServlet]
+ java.lang.ClassNotFoundException: servlet.AddPostServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.530 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.AddCommentServlet]
+ java.lang.ClassNotFoundException: servlet.AddCommentServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.532 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.AccessServlet]
+ java.lang.ClassNotFoundException: servlet.AccessServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.533 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.SavePostServlet]
+ java.lang.ClassNotFoundException: servlet.SavePostServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.535 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.FindPostServlet]
+ java.lang.ClassNotFoundException: servlet.FindPostServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.536 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.SaveCommentServlet]
+ java.lang.ClassNotFoundException: servlet.SaveCommentServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.538 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.RegistrationServlet]
+ java.lang.ClassNotFoundException: servlet.RegistrationServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.539 FINE [http-nio-8081-exec-60] org.apache.catalina.util.Introspection.loadClass Failed to load class [servlet.LogoutServlet]
+ java.lang.ClassNotFoundException: servlet.LogoutServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at org.apache.catalina.util.Introspection.loadClass(Introspection.java:143)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:125)
+	at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:65)
+	at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:334)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:460)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1460)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:906)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:344)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:38.543 FINE [http-nio-8081-exec-60] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:34:38.543 FINE [http-nio-8081-exec-60] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:34:38.543 FINE [http-nio-8081-exec-60] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:34:38.544 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:34:39.355 INFO [http-nio-8081-exec-59] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:34:39.372 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:34:39.373 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:34:39.373 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1874
+12-Feb-2020 18:34:39.384 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:34:39.385 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+12-Feb-2020 18:34:39.385 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2295
+12-Feb-2020 18:34:39.447 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:34:39.447 INFO [http-nio-8081-exec-62] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:34:39.447 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=50472
+12-Feb-2020 18:34:39.447 INFO [http-nio-8081-exec-62] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=56372
+12-Feb-2020 18:34:39.448 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:34:39.448 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=56372
+12-Feb-2020 18:34:39.453 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:34:39.454 INFO [http-nio-8081-exec-55] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=50472
+12-Feb-2020 18:34:40.484 INFO [http-nio-8081-exec-63] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:34:40.485 INFO [http-nio-8081-exec-63] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:34:40.485 INFO [http-nio-8081-exec-63] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=1964
+12-Feb-2020 18:34:40.489 INFO [http-nio-8081-exec-60] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:34:40.527 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:34:40.527 INFO [http-nio-8081-exec-64] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:34:40.528 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:34:40.528 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:34:40.528 INFO [http-nio-8081-exec-57] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:34:44.189 SEVERE [http-nio-8081-exec-56] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [AccessServlet] in context with path [/Microblog] threw exception [Servlet execution threw an exception] with root cause
+ java.lang.ClassNotFoundException: javax.persistence.EntityNotFoundException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1333)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1167)
+	at servlet.AccessServlet.doPost(AccessServlet.java:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:521)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Feb-2020 18:34:55.037 FINE [http-nio-8081-exec-64] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:34:55.037 FINE [http-nio-8081-exec-64] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:34:56.694 FINE [http-nio-8081-exec-58] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 18:34:56.694 FINE [http-nio-8081-exec-58] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 18:34:56.695 FINE [http-nio-8081-exec-58] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:34:56.695 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 18:34:57.323 INFO [http-nio-8081-exec-63] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:34:57.332 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:34:57.337 INFO [http-nio-8081-exec-67] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:34:57.391 INFO [http-nio-8081-exec-69] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:34:57.391 INFO [http-nio-8081-exec-68] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:34:57.392 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:34:58.605 INFO [http-nio-8081-exec-66] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:35:04.970 INFO [http-nio-8081-exec-65] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorLogin.html' headers and data
+12-Feb-2020 18:35:04.971 INFO [http-nio-8081-exec-65] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:35:04.971 INFO [http-nio-8081-exec-65] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2029
+12-Feb-2020 18:35:04.971 FINE [http-nio-8081-exec-65] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:35:04.975 INFO [http-nio-8081-exec-64] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style.css' headers and data
+12-Feb-2020 18:35:18.015 INFO [http-nio-8081-exec-67] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style.css' headers and data
+12-Feb-2020 18:35:18.091 INFO [http-nio-8081-exec-69] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style.css' headers and data
+12-Feb-2020 18:37:08.337 INFO [http-nio-8081-exec-77] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:37:08.344 INFO [http-nio-8081-exec-78] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:37:08.351 INFO [http-nio-8081-exec-74] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:37:08.402 INFO [http-nio-8081-exec-76] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:37:08.402 INFO [http-nio-8081-exec-71] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:37:08.402 INFO [http-nio-8081-exec-75] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:37:08.402 INFO [http-nio-8081-exec-70] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:37:08.404 INFO [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:37:10.232 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:37:15.927 INFO [http-nio-8081-exec-73] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorLogin.html' headers and data
+12-Feb-2020 18:37:15.928 INFO [http-nio-8081-exec-73] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:37:15.928 INFO [http-nio-8081-exec-73] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2033
+12-Feb-2020 18:37:15.928 FINE [http-nio-8081-exec-73] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:37:43.933 INFO [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 18:37:43.941 INFO [http-nio-8081-exec-75] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 18:37:43.956 INFO [http-nio-8081-exec-79] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:37:43.956 INFO [http-nio-8081-exec-79] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+12-Feb-2020 18:37:43.956 INFO [http-nio-8081-exec-79] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2265
+12-Feb-2020 18:37:44.004 INFO [http-nio-8081-exec-77] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:37:44.005 INFO [http-nio-8081-exec-74] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:37:44.005 INFO [http-nio-8081-exec-71] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:37:44.005 INFO [http-nio-8081-exec-78] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 18:37:44.004 INFO [http-nio-8081-exec-73] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 18:37:44.935 INFO [http-nio-8081-exec-76] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/login.html' headers and data
+12-Feb-2020 18:37:44.938 INFO [http-nio-8081-exec-70] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:37:48.418 INFO [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/html/errorLogin.html' headers and data
+12-Feb-2020 18:37:48.418 INFO [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/html'
+12-Feb-2020 18:37:48.418 INFO [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2033
+12-Feb-2020 18:37:48.418 FINE [http-nio-8081-exec-72] org.apache.catalina.core.ApplicationDispatcher.doForward  Disabling the response for futher output
+12-Feb-2020 18:37:48.422 INFO [http-nio-8081-exec-75] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 18:37:58.301 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:37:58.301 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Set Character Encoding'
+12-Feb-2020 18:37:58.301 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Compression Filter'
+12-Feb-2020 18:37:58.301 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Request Dumper Filter'
+12-Feb-2020 18:37:58.301 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:37:58.301 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Timing Filter'
+12-Feb-2020 18:37:58.302 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Feb-2020 18:37:58.302 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+12-Feb-2020 18:37:58.313 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:37:58.313 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:37:58.316 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:37:58.316 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:37:58.324 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:37:58.324 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 18:37:58.331 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:37:58.332 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 18:37:58.332 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
