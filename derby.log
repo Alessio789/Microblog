@@ -1,7 +1,7 @@
-Wed Feb 12 18:21:38 CET 2020 : Server di rete Apache Derby: 10.11.1.2 - (1629631) avviato e pronto ad accettare connessioni sulla porta 1527
+Wed Feb 12 20:47:34 CET 2020 : Server di rete Apache Derby: 10.11.1.2 - (1629631) avviato e pronto ad accettare connessioni sulla porta 1527
 ----------------------------------------------------------------
-Wed Feb 12 18:21:39 CET 2020:
-Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a816c00e-0170-3a6b-9584-000000cd0e0e
+Wed Feb 12 20:47:35 CET 2020:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a816c00e-0170-3af1-3108-000000cd0e0e
 sulla directory di database D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\Blog con caricatore classi sun.misc.Launcher$AppClassLoader@1d44bcfa 
 Caricato da file:/C:/Program%20Files/Java/jdk1.8.0_161/db/lib/derby.jar
 java.vendor=Oracle Corporation
@@ -13,4 +13,8 @@ os.version=10.0
 derby.system.home=D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog
 Programma di caricamento classe database avviato - derby.database.classpath=''
 ----------------------------------------------------------------
-Wed Feb 12 18:38:01 CET 2020: arresto in corso del motore di Derby
+Wed Feb 12 20:51:52 CET 2020: arresto in corso del motore di Derby
+----------------------------------------------------------------
+Wed Feb 12 20:51:53 CET 2020:
+Arresto dell'istanza a816c00e-0170-3af1-3108-000000cd0e0e nella directory del database D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\Blog con il caricatore di classi sun.misc.Launcher$AppClassLoader@1d44bcfa 
+----------------------------------------------------------------

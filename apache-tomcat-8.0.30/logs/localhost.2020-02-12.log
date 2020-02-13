@@ -1506,3 +1506,83 @@ Exception Description: Problem compiling [SELECT p FROM Post p ORDER BY dataOra]
 12-Feb-2020 18:37:58.331 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
 12-Feb-2020 18:37:58.332 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
 12-Feb-2020 18:37:58.332 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:15:27.290 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 19:15:27.292 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 19:15:27.293 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 19:15:27.301 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 19:15:27.651 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 19:15:27.652 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 19:15:27.652 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 19:15:27.652 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 19:15:27.970 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.ContextListener'
+12-Feb-2020 19:15:27.971 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.SessionListener'
+12-Feb-2020 19:15:27.972 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'websocket.drawboard.DrawboardContextListener'
+12-Feb-2020 19:15:27.972 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 19:15:27.972 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Feb-2020 19:15:27.972 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Feb-2020 19:15:27.973 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 19:15:27.973 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Set Character Encoding'
+12-Feb-2020 19:15:27.975 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Compression Filter'
+12-Feb-2020 19:15:27.976 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Request Dumper Filter'
+12-Feb-2020 19:15:27.977 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 19:15:27.977 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Timing Filter'
+12-Feb-2020 19:15:27.978 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 19:15:31.514 INFO [http-nio-8081-exec-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '' headers and data
+12-Feb-2020 19:15:31.521 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/index.html' headers and data
+12-Feb-2020 19:15:31.543 INFO [http-nio-8081-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/style.css' headers and data
+12-Feb-2020 19:15:31.590 INFO [http-nio-8081-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic.woff2' headers and data
+12-Feb-2020 19:15:31.593 INFO [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 19:15:31.594 INFO [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/css/font/CenturyGothic-Bold.woff2' headers and data
+12-Feb-2020 19:17:53.848 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:17:53.848 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Set Character Encoding'
+12-Feb-2020 19:17:53.848 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Compression Filter'
+12-Feb-2020 19:17:53.848 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Request Dumper Filter'
+12-Feb-2020 19:17:53.848 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 19:17:53.848 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Timing Filter'
+12-Feb-2020 19:17:53.849 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Feb-2020 19:17:53.849 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+12-Feb-2020 19:17:53.880 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:17:53.880 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 19:17:53.883 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:17:53.883 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 19:17:53.896 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:17:53.896 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:17:53.896 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 19:17:53.897 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:48:01.990 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 20:48:01.992 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 20:48:01.992 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 20:48:01.997 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 20:48:02.288 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 20:48:02.289 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 20:48:02.289 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 20:48:02.289 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 20:48:02.602 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.ContextListener'
+12-Feb-2020 20:48:02.603 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'listeners.SessionListener'
+12-Feb-2020 20:48:02.604 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart  Configuring event listener class 'websocket.drawboard.DrawboardContextListener'
+12-Feb-2020 20:48:02.605 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Sending application start events
+12-Feb-2020 20:48:02.605 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+12-Feb-2020 20:48:02.605 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+12-Feb-2020 20:48:02.606 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart Starting filters
+12-Feb-2020 20:48:02.606 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Set Character Encoding'
+12-Feb-2020 20:48:02.607 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Compression Filter'
+12-Feb-2020 20:48:02.608 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Request Dumper Filter'
+12-Feb-2020 20:48:02.609 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 20:48:02.609 FINE [localhost-startStop-1] org.apache.catalina.core.StandardContext.filterStart  Starting filter 'Timing Filter'
+12-Feb-2020 20:48:02.610 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+12-Feb-2020 20:51:50.010 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:51:50.010 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Set Character Encoding'
+12-Feb-2020 20:51:50.010 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Compression Filter'
+12-Feb-2020 20:51:50.010 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Request Dumper Filter'
+12-Feb-2020 20:51:50.010 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 20:51:50.010 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Timing Filter'
+12-Feb-2020 20:51:50.011 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+12-Feb-2020 20:51:50.011 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+12-Feb-2020 20:51:50.019 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:51:50.019 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 20:51:50.020 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:51:50.021 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
+12-Feb-2020 20:51:50.025 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:51:50.025 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:51:50.025 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
+12-Feb-2020 20:51:50.026 FINE [main] org.apache.catalina.core.StandardContext.filterStop Stopping filters
