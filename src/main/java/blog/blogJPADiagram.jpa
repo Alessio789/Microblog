@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jpa:entity-mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jpa="http://java.sun.com/xml/ns/persistence/orm" pkg="entity" v="2.6" rws="_15167799034552" Pws="_15167799034552" cws="_15167799034552" sm="false" xs="false" id="_15107348645991" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_1.xsd">
+    <jpa:entity compositePrimaryKeyClass="UtentePK" abs="false" class="Utente" v="true" jbn="false" xre="false" m="false" rootElement="_15107348645991" id="_1580672853102">
+        <jpa:ath>Alessio Trentin</jpa:ath>
+        <jpa:attributes>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="email" id="_158067288557743">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:column unique="true" nullable="true" insertable="true" updatable="true"/>
+            </jpa:basic>
+            <jpa:basic attribute-type="long" v="true" xvt="" name="passwordHash" ft="true" id="_158067291640345">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:basic>
+            <jpa:basic optional="false" attribute-type="String" v="true" xvt="" name="salt" ft="false" id="_158067292374146">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:column unique="true" nullable="false" insertable="true" updatable="true" length="255"/>
+            </jpa:basic>
+            <jpa:id attribute-type="String" v="true" xvt="" name="username" id="_15813540181668">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:generated-value/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="Utente.findAll">
+            <jpa:query>Select e from Utente e</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Utente.findByEmail">
+            <jpa:query>Select u from Utente u where u.email=:email</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Utente.findByUsername">
+            <jpa:query>Select u from Utente u where u.username=:username</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Utente.findByPasswordHash">
+            <jpa:query>Select u from Utente u where u.passwordHash=:passwordHash</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Utente.findBySalt">
+            <jpa:query>Select u from Utente u where u.salt=:salt</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:entity compositePrimaryKeyClass="PostPK" abs="false" class="Post" v="true" jbn="false" xre="false" m="false" rootElement="_15107348645991" id="_1580731505693">
+        <jpa:ath>18029</jpa:ath>
+        <jpa:attributes>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="titolo" id="_15813522280537">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:basic>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="contenuto" id="_15807315476466">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:basic>
+            <jpa:basic attribute-type="java.util.Date" v="true" xvt="" name="dataOra" id="_15807315287914">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:temporal>TIMESTAMP</jpa:temporal>
+            </jpa:basic>
+            <jpa:many-to-one optional="true" primaryKey="false" connected-entity-id="_1580672853102" v="true" xvt="" name="utente" id="_15807315883167">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:many-to-one>
+            <jpa:id attribute-type="Long" v="true" xvt="" name="id" id="_15807315057222">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:generated-value strategy="AUTO"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="Post.findAll">
+            <jpa:query>Select e from Post e</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Post.findByDataOra">
+            <jpa:query>Select p from Post p where p.dataOra=:dataOra</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Post.findByOra">
+            <jpa:query>Select p from Post p where p.ora=:ora</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Post.findByContenuto">
+            <jpa:query>Select p from Post p where p.contenuto=:contenuto</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Post.findByTitolo">
+            <jpa:query>Select p from Post p where p.titolo=:titolo</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:entity compositePrimaryKeyClass="CommentoPK" abs="false" class="Commento" v="true" jbn="false" xre="false" m="false" rootElement="_15107348645991" id="_1580731667973">
+        <jpa:ath>18029</jpa:ath>
+        <jpa:attributes>
+            <jpa:basic attribute-type="java.util.Date" v="true" xvt="" name="dataOra" id="_158073167615210">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:temporal>TIMESTAMP</jpa:temporal>
+            </jpa:basic>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="contenuto" id="_158073169067212">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:basic>
+            <jpa:many-to-one optional="true" primaryKey="false" connected-entity-id="_1580672853102" v="true" xvt="" name="utente" id="_158073170216813">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:many-to-one>
+            <jpa:one-to-one own="true" orp="false" optional="true" primaryKey="false" connected-entity-id="_1580731505693" v="true" xvt="" name="post" id="_158073172496114">
+                <jpa:xwm/>
+                <jpa:xm/>
+            </jpa:one-to-one>
+            <jpa:id attribute-type="Long" v="true" xvt="" name="id" id="_15807316679748">
+                <jpa:xwm/>
+                <jpa:xm/>
+                <jpa:generated-value strategy="AUTO"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="Commento.findAll">
+            <jpa:query>Select e from Commento e</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Commento.findByDataOra">
+            <jpa:query>Select c from Commento c where c.dataOra=:dataOra</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Commento.findByOra">
+            <jpa:query>Select c from Commento c where c.ora=:ora</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Commento.findByContenuto">
+            <jpa:query>Select c from Commento c where c.contenuto=:contenuto</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:snp loc="BEFORE_PACKAGE" e="true">/**
+ * This file was generated by the JPA Modeler
+ */</jpa:snp>
+    <jpa:c>
+        <ct>java.util.List</ct>
+        <ct>java.util.Collection</ct>
+        <ct>java.util.Set</ct>
+        <ct>java.util.Map</ct>
+        <cit>java.util.ArrayList</cit>
+        <cit>java.util.LinkedList</cit>
+        <cit>java.util.HashSet</cit>
+        <cit>java.util.TreeSet</cit>
+        <cit>java.util.HashMap</cit>
+    </jpa:c>
+    <jpa:wsl>
+        <jpa:ws n="Main" id="_15167799034552">
+            <i ref="_1580731667973" x="350" y="443"/>
+            <i ref="_1580731505693" x="461" y="212"/>
+            <i ref="_1580672853102" x="162" y="191"/>
+        </jpa:ws>
+    </jpa:wsl>
+</jpa:entity-mappings>

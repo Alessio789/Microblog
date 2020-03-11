@@ -1,5 +1,0 @@
-24-Apr-2018 00:21:44.614 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop Stopping filters
-24-Apr-2018 00:21:44.617 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'Tomcat WebSocket (JSR356) Filter'
-24-Apr-2018 00:21:44.617 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'SetCharacterEncoding'
-24-Apr-2018 00:21:44.617 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'HTTPMonitorFilter'
-24-Apr-2018 00:21:44.617 FINE [localhost-startStop-2] org.apache.catalina.core.StandardContext.filterStop  Stopping filter 'CSRF'

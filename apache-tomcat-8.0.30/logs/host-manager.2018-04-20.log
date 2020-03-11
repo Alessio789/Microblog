@@ -1,4 +1,0 @@
-20-Apr-2018 14:50:52.343 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
-20-Apr-2018 14:51:24.356 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
-20-Apr-2018 15:47:08.515 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
-20-Apr-2018 16:40:50.230 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
