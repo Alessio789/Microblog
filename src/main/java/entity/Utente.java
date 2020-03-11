@@ -3,7 +3,6 @@
  */
 package entity;
 
-import java.util.Optional;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -47,8 +46,8 @@ public class Utente {
         this.email = email;
     }
 
-    public Optional<Long> getPasswordHash() {
-        return Optional.ofNullable(this.passwordHash);
+    public Long getPasswordHash() {
+        return this.passwordHash;
     }
 
     public void setPasswordHash(long passwordHash) {

@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.xml.bind.DatatypeConverter;
 
 /**
  *
@@ -52,7 +53,7 @@ public class RegistrationServlet extends HttpServlet {
         String username = request.getParameter("username");
         String email = request.getParameter("inputEmail");
         String password = request.getParameter("inputPassword");
-        String salt = new String(SaltGenerator.getNextSalt(), Charsets.UTF_8);
+        String salt = DatatypeConverter.printBase64Binary(SaltGenerator.getNextSalt());
         
         String passwordSalt = password + salt;
         

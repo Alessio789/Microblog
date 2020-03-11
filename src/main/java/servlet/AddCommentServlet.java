@@ -46,7 +46,7 @@ public class AddCommentServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         HttpSession session = request.getSession(false);
-        if(session != null && session.getAttribute("username") == null) {            
+        if(session != null && session.getAttribute("username") != null) {            
             for (Post p : PostDao.findAll()) {
                 if (request.getParameter(String.valueOf(p.getId())) != null) {
                     request.setAttribute("post", p);

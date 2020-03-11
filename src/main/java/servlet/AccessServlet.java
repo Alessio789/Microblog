@@ -11,7 +11,6 @@ import com.google.common.hash.Hasher;
 import com.google.common.hash.Hashing;
 import entity.Utente;
 import java.io.IOException;
-import java.util.Optional;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -60,25 +59,21 @@ public class AccessServlet extends HttpServlet {
 
         String passwordSalt = password + salt;
 
-        Optional<Long> optionalPassword = u.getPasswordHash();
+        Long passwordHash = u.getPasswordHash();
 
         Hasher hasher = Hashing.sha256().newHasher();
         hasher.putString(passwordSalt, Charsets.UTF_8);
         long sha256 = hasher.hash().asLong();
 
-        if(optionalPassword.isPresent()) {
-            long passwordHash = optionalPassword.get();
-
-            if(sha256 == passwordHash) {
-                HttpSession session = request.getSession();
-                session.setAttribute("username", username);
-                request.setAttribute("username", username);
-                request.getRequestDispatcher("jsp/success.jsp").forward(request, response);
-            }
-            else {
-                request.getRequestDispatcher("html/errorLogin.html").forward(request, response);
-            }
-
+        if(sha256 == passwordHash) {
+            HttpSession session = request.getSession();
+            session.setAttribute("username", username);
+            request.setAttribute("username", username);
+            request.getRequestDispatcher("jsp/success.jsp").forward(request, response);
         }
+        else {
+            request.getRequestDispatcher("html/errorLogin.html").forward(request, response);
+        }
+
     }
 }
