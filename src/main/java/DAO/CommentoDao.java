@@ -8,6 +8,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
@@ -150,5 +151,11 @@ public class CommentoDao implements Serializable {
                 + "FROM Commento c WHERE c.post = :p").setParameter(
                         "p", p).getResultList();
         return commentoList;
+    }
+    
+    public static List<Commento> findAll() {
+        TypedQuery<Commento> typedQuery = getEntityManager().createQuery("SELECT c FROM Commento c ORDER BY c.dataOra DESC", Commento.class);
+        List<Commento> commentList = typedQuery.getResultList();
+        return commentList;
     }
 }

@@ -4,9 +4,11 @@ DAO\CommentoDao.class
 servlet\AccessServlet.class
 DAO\Dao.class
 DAO\exceptions\PreexistingEntityException.class
+config\ApplicationConfig.class
 DAO\UtenteDao.class
 servlet\SaveCommentServlet.class
 DAO\PostDao.class
+webservices\CommentDataService.class
 DAO\exceptions\NonexistentEntityException.class
 entity\Post_.class
 servlet\SavePostServlet.class
@@ -20,3 +22,4 @@ blog\SaltGenerator.class
 entity\Post.class
 servlet\AddCommentServlet.class
 servlet\FindPostServlet.class
+webservices\PostDataService.class
