@@ -1,2 +1,2 @@
 # Microblog
-A school project with Spring Boot about Microblog
+School project consisting of a simple RESTful blog developed with Spring Boot.
