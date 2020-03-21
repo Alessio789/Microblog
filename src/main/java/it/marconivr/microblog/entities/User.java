@@ -6,13 +6,13 @@ import lombok.*;
 
 /**
  * 
- * Classe Entity Utente
+ * User Entity
  * 
  * @author Alessio Trentin - 5^EI
- * @version 2.1.0 - 19/03/2020
+ * @version 2.3.1 - 21/03/2020
  */
 @Entity
-public class Utente {
+public class User {
 
     @Id
     @Getter @Setter 
@@ -36,13 +36,13 @@ public class Utente {
     @Basic
     @Getter @Setter
     @Column(nullable = false)
-    private String ruolo = "USER";
+    private String role = "USER";
 
     /**
      * 
      * Constructor
      */
-    public Utente() {
+    public User() {
     }
 
     /**
@@ -54,7 +54,7 @@ public class Utente {
      * @param passwordHash
      * @param salt
      */
-    public Utente(String username, String email, String password, String salt) {
+    public User(String username, String email, String password, String salt) {
         this.username = username;
         this.email = email;
         this.password = password;

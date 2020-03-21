@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <title>Microblog</title>
@@ -26,13 +26,13 @@
         </div>
     </div>
     <div id="container">
-        <p id="error">Registrati o accedi per effettuare questa operazione</p>
-        <a href="/Microblog/Registrazione" class="btn btn-primary btn-lg active" role="button"
-            aria-pressed="true">Registrati</a>
-        <a href="/Microblog/Accesso" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Accedi</a> <br>
+        <p id="error">You have to register or log in to do this operation</p>
+        <a href="/Microblog/Registration" class="btn btn-primary btn-lg active" role="button"
+            aria-pressed="true">Sign up</a>
+        <a href="/Microblog/Login" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Sign in</a> <br>
         <br>
-        <form action="FindPostServlet" method="post">
-            <button type="submit" class="btn btn-primary">Guarda i post</button>
+        <form action="/Microblog/Posts" method="post">
+            <button type="submit" class="btn btn-primary">View posts</button>
         </form>
     </div>
 </body>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Commenta | Microblog</title>
+    <title>Comment | Microblog</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css}"
@@ -31,22 +31,22 @@
 
             <div class="card">
                 <h5 class="card-header"
-                    th:text="'Post di ' + ${post.utente.username} + ' - ' + ${post.dataOra.toString()}">
+                    th:text="${post.user.username} + '\'s post - ' + ${post.dateHour.toString()}">
                 </h5>
                 <div class="card-body">
-                    <h5 class="card-title" th:text="${post.titolo}"></h5>
-                    <p class="card-text" th:text="${post.contenuto}"></p>
+                    <h5 class="card-title" th:text="${post.title}"></h5>
+                    <p class="card-text" th:text="${post.body}"></p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item" th:each="commento : ${repo.findByPost(post)}">
-                        <p> <b th:text="${commento.utente.username} + ' - ' + ${commento.dataOra.toString()}"></b>
-                            <span th:text="${commento.contenuto}"> </span></p>
+                    <li class="list-group-item" th:each="comment : ${repo.findByPost(post)}">
+                        <p> <b th:text="${comment.user.username} + ' - ' + ${comment.dateHour.toString()}"></b>
+                            <span th:text="${comment.body}"> </span></p>
                     </li>
                 </ul>
                 <div class="card-body">
-                    <form th:action="@{/Microblog/AggiungiCommento/SalvaCommento/} + ${post.id}" method="post">
-                        <textarea name="contenuto" rows="2" cols="40"></textarea> <br>
-                        <button type="submit" class="btn btn-primary" name="commenti">Commenta</button>
+                    <form th:action="@{/Microblog/Posts/AddComment/SaveComment/} + ${post.id}" method="post">
+                        <textarea name="body" rows="2" cols="40"></textarea> <br>
+                        <button type="submit" class="btn btn-primary" name="comment">Comment</button>
                     </form>
                 </div>
             </div>

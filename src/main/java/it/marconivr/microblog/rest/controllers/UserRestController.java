@@ -1,46 +1,44 @@
 package it.marconivr.microblog.rest.controllers;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+
+import it.marconivr.microblog.entities.User;
+import it.marconivr.microblog.repos.IUserRepo;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.bind.annotation.PathVariable;
-
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
-import it.marconivr.microblog.entities.Utente;
-import it.marconivr.microblog.repos.IUtenteRepo;
 
 /**
  * 
- * Utente Rest Controller
+ * User Rest Controller
  * 
  * @author Alessio Trentin - 5^EI
- * @version 1.0.0 - 20/03/2020
+ * @version 1.0.1 - 21/03/2020
  */
 @Api("CRUD operations on users")
 @RequestMapping("Microblog/rest/users")
 @RestController
-public class UtenteRestController {
+public class UserRestController {
 
     @Autowired
-    IUtenteRepo repo;
+    IUserRepo repo;
 
     /**
      * 
      * Return the list of all the Utente
      * 
-     * @return List<Utente>
+     * @return List<User>
      */
     @ApiOperation("Return the list of all the users")
     @GetMapping
-    public ResponseEntity<List<Utente>> getUsers() {
-        return new ResponseEntity<List<Utente>>((List<Utente>) repo.findAll(), HttpStatus.OK);
+    public ResponseEntity<List<User>> getUsers() {
+        return new ResponseEntity<List<User>>((List<User>) repo.findAll(), HttpStatus.OK);
     }
 
     /**
@@ -52,11 +50,11 @@ public class UtenteRestController {
      */
     @ApiOperation("Return the user with the given username")
     @GetMapping(value = "{username}")
-    public ResponseEntity<Utente> getUtente(
+    public ResponseEntity<User> getUser(
             @ApiParam(value = "The username of the user that will be returned") @PathVariable("username") String username) {
         if (repo.findByUsername(username) != null) {
 
-            return new ResponseEntity<Utente>(repo.findByUsername(username), HttpStatus.OK);
+            return new ResponseEntity<User>(repo.findByUsername(username), HttpStatus.OK);
 
         } else {
 
@@ -68,20 +66,20 @@ public class UtenteRestController {
      * 
      * Create a new user
      * 
-     * @param utente
+     * @param user
      * @return ResponseEntity
      */
     @ApiOperation("Create a new user")
     @PostMapping
-    public ResponseEntity createUtente(@ApiParam(value = "The user that will be creted") Utente utente) {
+    public ResponseEntity createUser(@ApiParam(value = "The user that will be creted") User user) {
 
-        if (utente == null) {
+        if (user == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
 
         } else {
 
-            repo.save(utente);
+            repo.save(user);
             return new ResponseEntity<>(HttpStatus.CREATED);
         }
     }
@@ -90,20 +88,20 @@ public class UtenteRestController {
      * 
      * Replaces the user having the same username as the given user, with the given user
      * 
-     * @param utente
+     * @param user
      * @return ResponseEntity
      */
-    @ApiOperation("Replaces the Utente having the same username as the given user, with the given user")
+    @ApiOperation("Replaces the user having the same username as the given user, with the given user")
     @PutMapping
-    public ResponseEntity updateUtente(@ApiParam(value = "The updated Utente") @RequestBody Utente utente) {
+    public ResponseEntity updateUser(@ApiParam(value = "The updated user") @RequestBody User user) {
 
-        if (repo.findByUsername(utente.getUsername()) == null) {
+        if (repo.findByUsername(user.getUsername()) == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
 
-        } else if (repo.findById(utente.getUsername()) != null) {
+        } else if (repo.findById(user.getUsername()) != null) {
 
-            repo.save(utente);
+            repo.save(user);
             return new ResponseEntity(HttpStatus.OK);
 
         } else {
@@ -113,14 +111,14 @@ public class UtenteRestController {
 
     /**
      * 
-     * Delete the Utente with the given username
+     * Delete the user with the given username
      * 
-     * @param id
+     * @param username
      * @return ResponseEntity
      */
-    @ApiOperation("Delete the Utente with the given username")
+    @ApiOperation("Delete the user with the given username")
     @DeleteMapping(value = "{username}")
-    public ResponseEntity deleteUtente(@ApiParam(value = "The username of the user that will be deleted") @PathVariable("username") String username) {
+    public ResponseEntity deleteUser(@ApiParam(value = "The username of the user that will be deleted") @PathVariable("username") String username) {
 
         if (repo.findByUsername(username) == null) {
 

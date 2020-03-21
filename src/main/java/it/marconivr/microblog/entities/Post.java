@@ -11,7 +11,7 @@ import lombok.*;
  * Classe Entity Post
  * 
  * @author Alessio Trentin - 5^EI
- * @version 2.1.0 - 19/03/2020
+ * @version 2.1.1 - 21/03/2020
  */
 @Entity
 public class Post {
@@ -24,39 +24,39 @@ public class Post {
     @Temporal(TemporalType.TIMESTAMP)
     @Getter @Setter
     @Column(nullable = false)
-    public Date dataOra;
+    public Date dateHour;
 
     @Basic
     @Getter @Setter
     @Column(unique = true, nullable = false)
-    public String titolo;
+    public String title;
 
     @Lob
     @Getter @Setter
     @Column(nullable = false)
-    public String contenuto;
+    public String body;
 
-    @ManyToOne(targetEntity = Utente.class)
+    @ManyToOne(targetEntity = User.class)
     @Getter @Setter
-    @JoinColumn(name = "UTENTE_ID", nullable = false)
-    private Utente utente;
+    @JoinColumn(name = "USER_USERNAME", nullable = false)
+    private User user;
 
     /**
      * 
      * Constructor 
      * 
      * @param id
-     * @param dataOra
-     * @param titolo
-     * @param contenuto
-     * @param utente
+     * @param dateHour
+     * @param title
+     * @param body
+     * @param user
      */
-    public Post(long id, Date dataOra, String titolo, String contenuto, Utente utente) {
+    public Post(long id, Date dateHour, String title, String body, User user) {
         this.id = id;
-        this.dataOra = dataOra;
-        this.titolo = titolo;
-        this.contenuto = contenuto;
-        this.utente = utente;
+        this.dateHour = dateHour;
+        this.title = title;
+        this.body = body;
+        this.user = user;
     }
 
     /**

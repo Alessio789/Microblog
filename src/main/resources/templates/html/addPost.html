@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-  <title>Aggiungi post | Microblog</title>
+  <title>Add Post | Microblog</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css}"
@@ -28,16 +28,16 @@
     </div>
     <div class="container" id="registrationContainer">
 
-      <form action="/Microblog/ListaPost/PostAggiunto" method="post">
+      <form action="/Microblog/Posts/PostAdded" method="post">
         <div class="form-group">
-          <label for="titolo"><b>Titolo</b></label>
-          <input type="text" class="form-control" name="titolo">
+          <label for="titolo"><b>Title</b></label>
+          <input type="text" class="form-control" name="title">
         </div> <br> <br>
         <div class="form-group">
-          <label for="contenuto"><b>Corpo</b></label> <br>
-          <textarea id="contenuto" name="contenuto" rows="20" cols="70"></textarea>
+          <label for="body"><b>Body</b></label> <br>
+          <textarea id="contenuto" name="body" rows="20" cols="70"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary" id="registazione">Invia</button>
+        <button type="submit" class="btn btn-primary" id="registazione">Submit</button>
       </form>
     </div>
   </div>

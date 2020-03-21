@@ -12,63 +12,67 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Home Controller
  * 
  * @author Alessio Trentin - 5^EI
- * @version 1.0.0 - 15/03/2020
+ * @version 1.0.1 - 15/03/2020
  */
 @Controller
 public class HomeController {
 
     /**
      * 
-     * Reindirizza alla home page del microblog
+     * Redirect to the microblog home page
      * 
      * @return String
      */
     @RequestMapping("/")
     public String toMicroblog() {
+        
         return "redirect:/Microblog";
     }
 
     /**
      * 
-     * Restituisce la home page del microblog
+     * Return the home page of the microblog
      * 
      * @return String
      */
     @RequestMapping("/Microblog") 
     public String home() {
+        
         return "index.html";
     }
 
     /**
      * 
-     * Restituisce la pagina di accesso
+     * Return the login page
      * 
      * @return String
      */
-    @RequestMapping(value = "/Microblog/Accesso", method = RequestMethod.GET)
-    public String paginaAccesso() {
+    @RequestMapping(value = "/Microblog/Login", method = RequestMethod.GET)
+    public String loginPage() {
+        
         return "html/login.html";
     }
         
     /**
      * 
-     * Restituisce la pagina di registrazione
+     * Return the registration page
      * 
      * @return String
      */
-    @RequestMapping(value = "/Microblog/Registrazione", method = RequestMethod.GET)
-    public String paginaRegistrazione() {
+    @RequestMapping(value = "/Microblog/Registration", method = RequestMethod.GET)
+    public String registrationPage() {
+        
         return "html/registration.html";
     }
 
     /**
      * 
-     * Se l'utente ha eseguito l'accesso ritorna la pagina di accesso avvenuto,
-     * altrimenti ritorna l'home page
+     * If the user is logged in, return the login page, otherwise return 
+     * the home page
      * 
      * @param session
      * @param model
-     * @return
+     * @return String
      */
     @RequestMapping(value = "/Microblog/Home") 
     public String success(HttpSession session, Model model) {
@@ -83,9 +87,18 @@ public class HomeController {
         return "redirect:/Microblog";
     }
 
+    /**
+     * 
+     * Log out and return to the home page
+     * 
+     * @param session
+     * @return String
+     */
     @RequestMapping(value="/Microblog/Logout", method=RequestMethod.GET)
-    public String requestMethodName(HttpSession session) {
+    public String logout(HttpSession session) {
+        
         session.invalidate();
+        
         return "redirect:/Microblog";
     }
     

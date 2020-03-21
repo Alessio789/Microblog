@@ -8,13 +8,13 @@ import lombok.*;
 
 /**
  * 
- * Classe Entity Commento
+ * Comment Entity
  * 
  * @author Alessio Trentin - 5^EI
- * @version 2.1.0 - 19/03/2020
+ * @version 2.1.1 - 21/03/2020
  */
 @Entity
-public class Commento {
+public class Comment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,45 +25,45 @@ public class Commento {
     @Temporal(TemporalType.TIMESTAMP)
     @Getter @Setter 
     @Column(nullable = false)
-    private Date dataOra;
+    private Date dateHour;
 
     @Basic
     @Getter @Setter 
     @Column(nullable = false)
-    private String contenuto;
+    private String body;
 
     @OneToOne(targetEntity = Post.class)
     @Getter @Setter
     @JoinColumn(name = "POST_ID", nullable = false)
     private Post post;
 
-    @ManyToOne(targetEntity = Utente.class)
+    @ManyToOne(targetEntity = User.class)
     @Getter @Setter 
-    @JoinColumn(name = "UTENTE_ID", nullable = false)
-    private Utente utente;
+    @JoinColumn(name = "USER_USERNAME", nullable = false)
+    private User user;
 
     /**
      * 
      * Constructor
      * 
      * @param id
-     * @param dataOra
-     * @param contenuto
+     * @param dateHour
+     * @param body
      * @param post
-     * @param utente
+     * @param user 
      */
-    public Commento(Long id, Date dataOra, String contenuto, Post post, Utente utente) {
+    public Comment(Long id, Date dateHour, String body, Post post, User user) {
         this.id = id;
-        this.dataOra = dataOra;
-        this.contenuto = contenuto;
+        this.dateHour = dateHour;
+        this.body = body;
         this.post = post;
-        this.utente = utente;
-    }
+        this.user = user;
+    } 
 
     /**
      * 
      * Constructor
      */
-    public Commento() {
+    public Comment() {
     }
 }

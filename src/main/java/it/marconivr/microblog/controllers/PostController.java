@@ -1,10 +1,10 @@
 package it.marconivr.microblog.controllers;
 
 import it.marconivr.microblog.entities.Post;
-import it.marconivr.microblog.entities.Utente;
-import it.marconivr.microblog.repos.ICommentoRepo;
+import it.marconivr.microblog.entities.User;
+import it.marconivr.microblog.repos.ICommentRepo;
 import it.marconivr.microblog.repos.IPostRepo;
-import it.marconivr.microblog.repos.IUtenteRepo;
+import it.marconivr.microblog.repos.IUserRepo;
 
 import java.util.Date;
 
@@ -15,50 +15,95 @@ import org.springframework.stereotype.*;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * 
+ * Post Controller
+ * 
+ * @author Alessio Trentin - 5^EI
+ * @version 1.0.1 - 21/03/2020
+ */
 @Controller
+@RequestMapping("/Microblog/Posts")
 public class PostController {
 
     @Autowired
     IPostRepo repo;
 
     @Autowired
-    ICommentoRepo commentoRepo;
+    ICommentRepo commentoRepo;
 
     @Autowired
-    IUtenteRepo utenteRepo;
+    IUserRepo utenteRepo;
 
-    @RequestMapping(value = "/Microblog/ListaPost/AggiungiPost", method = RequestMethod.GET)
-    public String paginaAggiungiPost(HttpSession session) {
+    /**
+     * 
+     * Return the post addition page
+     * 
+     * @param session
+     * @return String
+     */
+    @RequestMapping(value = "AddPost", method = RequestMethod.GET)
+    public String addPostPage(HttpSession session) {
 
+   
         if (session.getAttribute("username") != null) {
-            Utente u = utenteRepo.findByUsername((String) session.getAttribute("username"));
-            if (u.getRuolo().equals("ADMIN")) {
+            
+            User u = utenteRepo.findByUsername((String) session.getAttribute("username"));
+            
+            
+            if (u.getRole().equals("ADMIN")) {
+                
                 return "html/addPost.html";
             }
         }
-        return "redirect:/Microblog/ErrorPost";
+        
+        return "redirect:/Microblog/Posts/ErrorPost";
     }
 
-    @RequestMapping(value = "/Microblog/ListaPost/PostAggiunto", method = RequestMethod.POST)
-    public String aggiungiPost(Post p, HttpSession session) {
+    /**
+     * 
+     * Save the post and redirect the page to view the post list
+     * 
+     * @param p
+     * @param session
+     * @return String
+     */
+    @RequestMapping(value = "PostAdded", method = RequestMethod.POST)
+    public String addPost(Post p, HttpSession session) {
 
-        p.setDataOra(new Date());
-        p.setUtente(utenteRepo.findByUsername((String) session.getAttribute("username")));
+        p.setDateHour(new Date());
+        p.setUser(utenteRepo.findByUsername((String) session.getAttribute("username")));
 
         repo.save(p);
 
-        return "redirect:/Microblog/ListaPost";
+        return "redirect:/Microblog/Posts";
     }
 
-    @RequestMapping("/Microblog/ListaPost")
-    public String paginaPost(Model model) {
-        model.addAttribute("listaPost", repo.findAll());
-        model.addAttribute("commentoRepo", commentoRepo);
-        return "html/listaPost.html";
+    /**
+     * 
+     * Return the page with the list of posts
+     * 
+     * @param model
+     * @return String
+     */
+    @RequestMapping
+    public String posts(Model model) {
+        
+        model.addAttribute("postList", repo.findAll());
+        model.addAttribute("commentRepo", commentoRepo);
+        
+        return "html/posts.html";
     }
 
-    @RequestMapping("/Microblog/ErrorPost")
+    /**
+     * 
+     * Return the page of errorPost
+     * 
+     * @return 
+     */
+    @RequestMapping("PostError")
     public String errorPost() {
-        return "html/errorPost.html";
+        
+        return "html/postError.html";
     }
 }

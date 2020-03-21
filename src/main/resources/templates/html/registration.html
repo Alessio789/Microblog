@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-  <title>Registrati | Microblog</title>
+  <title>Sign up | Microblog</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css}"
@@ -31,7 +31,7 @@
 
       <form action="/Microblog/Benvenuto" method="POST">
         <div class="form-group">
-          <label for="inputEmail">Indrizzo Email</label>
+          <label for="inputEmail">Email</label>
           <input type="email" class="form-control" name="email" aria-describedby="emailHelp">
         </div>
         <div class="form-group">
@@ -42,7 +42,7 @@
           <label for="exampleInputPassword1">Password</label>
           <input type="password" class="form-control" name="password">
         </div>
-        <button type="submit" class="btn btn-primary" id="registazione">Registrati</button>
+        <button type="submit" class="btn btn-primary" id="registazione">Sign up</button>
       </form>
     </div>
   </div>

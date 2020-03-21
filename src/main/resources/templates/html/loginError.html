@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-  <title>Accedi | Microblog</title>
+  <title>Sign in | Microblog</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css}"
@@ -28,9 +28,9 @@
     </div>
     <div class="container" id="registrationContainer">
 
-        <p id="error">Le credenziali inserite non sono corrette</p>
+        <p id="error">The credentials entered are incorrect</p>
 
-      <form action="/Microblog/AccessoRiuscito" method="post">
+      <form action="/Microblog/Users/LoginSuccessful" method="post">
         <div class="form-group">
           <label for="inputUsername">Username</label>
           <input type="text" class="form-control" id="inputUsername" name="username">
@@ -39,7 +39,7 @@
           <label for="inputPassword1">Password</label>
           <input type="password" class="form-control" id="inputPassword" name="password">
         </div>
-        <button type="submit" class="btn btn-primary">Accedi</button>
+        <button type="submit" class="btn btn-primary">Sign in</button>
       </form>
     </div>
   </div>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Post | Microblog</title>
+    <title>Posts | Microblog</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css}"
@@ -29,26 +29,26 @@
         </div>
         <div class="container" id="registrationContainer">
 
-            <form action="/Microblog/ListaPost/AggiungiPost" method="GET">
-                <button type="submit" class="btn btn-primary">Aggiungi un post</button> <br> <br>
+            <form action="/Microblog/Posts/AddPost" method="GET">
+                <button type="submit" class="btn btn-primary">Add post</button> <br> <br>
             </form>
-            <div class="card" th:each="post: ${listaPost}">
+            <div class="card" th:each="post: ${postList}">
                 <h5 class="card-header"
-                    th:text="'Post di ' + ${post.utente.username} + ' - ' + ${post.dataOra.toString()}">
+                    th:text="${post.user.username} + '\'s post - ' + ${post.dateHour.toString()}">
                 </h5>
                 <div class="card-body">
-                    <h5 class="card-title" th:text="${post.titolo}"></h5>
-                    <p class="card-text" th:text="${post.contenuto}"></p>
+                    <h5 class="card-title" th:text="${post.title}"></h5>
+                    <p class="card-text" th:text="${post.body}"></p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item" th:each="commento : ${commentoRepo.findByPost(post)}">
-                        <p> <b th:text="${commento.utente.username} + ' - ' + ${commento.dataOra.toString()}"></b>
-                            <span th:text="${commento.contenuto}"> </span></p>
+                    <li class="list-group-item" th:each="comment : ${commentRepo.findByPost(post)}">
+                        <p> <b th:text="${comment.user.username} + ' - ' + ${comment.dateHour.toString()}"></b>
+                            <span th:text="${comment.body}"> </span></p>
                     </li>
                 </ul>
                 <div class="card-body">
-                    <form th:action="@{/Microblog/AggiungiCommento/} + ${post.id}" method="post">
-                        <button type="submit" class="btn btn-primary" name="commenta">Commenta</button>
+                    <form th:action="@{/Microblog/Posts/AddComment/} + ${post.id}" method="post">
+                        <button type="submit" class="btn btn-primary" name="commenta">Comment</button>
                     </form>
                 </div>
             </div>

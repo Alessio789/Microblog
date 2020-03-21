@@ -3,7 +3,13 @@ package it.marconivr.microblog;
 import java.security.SecureRandom;
 import java.util.Random;
 
-
+/**
+ * 
+ * Salt Generator
+ * 
+ * @author Alessio Trentin - 5^EI
+ * @version 1.0.0 - 12/02/2020
+ */
 public class SaltGenerator {
 
     private static final Random RANDOM = new SecureRandom();

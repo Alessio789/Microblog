@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <title>MicroBlog</title>
@@ -27,13 +27,13 @@
         </div>
     </div>
     <div id="container">
-        <p id="welcome" th:text="'Ciao, ' + ${username}"></p>
+        <p id="welcome" th:text="'Hello, ' + ${username}"></p>
 
-        <form action="/Microblog/ListaPost" method="GET">
-            <button type="submit" class="btn btn-primary">Guarda i post</button> <br> <br>
+        <form action="/Microblog/Posts" method="GET">
+            <button type="submit" class="btn btn-primary">View posts</button> <br> <br>
         </form>
-        <form action="/Microblog/Logout" method="post">
-            <button type="submit" class="btn btn-primary">Esci</button>
+        <form action="/Microblog/Logout" method="GET">
+            <button type="submit" class="btn btn-primary">Logout</button>
         </form>
     </div>
 </body>
