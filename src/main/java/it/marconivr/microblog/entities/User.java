@@ -1,3 +1,4 @@
+
 package it.marconivr.microblog.entities;
 
 import javax.persistence.*;
