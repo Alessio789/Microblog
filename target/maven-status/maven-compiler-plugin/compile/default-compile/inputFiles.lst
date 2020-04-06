@@ -1,12 +1,16 @@
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\PostDao.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\MicroblogApplication.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\Dao.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\entities\Commento.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\CommentoDao.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\UtenteDao.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\entities\Post.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\controller\UtenteController.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\exceptions\PreexistingEntityException.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\entities\Utente.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\exceptions\IllegalOrphanException.java
-C:\Users\Alessio Trentin\Desktop\microblog\src\main\java\it\marconivr\microblog\DAO\exceptions\NonexistentEntityException.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\controllers\PostController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\rest\controllers\PostRestController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\config\SwaggerConfig.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\entities\Comment.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\rest\controllers\UserRestController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\controllers\HomeController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\repos\IPostRepo.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\repos\ICommentRepo.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\controllers\UserController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\rest\controllers\CommentRestController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\SaltGenerator.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\controllers\CommentController.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\MicroblogApplication.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\entities\User.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\entities\Post.java
+D:\Alessio\Scuola\2019-2020\TPI\Laboratorio\Esercitazioni\Java\Microblog\src\main\java\it\marconivr\microblog\repos\IUserRepo.java

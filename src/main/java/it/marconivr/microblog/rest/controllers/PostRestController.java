@@ -3,13 +3,10 @@ package it.marconivr.microblog.rest.controllers;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-
 import it.marconivr.microblog.entities.Post;
 import it.marconivr.microblog.repos.IPostRepo;
-
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -36,6 +33,7 @@ public class PostRestController {
      * 
      * @return List<Post>
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the list of all the post")
     @GetMapping
     public ResponseEntity<List<Post>> getPosts() {
@@ -49,6 +47,7 @@ public class PostRestController {
      * @param id
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the post with the given ID")
     @GetMapping(value = "{id}")
     public ResponseEntity<Optional<Post>> getPost(
@@ -59,7 +58,7 @@ public class PostRestController {
 
         } else {
 
-            return new ResponseEntity(HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
         }
     }
 
@@ -70,6 +69,7 @@ public class PostRestController {
      * @param post
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new post")
     @PostMapping
     public ResponseEntity createPost(@ApiParam(value = "The post that will be creted") Post post) {
@@ -92,6 +92,7 @@ public class PostRestController {
      * @param post
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Replaces the post having the same id as the given post, with the given post")
     @PutMapping
     public ResponseEntity updatePost(@ApiParam(value = "The updated post") @RequestBody Post post) {
@@ -116,6 +117,7 @@ public class PostRestController {
      * @param id
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Delete the post with the given id")
     @DeleteMapping(value = "{id}")
     public ResponseEntity deletePost(@ApiParam(value = "The id of the post that will be deleted") @PathVariable("id") long id) {

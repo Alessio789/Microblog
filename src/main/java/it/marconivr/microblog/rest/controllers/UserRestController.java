@@ -3,12 +3,9 @@ package it.marconivr.microblog.rest.controllers;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-
 import it.marconivr.microblog.entities.User;
 import it.marconivr.microblog.repos.IUserRepo;
-
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,6 +32,7 @@ public class UserRestController {
      * 
      * @return List<User>
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the list of all the users")
     @GetMapping
     public ResponseEntity<List<User>> getUsers() {
@@ -48,6 +46,7 @@ public class UserRestController {
      * @param username
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the user with the given username")
     @GetMapping(value = "{username}")
     public ResponseEntity<User> getUser(
@@ -58,7 +57,7 @@ public class UserRestController {
 
         } else {
 
-            return new ResponseEntity(HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
         }
     }
 
@@ -69,6 +68,7 @@ public class UserRestController {
      * @param user
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new user")
     @PostMapping
     public ResponseEntity createUser(@ApiParam(value = "The user that will be creted") User user) {
@@ -91,6 +91,7 @@ public class UserRestController {
      * @param user
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Replaces the user having the same username as the given user, with the given user")
     @PutMapping
     public ResponseEntity updateUser(@ApiParam(value = "The updated user") @RequestBody User user) {
@@ -116,6 +117,7 @@ public class UserRestController {
      * @param username
      * @return ResponseEntity
      */
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Delete the user with the given username")
     @DeleteMapping(value = "{username}")
     public ResponseEntity deleteUser(@ApiParam(value = "The username of the user that will be deleted") @PathVariable("username") String username) {
