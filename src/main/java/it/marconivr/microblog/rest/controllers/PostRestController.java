@@ -5,12 +5,18 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.Post;
 import it.marconivr.microblog.repos.IPostRepo;
+import it.marconivr.microblog.util.JsonResponseBody;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import static org.springframework.web.bind.annotation.RequestMethod.POST;
+import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
 /**
  * 
@@ -71,17 +77,27 @@ public class PostRestController {
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new post")
-    @PostMapping
-    public ResponseEntity createPost(@ApiParam(value = "The post that will be creted") Post post) {
+    @RequestMapping(method = POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity createPost(@ApiParam(value = "The post that will be created") @RequestBody Post post, HttpServletRequest request) {
 
         if (post == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
 
         } else {
-
-            repo.save(post);
-            return new ResponseEntity<>(HttpStatus.CREATED);
+            
+            Post p = new Post();
+            p.setBody(post.getBody());
+            p.setTitle(post.getTitle());
+            p.setDateHour(new Date());
+            p.setUser(post.getUser());
+            
+            repo.save(p);
+            
+            return ResponseEntity
+                    .status(HttpStatus.CREATED)
+                    .header("location", request.getRequestURL().toString() + "/"+ p.getId())
+                    .body(new JsonResponseBody(HttpStatus.CREATED.value(),null));
         }
     }
 
@@ -94,7 +110,7 @@ public class PostRestController {
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Replaces the post having the same id as the given post, with the given post")
-    @PutMapping
+    @RequestMapping(method = PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity updatePost(@ApiParam(value = "The updated post") @RequestBody Post post) {
 
         if (repo.findById(post.getId()) == null) {

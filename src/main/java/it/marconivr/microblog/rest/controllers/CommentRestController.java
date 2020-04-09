@@ -5,12 +5,18 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.Comment;
 import it.marconivr.microblog.repos.ICommentRepo;
+import it.marconivr.microblog.util.JsonResponseBody;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import static org.springframework.web.bind.annotation.RequestMethod.POST;
+import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
 /**
  * 
@@ -71,17 +77,26 @@ public class CommentRestController {
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new comment")
-    @PostMapping
-    public ResponseEntity createComment(@ApiParam(value = "The comment that will be creted") Comment comment) {
+    @RequestMapping(method = POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity createComment(@ApiParam(value = "The comment that will be created") @RequestBody Comment comment, HttpServletRequest request) {
 
         if (comment == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
 
         } else {
-
-            repo.save(comment);
-            return new ResponseEntity<>(HttpStatus.CREATED);
+            Comment c = new Comment();
+            c.setBody(comment.getBody());
+            c.setDateHour(new Date());
+            c.setUser(comment.getUser());
+            c.setPost(comment.getPost());
+            
+            repo.save(c);
+            
+            return ResponseEntity
+                    .status(HttpStatus.CREATED)
+                    .header("location", request.getRequestURL().toString() + "/"+ c.getId())
+                    .body(new JsonResponseBody(HttpStatus.CREATED.value(),null));
         }
     }
 
@@ -94,7 +109,7 @@ public class CommentRestController {
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Replaces the comment having the same id as the given comment, with the given comment")
-    @PutMapping
+    @RequestMapping(method = PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity updateComment(@ApiParam(value = "The updated comment") @RequestBody Comment comment) {
 
         if (repo.findById(comment.getId()) == null) {

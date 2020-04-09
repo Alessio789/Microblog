@@ -5,11 +5,16 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.User;
 import it.marconivr.microblog.repos.IUserRepo;
+import it.marconivr.microblog.util.JsonResponseBody;
 import java.util.List;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import static org.springframework.web.bind.annotation.RequestMethod.POST;
+import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
 /**
  * 
@@ -70,8 +75,8 @@ public class UserRestController {
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new user")
-    @PostMapping
-    public ResponseEntity createUser(@ApiParam(value = "The user that will be creted") User user) {
+    @RequestMapping(method = POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity createUser(@ApiParam(value = "The user that will be created") User user, HttpServletRequest request) {
 
         if (user == null) {
 
@@ -80,7 +85,11 @@ public class UserRestController {
         } else {
 
             repo.save(user);
-            return new ResponseEntity<>(HttpStatus.CREATED);
+            
+            return ResponseEntity
+                    .status(HttpStatus.CREATED)
+                    .header("location", request.getRequestURL().toString() + "/"+ user.getUsername())
+                    .body(new JsonResponseBody(HttpStatus.CREATED.value(),null));
         }
     }
 
@@ -93,7 +102,7 @@ public class UserRestController {
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Replaces the user having the same username as the given user, with the given user")
-    @PutMapping
+     @RequestMapping(method = PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity updateUser(@ApiParam(value = "The updated user") @RequestBody User user) {
 
         if (repo.findByUsername(user.getUsername()) == null) {

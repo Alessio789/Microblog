@@ -1,4 +1,4 @@
-package it.marconivr.microblog;
+package it.marconivr.microblog.util;
 
 import java.security.SecureRandom;
 import java.util.Random;

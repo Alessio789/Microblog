@@ -3,7 +3,7 @@ package it.marconivr.microblog.controllers;
 import com.google.common.base.Charsets;
 import com.google.common.hash.*;
 
-import it.marconivr.microblog.SaltGenerator;
+import it.marconivr.microblog.util.SaltGenerator;
 import it.marconivr.microblog.entities.User;
 import it.marconivr.microblog.repos.IUserRepo;
 
