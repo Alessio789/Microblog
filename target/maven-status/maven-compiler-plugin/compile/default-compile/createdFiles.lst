@@ -1,6 +1,6 @@
 it\marconivr\microblog\controllers\CommentController.class
 it\marconivr\microblog\rest\controllers\CommentRestController.class
-it\marconivr\microblog\SaltGenerator.class
+it\marconivr\microblog\util\JsonResponseBody.class
 it\marconivr\microblog\controllers\UserController.class
 it\marconivr\microblog\rest\controllers\PostRestController.class
 it\marconivr\microblog\MicroblogApplication.class
@@ -14,3 +14,4 @@ it\marconivr\microblog\entities\User.class
 it\marconivr\microblog\repos\IUserRepo.class
 it\marconivr\microblog\repos\IPostRepo.class
 it\marconivr\microblog\controllers\HomeController.class
+it\marconivr\microblog\util\SaltGenerator.class
