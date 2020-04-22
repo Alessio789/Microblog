@@ -17,6 +17,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
  * 
@@ -56,11 +57,19 @@ public class PostRestController {
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the post with the given ID")
     @GetMapping(value = "{id}")
-    public ResponseEntity<Optional<Post>> getPost(
+    public ResponseEntity<Post> getPost(
             @ApiParam(value = "The id of the post that will be returned") @PathVariable("id") long id) {
-        if (repo.findById(id) != null) {
 
-            return new ResponseEntity<Optional<Post>>(repo.findById(id), HttpStatus.OK);
+        Optional<Post> op = repo.findById(id);
+
+        if (op.isPresent()) {
+
+            Post p = op.get();
+
+            p.add(linkTo(methodOn(PostRestController.class).getPost(id)).withSelfRel());
+            p.add(linkTo(methodOn(PostRestController.class).getPosts()).withRel("posts"));
+
+            return new ResponseEntity<Post>(p, HttpStatus.OK);
 
         } else {
 

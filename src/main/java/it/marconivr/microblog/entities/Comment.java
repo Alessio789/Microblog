@@ -5,16 +5,19 @@ import java.util.Date;
 import javax.persistence.*;
 
 import lombok.*;
+import org.springframework.hateoas.RepresentationModel;
 
 /**
  * 
  * Comment Entity
  * 
  * @author Alessio Trentin - 5^EI
- * @version 2.1.1 - 21/03/2020
+ * @version 3.0.0 - 22/04/2020
  */
 @Entity
-public class Comment {
+@AllArgsConstructor
+@NoArgsConstructor
+public class Comment extends RepresentationModel<Post> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -42,28 +45,4 @@ public class Comment {
     @JoinColumn(name = "USER_USERNAME", nullable = false)
     private User user;
 
-    /**
-     * 
-     * Constructor
-     * 
-     * @param id
-     * @param dateHour
-     * @param body
-     * @param post
-     * @param user 
-     */
-    public Comment(Long id, Date dateHour, String body, Post post, User user) {
-        this.id = id;
-        this.dateHour = dateHour;
-        this.body = body;
-        this.post = post;
-        this.user = user;
-    } 
-
-    /**
-     * 
-     * Constructor
-     */
-    public Comment() {
-    }
 }

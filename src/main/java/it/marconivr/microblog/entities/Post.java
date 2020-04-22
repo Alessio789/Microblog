@@ -1,68 +1,50 @@
 package it.marconivr.microblog.entities;
 
 import java.util.Date;
-
 import javax.persistence.*;
 
 import lombok.*;
+import org.springframework.hateoas.RepresentationModel;
 
 /**
- * 
- * Classe Entity Post
- * 
+ * Class Entity Post
+ *
  * @author Alessio Trentin - 5^EI
- * @version 2.1.1 - 21/03/2020
+ * @version 3.0.0 - 22/04/2020
  */
 @Entity
-public class Post {
+@AllArgsConstructor
+@NoArgsConstructor
+public class Post extends RepresentationModel<Post> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter @Setter
+    @Getter
+    @Setter
     private long id;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @Getter @Setter
+    @Getter
+    @Setter
     @Column(nullable = false)
     public Date dateHour;
 
     @Basic
-    @Getter @Setter
+    @Getter
+    @Setter
     @Column(unique = true, nullable = false)
     public String title;
 
     @Lob
-    @Getter @Setter
+    @Getter
+    @Setter
     @Column(nullable = false)
     public String body;
 
     @ManyToOne(targetEntity = User.class)
-    @Getter @Setter
+    @Getter
+    @Setter
     @JoinColumn(name = "USER_USERNAME", nullable = false)
     private User user;
 
-    /**
-     * 
-     * Constructor 
-     * 
-     * @param id
-     * @param dateHour
-     * @param title
-     * @param body
-     * @param user
-     */
-    public Post(long id, Date dateHour, String title, String body, User user) {
-        this.id = id;
-        this.dateHour = dateHour;
-        this.title = title;
-        this.body = body;
-        this.user = user;
-    }
-
-    /**
-     * 
-     * Constructor
-     */
-    public Post() {
-    }
 }
