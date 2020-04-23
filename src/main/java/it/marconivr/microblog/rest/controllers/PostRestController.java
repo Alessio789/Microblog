@@ -4,25 +4,29 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.Post;
+import it.marconivr.microblog.entities.User;
 import it.marconivr.microblog.repos.IPostRepo;
+import it.marconivr.microblog.repos.IUserRepo;
 import it.marconivr.microblog.util.JsonResponseBody;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
- * 
  * Post Rest Controller
- * 
+ *
  * @author Alessio Trentin - 5^EI
  * @version 1.0.1 - 21/03/2020
  */
@@ -34,10 +38,12 @@ public class PostRestController {
     @Autowired
     IPostRepo repo;
 
+    @Autowired
+    IUserRepo userRepo;
+
     /**
-     * 
      * Return the list of all the post
-     * 
+     *
      * @return List<Post>
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
@@ -48,9 +54,8 @@ public class PostRestController {
     }
 
     /**
-     * 
      * Return the post with the given ID
-     * 
+     *
      * @param id
      * @return ResponseEntity
      */
@@ -68,6 +73,7 @@ public class PostRestController {
 
             p.add(linkTo(methodOn(PostRestController.class).getPost(id)).withSelfRel());
             p.add(linkTo(methodOn(PostRestController.class).getPosts()).withRel("posts"));
+            p.add(linkTo(methodOn(UserRestController.class).getUser(p.getUser().getUsername())).withRel("user"));
 
             return new ResponseEntity<Post>(p, HttpStatus.OK);
 
@@ -77,10 +83,27 @@ public class PostRestController {
         }
     }
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @ApiOperation("Returns the posts of the user having the username passed as a parameter")
+    @GetMapping(value = "user/{username}")
+    public ResponseEntity getPostByUser(@ApiParam(value = "The username of the user to search for posts") @PathVariable("username") String username) {
+
+        User u = userRepo.findByUsername(username);
+
+        if (u != null) {
+
+            List<Post> postList = repo.findByUser(u);
+            return new ResponseEntity<List<Post>>(postList, HttpStatus.OK);
+
+        } else {
+
+            return new ResponseEntity(HttpStatus.BAD_REQUEST);
+        }
+    }
+
     /**
-     * 
      * Create a new post
-     * 
+     *
      * @param post
      * @return ResponseEntity
      */
@@ -94,26 +117,25 @@ public class PostRestController {
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
 
         } else {
-            
+
             Post p = new Post();
             p.setBody(post.getBody());
             p.setTitle(post.getTitle());
             p.setDateHour(new Date());
             p.setUser(post.getUser());
-            
+
             repo.save(p);
-            
+
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .header("location", request.getRequestURL().toString() + "/"+ p.getId())
-                    .body(new JsonResponseBody(HttpStatus.CREATED.value(),null));
+                    .header("location", request.getRequestURL().toString() + "/" + p.getId())
+                    .body(new JsonResponseBody(HttpStatus.CREATED.value(), null));
         }
     }
 
     /**
-     * 
      * Replaces the post having the same id as the given post, with the given post
-     * 
+     *
      * @param post
      * @return ResponseEntity
      */
@@ -136,9 +158,8 @@ public class PostRestController {
     }
 
     /**
-     * 
      * Delete the post with the given id
-     * 
+     *
      * @param id
      * @return ResponseEntity
      */
@@ -150,9 +171,7 @@ public class PostRestController {
         if (repo.findById(id) == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
-        }
-
-        else if (repo.findById(id) != null) {
+        } else if (repo.findById(id) != null) {
 
             repo.deleteById(id);
             return new ResponseEntity(HttpStatus.OK);

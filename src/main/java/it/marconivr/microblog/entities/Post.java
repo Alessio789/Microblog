@@ -41,7 +41,7 @@ public class Post extends RepresentationModel<Post> {
     @Column(nullable = false)
     public String body;
 
-    @ManyToOne(targetEntity = User.class)
+    @ManyToOne(targetEntity = User.class, cascade = CascadeType.ALL)
     @Getter
     @Setter
     @JoinColumn(name = "USER_USERNAME", nullable = false)

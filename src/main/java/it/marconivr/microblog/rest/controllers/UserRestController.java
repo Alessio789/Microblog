@@ -13,6 +13,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
@@ -56,8 +58,14 @@ public class UserRestController {
     @GetMapping(value = "{username}")
     public ResponseEntity<User> getUser(
             @ApiParam(value = "The username of the user that will be returned") @PathVariable("username") String username) {
-        if (repo.findByUsername(username) != null) {
 
+        User u = repo.findByUsername(username);
+
+        if (u != null) {
+
+            u.add(linkTo(methodOn(UserRestController.class).getUser(username)).withSelfRel());
+            u.add(linkTo(methodOn(UserRestController.class).getUsers()).withRel("users"));
+            u.add(linkTo(methodOn(PostRestController.class).getPostByUser(username)).withRel("user's posts"));
             return new ResponseEntity<User>(repo.findByUsername(username), HttpStatus.OK);
 
         } else {

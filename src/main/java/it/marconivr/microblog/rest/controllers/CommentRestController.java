@@ -6,22 +6,25 @@ import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.Comment;
 import it.marconivr.microblog.repos.ICommentRepo;
 import it.marconivr.microblog.util.JsonResponseBody;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
- * 
- * Comment Rest Controller 
- * 
+ * Comment Rest Controller
+ *
  * @author Alessio Trentin - 5^EI
  * @version 1.0.1 - 21/03/2020
  */
@@ -34,9 +37,8 @@ public class CommentRestController {
     ICommentRepo repo;
 
     /**
-     * 
      * Return the list of all the comments
-     * 
+     *
      * @return List<Commento>
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
@@ -47,20 +49,29 @@ public class CommentRestController {
     }
 
     /**
-     * 
      * Return the comment with the given ID
-     * 
+     *
      * @param id
      * @return ResponseEntity
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the comment with the given ID")
     @GetMapping(value = "{id}")
-    public ResponseEntity<Optional<Comment>> getComment(
+    public ResponseEntity<Comment> getComment(
             @ApiParam(value = "The id of the comment that will be returned") @PathVariable("id") long id) {
-        if (repo.findById(id) != null) {
 
-            return new ResponseEntity<Optional<Comment>>(repo.findById(id), HttpStatus.OK);
+        Optional<Comment> op = repo.findById(id);
+
+        if (op.isPresent()) {
+
+            Comment c = op.get();
+
+            c.add(linkTo(methodOn(CommentRestController.class).getComment(id)).withSelfRel());
+            c.add(linkTo(methodOn(CommentRestController.class).getComments()).withRel("comments"));
+            c.add(linkTo(methodOn(UserRestController.class).getUser(c.getUser().getUsername())).withRel("user"));
+            c.add(linkTo(methodOn(PostRestController.class).getPost(c.getPost().getId())).withRel("post"));
+
+            return new ResponseEntity<Comment>(c, HttpStatus.OK);
 
         } else {
 
@@ -69,9 +80,8 @@ public class CommentRestController {
     }
 
     /**
-     * 
      * Create a new comment
-     * 
+     *
      * @param comment
      * @return ResponseEntity
      */
@@ -90,20 +100,19 @@ public class CommentRestController {
             c.setDateHour(new Date());
             c.setUser(comment.getUser());
             c.setPost(comment.getPost());
-            
+
             repo.save(c);
-            
+
             return ResponseEntity
                     .status(HttpStatus.CREATED)
-                    .header("location", request.getRequestURL().toString() + "/"+ c.getId())
-                    .body(new JsonResponseBody(HttpStatus.CREATED.value(),null));
+                    .header("location", request.getRequestURL().toString() + "/" + c.getId())
+                    .body(new JsonResponseBody(HttpStatus.CREATED.value(), null));
         }
     }
 
     /**
-     * 
      * Replaces the comment having the same id as the given comment, with the given comment
-     * 
+     *
      * @param comment
      * @return ResponseEntity
      */
@@ -126,9 +135,8 @@ public class CommentRestController {
     }
 
     /**
-     * 
      * Delete the comment with the given id
-     * 
+     *
      * @param id
      * @return ResponseEntity
      */
@@ -140,9 +148,7 @@ public class CommentRestController {
         if (repo.findById(id) == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
-        }
-
-        else if (repo.findById(id) != null) {
+        } else if (repo.findById(id) != null) {
 
             repo.deleteById(id);
             return new ResponseEntity(HttpStatus.OK);
