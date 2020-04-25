@@ -71,6 +71,7 @@ public class SecurityConfiguration {
                     .addFilter(jwtAuthenticationFilter)
                     .addFilter(new JWTAuthorizationFilter(authenticationManager(), repo))
                     .authorizeRequests()
+                    .antMatchers(HttpMethod.POST, "/Microblog/rest/users").permitAll()
                     .antMatchers("/Microblog/rest/users").hasRole("ADMIN")
                     .antMatchers(HttpMethod.POST, "/Microblog/rest/posts").hasRole("ADMIN")
                     .antMatchers(HttpMethod.PUT,"/Microblog/rest/posts").hasRole("ADMIN")
