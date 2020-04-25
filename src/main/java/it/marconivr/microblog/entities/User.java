@@ -6,11 +6,15 @@ import javax.persistence.*;
 import lombok.*;
 import org.springframework.hateoas.RepresentationModel;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * User Entity
  *
  * @author Alessio Trentin - 5^EI
- * @version 3.0.0 - 22/04/2020
+ * @version 3.1.0 - 22/04/2020
  */
 @Entity
 @NoArgsConstructor
@@ -22,27 +26,25 @@ public class User extends RepresentationModel<Post> {
     @Setter
     private String username;
 
-    @Basic
     @Getter
     @Setter
     @Column(unique = true, nullable = false)
     private String email;
 
-    @Basic
     @Getter
     @Setter
     @Column(nullable = false)
     private String password;
 
-    @Basic
-    @Getter
-    @Setter
-    @Column(unique = true, nullable = false)
-    private String salt;
-
-    @Basic
     @Getter
     @Setter
     @Column(nullable = false)
-    private String role = "USER";
+    private String roles = "USER";
+
+    public List<String> getRoleList(){
+        if(this.roles.length() > 0){
+            return Arrays.asList(this.roles.split(","));
+        }
+        return new ArrayList<>();
+    }
 }

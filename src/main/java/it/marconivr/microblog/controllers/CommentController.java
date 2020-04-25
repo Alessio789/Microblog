@@ -9,18 +9,18 @@ import it.marconivr.microblog.repos.IUserRepo;
 
 import java.util.Date;
 import java.util.Optional;
-import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * 
  * Comment Controller
- * 
+ *
  * @author Alessio Trentin - 5^EI
  * @version 1.0.1 - 21/03/2020
  */
@@ -35,70 +35,54 @@ public class CommentController {
     IPostRepo postRepo;
 
     @Autowired
-    IUserRepo utenteRepo;
+    IUserRepo userRepo;
 
     /**
-     * 
      * Return the addComment page
-     * 
+     *
      * @param postId
      * @param model
-     * @param session
      * @return String
      */
     @RequestMapping("AddComment/{postId}")
-    public String addCommentPage(@PathVariable(value = "postId") long postId, Model model,
-            HttpSession session) {
+    public String addCommentPage(@PathVariable(value = "postId") long postId, Model model) {
 
-        if (session.getAttribute("username") != null) {
 
-            Optional<Post> optional = postRepo.findById(postId);
-            Post post = optional.get();
+        Optional<Post> optional = postRepo.findById(postId);
+        Post post = optional.get();
 
-            model.addAttribute("post", post);
-            model.addAttribute("repo", repo);
+        model.addAttribute("post", post);
+        model.addAttribute("repo", repo);
 
-            return "html/addComment.html";
-        }
+        return "html/addComment.html";
 
-        return "redirect:/Microblog/Posts/CommentError";
     }
 
-    
+
     /**
-     * 
      * Save the comment and return the page with the post list
-     * 
+     *
      * @param postId
      * @param c
-     * @param session
      * @return String
      */
     @RequestMapping("AddComment/SaveComment/{postId}")
-    public String saveComment(@PathVariable(value = "postId") long postId, Comment c, HttpSession session) {
-        
+    public String saveComment(@PathVariable(value = "postId") long postId, Comment c) {
+
         c.setDateHour(new Date());
 
         Optional<Post> optional = postRepo.findById(postId);
         c.setPost(optional.get());
 
-        User utente = utenteRepo.findByUsername((String) session.getAttribute("username"));
-        c.setUser(utente);
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = authentication.getName();
+
+
+        User user = userRepo.findByUsername(username);
+        c.setUser(user);
 
         repo.save(c);
 
         return "redirect:/Microblog/Posts";
-    }
-
-    /**
-     * 
-     * Return the errorComment page
-     * 
-     * @return String
-     */
-    @RequestMapping("errorComment") 
-    public String errorCommento(){
-
-        return "html/errorComment.html";
     }
 }

@@ -8,17 +8,16 @@ import it.marconivr.microblog.repos.IUserRepo;
 
 import java.util.Date;
 
-import javax.servlet.http.HttpSession;
-
 import org.springframework.beans.factory.annotation.*;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.*;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * 
  * Post Controller
- * 
+ *
  * @author Alessio Trentin - 5^EI
  * @version 1.0.1 - 21/03/2020
  */
@@ -30,49 +29,37 @@ public class PostController {
     IPostRepo repo;
 
     @Autowired
-    ICommentRepo commentoRepo;
+    ICommentRepo commentRepo;
 
     @Autowired
-    IUserRepo utenteRepo;
+    IUserRepo userRepo;
 
     /**
-     * 
      * Return the post addition page
-     * 
-     * @param session
+     *
      * @return String
      */
     @RequestMapping(value = "AddPost", method = RequestMethod.GET)
-    public String addPostPage(HttpSession session) {
+    public String addPostPage() {
 
-   
-        if (session.getAttribute("username") != null) {
-            
-            User u = utenteRepo.findByUsername((String) session.getAttribute("username"));
-            
-            
-            if (u.getRole().equals("ADMIN")) {
-                
-                return "html/addPost.html";
-            }
-        }
-        
-        return "redirect:/Microblog/Posts/ErrorPost";
+        return "html/addPost.html";
     }
 
     /**
-     * 
      * Save the post and redirect the page to view the post list
-     * 
+     *
      * @param p
-     * @param session
      * @return String
      */
     @RequestMapping(value = "PostAdded", method = RequestMethod.POST)
-    public String addPost(Post p, HttpSession session) {
+    public String addPost(Post p) {
 
         p.setDateHour(new Date());
-        p.setUser(utenteRepo.findByUsername((String) session.getAttribute("username")));
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = authentication.getName();
+
+        User u = userRepo.findByUsername(username);
+        p.setUser(u);
 
         repo.save(p);
 
@@ -80,30 +67,17 @@ public class PostController {
     }
 
     /**
-     * 
      * Return the page with the list of posts
-     * 
+     *
      * @param model
      * @return String
      */
     @RequestMapping
     public String posts(Model model) {
-        
-        model.addAttribute("postList", repo.findAll());
-        model.addAttribute("commentRepo", commentoRepo);
-        
-        return "html/posts.html";
-    }
 
-    /**
-     * 
-     * Return the page of errorPost
-     * 
-     * @return 
-     */
-    @RequestMapping("PostError")
-    public String errorPost() {
-        
-        return "html/postError.html";
+        model.addAttribute("postList", repo.findAll());
+        model.addAttribute("commentRepo", commentRepo);
+
+        return "html/posts.html";
     }
 }

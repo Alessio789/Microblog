@@ -1,9 +1,7 @@
 package it.marconivr.microblog.controllers;
 
-import javax.servlet.http.HttpSession;
-
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -67,39 +65,24 @@ public class HomeController {
 
     /**
      * 
-     * If the user is logged in, return the login page, otherwise return 
-     * the home page
-     * 
-     * @param session
-     * @param model
+     * Redirect to the home page
+     *
      * @return String
      */
     @RequestMapping(value = "/Microblog/Home") 
-    public String success(HttpSession session, Model model) {
-
-        if (session.getAttribute("username") != null) {
-            
-            model.addAttribute("username", session.getAttribute("username"));
-
-            return "html/success.html";
-        }
+    public String success() {
 
         return "redirect:/Microblog";
     }
 
     /**
-     * 
-     * Log out and return to the home page
-     * 
-     * @param session
-     * @return String
+     *
+     * Return the login page
+     *
+     * @return HTML page - login page
      */
-    @RequestMapping(value="/Microblog/Logout", method=RequestMethod.GET)
-    public String logout(HttpSession session) {
-        
-        session.invalidate();
-        
-        return "redirect:/Microblog";
+    @GetMapping("/login")
+    public String login() {
+        return "html/login.html";
     }
-    
 }
