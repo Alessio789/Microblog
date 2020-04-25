@@ -13,10 +13,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 /**
+ *
  * User Controller
  *
- * @author Alessio Trentin - 5^EI
- * @version 2.2.1 - 21/03/2020
+ * @author Alessio Trentin
  */
 @Controller
 @RequestMapping("/Microblog/Users")

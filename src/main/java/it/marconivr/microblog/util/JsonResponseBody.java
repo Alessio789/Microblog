@@ -4,8 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-
 /**
+ *
+ * Json Response Body
  *
  * @author Alessio Trentin
  */

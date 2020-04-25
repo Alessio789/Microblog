@@ -11,8 +11,7 @@ import java.util.List;
  * 
  * Post Repository
  * 
- * @author Alessio Trentin - 5^EI
- * @version 1.0.0 - 15/03/2020
+ * @author Alessio Trentin
  */
 public interface IPostRepo extends CrudRepository<Post, Long> {
 

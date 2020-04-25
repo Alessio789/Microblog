@@ -11,7 +11,10 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
+ *
  * UserPrincipal
+ *
+ * @author Alessio Trentin
  */
 public class UserPrincipal implements UserDetails {
 

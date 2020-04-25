@@ -25,10 +25,10 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
+ *
  * Post Rest Controller
  *
- * @author Alessio Trentin - 5^EI
- * @version 1.0.1 - 21/03/2020
+ * @author Alessio Trentin
  */
 @Api("CRUD operations on Posts")
 @RequestMapping("Microblog/rest/posts")

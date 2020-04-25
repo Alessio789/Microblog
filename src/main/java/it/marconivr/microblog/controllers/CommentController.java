@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
+ *
  * Comment Controller
  *
- * @author Alessio Trentin - 5^EI
- * @version 1.0.1 - 21/03/2020
+ * @author Alessio Trentin
  */
 @Controller
 @RequestMapping("/Microblog/Posts")

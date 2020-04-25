@@ -11,8 +11,7 @@ import org.springframework.data.repository.CrudRepository;
  * 
  * Comment Repository 
  * 
- * @author Alessio Trentin - 5^EI
- * @version 1.0.0 - 15/03/2020
+ * @author Alessio Trentin
  */
 public interface ICommentRepo extends CrudRepository<Comment, Long> {
 

@@ -11,10 +11,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ *
  * User Entity
  *
- * @author Alessio Trentin - 5^EI
- * @version 3.1.0 - 22/04/2020
+ * @author Alessio Trentin
  */
 @Entity
 @NoArgsConstructor

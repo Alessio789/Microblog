@@ -23,10 +23,10 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
+ *
  * Comment Rest Controller
  *
- * @author Alessio Trentin - 5^EI
- * @version 1.0.1 - 21/03/2020
+ * @author Alessio Trentin
  */
 @Api("CRUD operations on comments")
 @RequestMapping("Microblog/rest/comments")
@@ -39,7 +39,7 @@ public class CommentRestController {
     /**
      * Return the list of all the comments
      *
-     * @return List<Commento>
+     * @return List<Comment> - commentList
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Return the list of all the comments")

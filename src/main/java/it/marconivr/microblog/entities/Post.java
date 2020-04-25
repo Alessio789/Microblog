@@ -7,10 +7,10 @@ import lombok.*;
 import org.springframework.hateoas.RepresentationModel;
 
 /**
+ *
  * Class Entity Post
  *
- * @author Alessio Trentin - 5^EI
- * @version 3.0.0 - 22/04/2020
+ * @author Alessio Trentin
  */
 @Entity
 @AllArgsConstructor

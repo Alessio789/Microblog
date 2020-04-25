@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 
  * Home Controller
  * 
- * @author Alessio Trentin - 5^EI
- * @version 1.0.1 - 15/03/2020
+ * @author Alessio Trentin
  */
 @Controller
 public class HomeController {

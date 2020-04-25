@@ -22,8 +22,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
  * 
  * User Rest Controller
  * 
- * @author Alessio Trentin - 5^EI
- * @version 1.0.1 - 21/03/2020
+ * @author Alessio Trentin
  */
 @Api("CRUD operations on users")
 @RequestMapping("Microblog/rest/users")

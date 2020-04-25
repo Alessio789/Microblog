@@ -8,8 +8,7 @@ import org.springframework.data.repository.CrudRepository;
  * 
  * User Repository
  * 
- * @author Alessio Trentin - 5^EI
- * @version 1.0.0 - 15/03/2020
+ * @author Alessio Trentin
  */
 public interface IUserRepo extends CrudRepository<User, String> {
 

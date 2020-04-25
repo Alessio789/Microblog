@@ -16,10 +16,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 /**
+ *
  * Post Controller
  *
- * @author Alessio Trentin - 5^EI
- * @version 1.0.1 - 21/03/2020
+ * @author Alessio Trentin
  */
 @Controller
 @RequestMapping("/Microblog/Posts")

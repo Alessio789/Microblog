@@ -23,8 +23,7 @@ import java.util.List;
  * 
  * Configuration for Swagger 2
  * 
- * @author Alessio Trentin - 5^EI
- * @version 1.0.0 - 20/03/2020
+ * @author Alessio Trentin
  */
 @Configuration
 @EnableSwagger2
@@ -51,7 +50,6 @@ public class SwaggerConfig {
             .build();
     }
 
-
     @Bean
     public LinkDiscoverers discoverers() {
         List<LinkDiscoverer> plugins = new ArrayList<>();
@@ -59,6 +57,4 @@ public class SwaggerConfig {
         return new LinkDiscoverers(SimplePluginRegistry.create(plugins));
 
     }
-
-
 }

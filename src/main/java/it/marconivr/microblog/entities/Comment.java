@@ -8,11 +8,10 @@ import lombok.*;
 import org.springframework.hateoas.RepresentationModel;
 
 /**
- * 
+ *
  * Comment Entity
- * 
- * @author Alessio Trentin - 5^EI
- * @version 3.0.0 - 22/04/2020
+ *
+ * @author Alessio Trentin
  */
 @Entity
 @AllArgsConstructor
@@ -21,27 +20,32 @@ public class Comment extends RepresentationModel<Post> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter @Setter 
+    @Getter
+    @Setter
     private Long id;
 
     @Basic
     @Temporal(TemporalType.TIMESTAMP)
-    @Getter @Setter 
+    @Getter
+    @Setter
     @Column(nullable = false)
     private Date dateHour;
 
     @Basic
-    @Getter @Setter 
+    @Getter
+    @Setter
     @Column(nullable = false)
     private String body;
 
     @OneToOne(targetEntity = Post.class, cascade = CascadeType.ALL)
-    @Getter @Setter
+    @Getter
+    @Setter
     @JoinColumn(name = "POST_ID", nullable = false)
     private Post post;
 
     @ManyToOne(targetEntity = User.class, cascade = CascadeType.ALL)
-    @Getter @Setter 
+    @Getter
+    @Setter
     @JoinColumn(name = "USER_USERNAME", nullable = false)
     private User user;
 
