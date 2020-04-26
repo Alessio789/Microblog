@@ -1,6 +1,7 @@
 INSERT INTO user (username, email, password, roles) VALUES
 ('Alessio',	'alessio.trentin3@gmail.com',	'$2a$10$oAa/xcO/vODrrRKjy4uIK.Bn77XgPTZKNnbxOe/EjZtBqGO3Lz8um',	'ADMIN'),
-('TestUser', 'test@user.com', '$2a$10$IBfz7SemInEeUZ77S72vPuIancOmckRiUMqBHnGTmjar5HKY9OFFC', 'USER');
+('TestUser', 'test@user.com', '$2a$10$IBfz7SemInEeUZ77S72vPuIancOmckRiUMqBHnGTmjar5HKY9OFFC', 'USER'),
+('ClientUser', 'client@example.com','$2a$10$azq0jUDEbK01o4Im3pSO5.fBr29mdnOmDBqyC/bxqIOt6t8FqpJL6',	'USER');
 
 INSERT INTO post (id, body, date_hour, title, user_username) VALUES
 (1,	'Hi, this is a test post',	'2020-04-25 12:45:12.859', 'Test', 'Alessio'),
