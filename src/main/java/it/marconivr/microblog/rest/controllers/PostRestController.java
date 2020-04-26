@@ -50,7 +50,17 @@ public class PostRestController {
     @ApiOperation("Return the list of all the post")
     @GetMapping
     public ResponseEntity<List<Post>> getPosts() {
-        return new ResponseEntity<List<Post>>((List<Post>) repo.findAll(), HttpStatus.OK);
+
+        List<Post> postList = (List<Post>) repo.findAll();
+
+        for (Post p : postList) {
+
+            p.add(linkTo(methodOn(PostRestController.class).getPost(p.getId())).withSelfRel());
+            p.add(linkTo(methodOn(PostRestController.class).getPosts()).withRel("posts"));
+            p.add(linkTo(methodOn(UserRestController.class).getUser((p.getUser().getUsername()))).withRel("user"));
+        }
+
+        return new ResponseEntity<List<Post>>(postList, HttpStatus.OK);
     }
 
     /**
@@ -86,7 +96,7 @@ public class PostRestController {
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Returns the posts of the user having the username passed as a parameter")
     @GetMapping(value = "user/{username}")
-    public ResponseEntity getPostByUser(@ApiParam(value = "The username of the user to search for posts") @PathVariable("username") String username) {
+    public ResponseEntity getPostsByUser(@ApiParam(value = "The username of the user to search for posts") @PathVariable("username") String username) {
 
         User u = userRepo.findByUsername(username);
 

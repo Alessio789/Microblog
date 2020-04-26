@@ -23,7 +23,6 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
- *
  * Comment Rest Controller
  *
  * @author Alessio Trentin
@@ -45,7 +44,18 @@ public class CommentRestController {
     @ApiOperation("Return the list of all the comments")
     @GetMapping
     public ResponseEntity<List<Comment>> getComments() {
-        return new ResponseEntity<List<Comment>>((List<Comment>) repo.findAll(), HttpStatus.OK);
+
+        List<Comment> commentList = (List<Comment>) repo.findAll();
+
+        for (Comment c : commentList) {
+
+            c.add(linkTo(methodOn(CommentRestController.class).getComment(c.getId())).withSelfRel());
+            c.add(linkTo(methodOn(CommentRestController.class).getComments()).withRel("comments"));
+            c.add(linkTo(methodOn(UserRestController.class).getUser(c.getUser().getUsername())).withRel("user"));
+            c.add(linkTo(methodOn(PostRestController.class).getPost(c.getPost().getId())).withRel("post"));
+        }
+
+        return new ResponseEntity<List<Comment>>(commentList, HttpStatus.OK);
     }
 
     /**
