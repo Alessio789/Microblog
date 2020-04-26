@@ -5,6 +5,8 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.Comment;
 import it.marconivr.microblog.repos.ICommentRepo;
+import it.marconivr.microblog.repos.IPostRepo;
+import it.marconivr.microblog.repos.IUserRepo;
 import it.marconivr.microblog.util.JsonResponseBody;
 
 import java.util.Date;
@@ -34,6 +36,12 @@ public class CommentRestController {
 
     @Autowired
     ICommentRepo repo;
+
+    @Autowired
+    IUserRepo userRepo;
+
+    @Autowired
+    IPostRepo postRepo;
 
     /**
      * Return the list of all the comments
@@ -108,8 +116,8 @@ public class CommentRestController {
             Comment c = new Comment();
             c.setBody(comment.getBody());
             c.setDateHour(new Date());
-            c.setUser(comment.getUser());
-            c.setPost(comment.getPost());
+            c.setUser(userRepo.findByUsername(comment.getUser().getUsername()));
+            c.setPost(postRepo.findById(comment.getPost().getId()).get());
 
             repo.save(c);
 
