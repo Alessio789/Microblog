@@ -18,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.web.bind.annotation.*;
 
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
@@ -115,12 +116,13 @@ public class PostRestController {
      * Create a new post
      *
      * @param post
+     * @param auth
      * @return ResponseEntity
      */
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new post")
     @RequestMapping(method = POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity createPost(@ApiParam(value = "The post that will be created") @RequestBody Post post, HttpServletRequest request) {
+    public ResponseEntity createPost(@ApiParam(value = "The post that will be created") @RequestBody Post post, HttpServletRequest request, UsernamePasswordAuthenticationToken auth) {
 
         if (post == null) {
 
