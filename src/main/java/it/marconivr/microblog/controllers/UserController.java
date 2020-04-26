@@ -3,8 +3,6 @@ package it.marconivr.microblog.controllers;
 import it.marconivr.microblog.entities.User;
 import it.marconivr.microblog.repos.IUserRepo;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -13,7 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 /**
- *
  * User Controller
  *
  * @author Alessio Trentin
@@ -30,11 +27,10 @@ public class UserController {
      *
      * @param u
      * @param model
-     * @param request
      * @return String
      */
     @RequestMapping(value = "AddUser", method = RequestMethod.POST)
-    public String addUser(User u, Model model, HttpServletRequest request) {
+    public String addUser(User u, Model model) {
 
         u.setRoles("USER");
 
