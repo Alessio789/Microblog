@@ -29,7 +29,6 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
  */
 @Api("CRUD operations on users")
 @RequestMapping("Microblog/rest/users")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class UserRestController {
 
@@ -112,7 +111,7 @@ public class UserRestController {
             return ResponseEntity
                     .status(HttpStatus.CREATED)
                     .header("location", request.getRequestURL().toString() + "/" + user.getUsername())
-                    .body(new JsonResponseBody(HttpStatus.CREATED.value(), null));
+                    .body(null);
         }
     }
 
