@@ -29,6 +29,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
  */
 @Api("CRUD operations on users")
 @RequestMapping("Microblog/rest/users")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class UserRestController {
 
@@ -94,7 +95,7 @@ public class UserRestController {
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @ApiOperation("Create a new user")
     @RequestMapping(method = POST, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity createUser(@ApiParam(value = "The user that will be created") User user, HttpServletRequest request) {
+    public ResponseEntity createUser(@ApiParam(value = "The user that will be created") @RequestBody User user, HttpServletRequest request) {
 
         if (user == null) {
 
