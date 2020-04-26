@@ -76,9 +76,9 @@ public class SecurityConfiguration {
                     .antMatchers(HttpMethod.POST, "/Microblog/rest/posts").hasRole("ADMIN")
                     .antMatchers(HttpMethod.PUT,"/Microblog/rest/posts").hasRole("ADMIN")
                     .antMatchers(HttpMethod.DELETE, "/Microblog/rest/posts/{postId}").hasRole("ADMIN")
-                    .antMatchers(HttpMethod.POST, "/Microblog/rest/comments").hasRole("USER")
-                    .antMatchers(HttpMethod.PUT,"/Microblog/rest/comments").hasRole("USER")
-                    .antMatchers(HttpMethod.DELETE, "/Microblog/rest/comments/{commentId}").hasRole("USER")
+                    .antMatchers(HttpMethod.POST, "/Microblog/rest/comments").authenticated()
+                    .antMatchers(HttpMethod.PUT,"/Microblog/rest/comments").authenticated()
+                    .antMatchers(HttpMethod.DELETE, "/Microblog/rest/comments/{commentId}").authenticated()
                     .antMatchers("/Microblog/rest/**").permitAll();
         }
     }

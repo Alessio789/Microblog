@@ -134,7 +134,7 @@ public class PostRestController {
             p.setBody(post.getBody());
             p.setTitle(post.getTitle());
             p.setDateHour(new Date());
-            p.setUser(post.getUser());
+            p.setUser(userRepo.findByUsername(post.getUser().getUsername()));
 
             repo.save(p);
 
