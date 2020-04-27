@@ -7,7 +7,6 @@ import lombok.*;
 import org.springframework.hateoas.RepresentationModel;
 
 /**
- *
  * Class Entity Post
  *
  * @author Alessio Trentin
@@ -29,13 +28,11 @@ public class Post extends RepresentationModel<Post> {
     @Column(nullable = false)
     public Date dateHour;
 
-    @Basic
     @Getter
     @Setter
     @Column(unique = true, nullable = false)
     public String title;
 
-    @Lob
     @Getter
     @Setter
     @Column(nullable = false)

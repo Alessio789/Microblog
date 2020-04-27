@@ -11,8 +11,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
- *
- * UserPrincipal
+ * User Principal
  *
  * @author Alessio Trentin
  */

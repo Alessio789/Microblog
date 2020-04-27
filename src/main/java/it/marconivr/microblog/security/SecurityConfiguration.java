@@ -19,8 +19,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 /**
- *
- * SecurityConfiguration
+ * Security Configuration
  *
  * @author Alessio Trentin
  */
@@ -74,10 +73,10 @@ public class SecurityConfiguration {
                     .antMatchers(HttpMethod.POST, "/Microblog/rest/users").permitAll()
                     .antMatchers("/Microblog/rest/users").hasRole("ADMIN")
                     .antMatchers(HttpMethod.POST, "/Microblog/rest/posts").hasRole("ADMIN")
-                    .antMatchers(HttpMethod.PUT,"/Microblog/rest/posts").hasRole("ADMIN")
+                    .antMatchers(HttpMethod.PUT, "/Microblog/rest/posts").hasRole("ADMIN")
                     .antMatchers(HttpMethod.DELETE, "/Microblog/rest/posts/{postId}").hasRole("ADMIN")
                     .antMatchers(HttpMethod.POST, "/Microblog/rest/comments").authenticated()
-                    .antMatchers(HttpMethod.PUT,"/Microblog/rest/comments").authenticated()
+                    .antMatchers(HttpMethod.PUT, "/Microblog/rest/comments").authenticated()
                     .antMatchers(HttpMethod.DELETE, "/Microblog/rest/comments/{commentId}").authenticated()
                     .antMatchers("/Microblog/rest/**").permitAll();
         }

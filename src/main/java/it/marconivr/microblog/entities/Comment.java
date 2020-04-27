@@ -8,7 +8,6 @@ import lombok.*;
 import org.springframework.hateoas.RepresentationModel;
 
 /**
- *
  * Comment Entity
  *
  * @author Alessio Trentin
@@ -24,14 +23,12 @@ public class Comment extends RepresentationModel<Post> {
     @Setter
     private Long id;
 
-    @Basic
     @Temporal(TemporalType.TIMESTAMP)
     @Getter
     @Setter
     @Column(nullable = false)
     private Date dateHour;
 
-    @Basic
     @Getter
     @Setter
     @Column(nullable = false)

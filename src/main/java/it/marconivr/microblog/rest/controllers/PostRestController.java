@@ -26,7 +26,6 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 /**
- *
  * Post Rest Controller
  *
  * @author Alessio Trentin

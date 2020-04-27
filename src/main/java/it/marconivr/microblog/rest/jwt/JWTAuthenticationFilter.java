@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- *
  * JWT Authentication Filter
  *
  * @author Alessio Trentin
@@ -61,18 +60,17 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
     }
 
 
-
     @Override
-    protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult)  {
+    protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) {
 
 
         UserPrincipal principal = (UserPrincipal) authResult.getPrincipal();
 
         String token =
                 JWT.create()
-                .withSubject(principal.getUsername())
-                .withExpiresAt(new Date(System.currentTimeMillis() + JWTProperties.EXPIRATION_TIME))
-                .sign(Algorithm.HMAC512(JWTProperties.SECRET.getBytes()));
+                        .withSubject(principal.getUsername())
+                        .withExpiresAt(new Date(System.currentTimeMillis() + JWTProperties.EXPIRATION_TIME))
+                        .sign(Algorithm.HMAC512(JWTProperties.SECRET.getBytes()));
 
         response.addHeader(JWTProperties.HEADER_STRING, JWTProperties.TOKEN_PREFIX + token);
 

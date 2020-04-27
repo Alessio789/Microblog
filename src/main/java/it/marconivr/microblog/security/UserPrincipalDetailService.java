@@ -10,8 +10,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 /**
- *
- * MyUserDetailService
+ * User Principal Detail Service
  *
  * @author Alessio Trentin
  */
@@ -21,11 +20,11 @@ public class UserPrincipalDetailService implements UserDetailsService {
     @Autowired
     private IUserRepo repo;
 
-    public UserDetails loadUserByUsername(String username){
+    public UserDetails loadUserByUsername(String username) {
 
         User user = repo.findByUsername(username);
 
-        if(user == null)
+        if (user == null)
             throw new UsernameNotFoundException("User " + username + " not found");
 
         return new UserPrincipal(user);

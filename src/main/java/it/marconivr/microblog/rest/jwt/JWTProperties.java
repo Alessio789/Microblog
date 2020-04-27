@@ -1,7 +1,6 @@
 package it.marconivr.microblog.rest.jwt;
 
 /**
- *
  * JWT Properties
  *
  * @author Alessio Trentin

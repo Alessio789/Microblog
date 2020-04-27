@@ -8,9 +8,8 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 
 /**
- * 
- * Comment Repository 
- * 
+ * Comment Repository
+ *
  * @author Alessio Trentin
  */
 public interface ICommentRepo extends CrudRepository<Comment, Long> {

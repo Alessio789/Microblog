@@ -16,7 +16,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 /**
- *
  * Post Controller
  *
  * @author Alessio Trentin

@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Cors Filter
+ *
+ * @author Alessio Trentin
+ */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @NoArgsConstructor

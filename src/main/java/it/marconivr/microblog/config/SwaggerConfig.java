@@ -20,9 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
  * Configuration for Swagger 2
- * 
+ *
  * @author Alessio Trentin
  */
 @Configuration
@@ -31,23 +30,23 @@ public class SwaggerConfig {
 
     @Bean
     public Docket api() {
-        
+
         return new Docket(DocumentationType.SWAGGER_2).select()
-            .apis(RequestHandlerSelectors
-                .basePackage("it.marconivr.microblog.rest.controllers"))
-            .paths(PathSelectors.regex("/.*"))
-            .build().apiInfo(apiEndPointsInfo());
+                .apis(RequestHandlerSelectors
+                        .basePackage("it.marconivr.microblog.rest.controllers"))
+                .paths(PathSelectors.regex("/.*"))
+                .build().apiInfo(apiEndPointsInfo());
     }
 
     private ApiInfo apiEndPointsInfo() {
-        
+
         return new ApiInfoBuilder().title("Spring Boot REST API")
-            .description("Microblog REST API")
-            .contact(new Contact("Alessio Trentin", "www.exampleSite.net", "alessio.trentin3@gmail.com"))
-            .license("Apache 2.0")
-            .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
-            .version("1.0.0")
-            .build();
+                .description("Microblog REST API")
+                .contact(new Contact("Alessio Trentin", "www.exampleSite.net", "alessio.trentin3@gmail.com"))
+                .license("Apache 2.0")
+                .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
+                .version("1.0.0")
+                .build();
     }
 
     @Bean

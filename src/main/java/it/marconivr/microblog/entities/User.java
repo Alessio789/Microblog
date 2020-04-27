@@ -11,7 +11,6 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- *
  * User Entity
  *
  * @author Alessio Trentin
@@ -41,8 +40,8 @@ public class User extends RepresentationModel<Post> {
     @Column(nullable = false)
     private String roles = "USER";
 
-    public List<String> getRoleList(){
-        if(this.roles.length() > 0){
+    public List<String> getRoleList() {
+        if (this.roles.length() > 0) {
             return Arrays.asList(this.roles.split(","));
         }
         return new ArrayList<>();
