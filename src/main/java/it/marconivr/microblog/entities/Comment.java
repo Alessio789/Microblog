@@ -34,13 +34,13 @@ public class Comment extends RepresentationModel<Post> {
     @Column(nullable = false)
     private String body;
 
-    @OneToOne(targetEntity = Post.class, cascade = CascadeType.ALL)
+    @OneToOne(targetEntity = Post.class)
     @Getter
     @Setter
     @JoinColumn(name = "POST_ID", nullable = false)
     private Post post;
 
-    @ManyToOne(targetEntity = User.class, cascade = CascadeType.ALL)
+    @ManyToOne(targetEntity = User.class)
     @Getter
     @Setter
     @JoinColumn(name = "USER_USERNAME", nullable = false)

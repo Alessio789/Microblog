@@ -3,7 +3,10 @@ package it.marconivr.microblog.rest.controllers;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import it.marconivr.microblog.entities.Post;
 import it.marconivr.microblog.entities.User;
+import it.marconivr.microblog.repos.ICommentRepo;
+import it.marconivr.microblog.repos.IPostRepo;
 import it.marconivr.microblog.repos.IUserRepo;
 import it.marconivr.microblog.util.JsonResponseBody;
 
@@ -34,6 +37,12 @@ public class UserRestController {
 
     @Autowired
     IUserRepo repo;
+
+    @Autowired
+    IPostRepo postRepo;
+
+    @Autowired
+    ICommentRepo commentRepo;
 
     /**
      * Return the list of all the Utente
@@ -151,12 +160,22 @@ public class UserRestController {
     @DeleteMapping(value = "{username}")
     public ResponseEntity deleteUser(@ApiParam(value = "The username of the user that will be deleted") @PathVariable("username") String username) {
 
-        if (repo.findByUsername(username) == null) {
+        User u = repo.findByUsername(username);
+        if (u  == null) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
-        } else if (repo.findByUsername(username) != null) {
 
+        } else if (u != null) {
+
+            List<Post> posts = postRepo.findByUser(u);
+            for (Post p : posts) {
+
+                commentRepo.deleteByPost(p);
+            }
+
+            postRepo.deleteByUser(u);
             repo.deleteById(username);
+
             return new ResponseEntity(HttpStatus.OK);
 
         } else {

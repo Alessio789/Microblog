@@ -16,4 +16,6 @@ public interface IPostRepo extends CrudRepository<Post, Long> {
 
     List<Post> findByUser(User u);
 
+    void deleteByUser(User u);
+
 }

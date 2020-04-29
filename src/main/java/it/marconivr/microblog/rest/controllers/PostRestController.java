@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import it.marconivr.microblog.entities.Post;
 import it.marconivr.microblog.entities.User;
+import it.marconivr.microblog.repos.ICommentRepo;
 import it.marconivr.microblog.repos.IPostRepo;
 import it.marconivr.microblog.repos.IUserRepo;
 import it.marconivr.microblog.util.JsonResponseBody;
@@ -20,6 +21,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.web.bind.annotation.*;
+import org.thymeleaf.model.IComment;
 
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
@@ -40,6 +42,9 @@ public class PostRestController {
 
     @Autowired
     IUserRepo userRepo;
+
+    @Autowired
+    ICommentRepo commentRepo;
 
     /**
      * Return the list of all the post
@@ -179,17 +184,19 @@ public class PostRestController {
     @DeleteMapping(value = "{id}")
     public ResponseEntity deletePost(@ApiParam(value = "The id of the post that will be deleted") @PathVariable("id") long id) {
 
-        if (repo.findById(id) == null) {
+        Optional<Post> op = repo.findById(id);
+
+        if (! op.isPresent() ) {
 
             return new ResponseEntity(HttpStatus.BAD_REQUEST);
-        } else if (repo.findById(id) != null) {
-
-            repo.deleteById(id);
-            return new ResponseEntity(HttpStatus.OK);
 
         } else {
 
-            return new ResponseEntity(HttpStatus.CONFLICT);
-        }
+            commentRepo.deleteByPost(op.get());
+            repo.deleteById(id);
+
+            return new ResponseEntity(HttpStatus.OK);
+
+        } 
     }
 }
