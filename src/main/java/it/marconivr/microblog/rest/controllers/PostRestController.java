@@ -33,7 +33,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
  * @author Alessio Trentin
  */
 @Api("CRUD operations on Posts")
-@RequestMapping("Microblog/rest/posts")
+@RequestMapping("Microblog/rest/v1/posts")
 @RestController
 public class PostRestController {
 

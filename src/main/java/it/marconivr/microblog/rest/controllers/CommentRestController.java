@@ -30,7 +30,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
  * @author Alessio Trentin
  */
 @Api("CRUD operations on comments")
-@RequestMapping("Microblog/rest/comments")
+@RequestMapping("Microblog/rest/v1/comments")
 @RestController
 public class CommentRestController {
 

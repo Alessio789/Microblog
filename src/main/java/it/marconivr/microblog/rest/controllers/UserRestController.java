@@ -31,7 +31,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
  * @author Alessio Trentin
  */
 @Api("CRUD operations on users")
-@RequestMapping("Microblog/rest/users")
+@RequestMapping("Microblog/rest/v1/users")
 @RestController
 public class UserRestController {
 
