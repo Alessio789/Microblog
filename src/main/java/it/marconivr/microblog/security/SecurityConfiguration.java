@@ -70,15 +70,15 @@ public class SecurityConfiguration {
                     .addFilter(jwtAuthenticationFilter)
                     .addFilter(new JWTAuthorizationFilter(authenticationManager(), repo))
                     .authorizeRequests()
-                    .antMatchers(HttpMethod.POST, "/Microblog/rest/users").permitAll()
-                    .antMatchers("/Microblog/rest/users").hasRole("ADMIN")
-                    .antMatchers(HttpMethod.POST, "/Microblog/rest/posts").hasRole("ADMIN")
-                    .antMatchers(HttpMethod.PUT, "/Microblog/rest/posts").hasRole("ADMIN")
-                    .antMatchers(HttpMethod.DELETE, "/Microblog/rest/posts/{postId}").hasRole("ADMIN")
-                    .antMatchers(HttpMethod.POST, "/Microblog/rest/comments").authenticated()
-                    .antMatchers(HttpMethod.PUT, "/Microblog/rest/comments").authenticated()
-                    .antMatchers(HttpMethod.DELETE, "/Microblog/rest/comments/{commentId}").authenticated()
-                    .antMatchers("/Microblog/rest/**").permitAll();
+                    .antMatchers(HttpMethod.POST, "/Microblog/rest/v1/users").permitAll()
+                    .antMatchers("/Microblog/rest/v1/users").hasRole("ADMIN")
+                    .antMatchers(HttpMethod.POST, "/Microblog/rest/v1/posts").hasRole("ADMIN")
+                    .antMatchers(HttpMethod.PUT, "/Microblog/rest/v1/posts/{id}").hasRole("ADMIN")
+                    .antMatchers(HttpMethod.DELETE, "/Microblog/rest/v1/posts/{id}").hasRole("ADMIN")
+                    .antMatchers(HttpMethod.POST, "/Microblog/rest/v1/comments").authenticated()
+                    .antMatchers(HttpMethod.PUT, "/Microblog/rest/v1/comments/{id}").authenticated()
+                    .antMatchers(HttpMethod.DELETE, "/Microblog/rest/v1/comments/{id}").authenticated()
+                    .antMatchers("/Microblog/rest/v1/**").permitAll();
         }
     }
 
