@@ -109,6 +109,7 @@ public class SecurityConfiguration {
                     .and()
                     .formLogin()
                     .loginPage("/login").permitAll()
+                    .failureUrl("/login-error.html")
                     .and()
                     .logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/Microblog");
 

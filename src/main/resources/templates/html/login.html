@@ -29,6 +29,7 @@
     <div class="container" id="registrationContainer">
 
       <form action="/login" method="POST">
+        <p th:if="${loginError}" id="error">The credentials entered are incorrect. Try again.</p>
         <div class="form-group">
           <label for="inputUsername">Username</label>
           <input type="text" class="form-control" id="inputUsername" name="username">
